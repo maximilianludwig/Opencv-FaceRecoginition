@@ -4,6 +4,6 @@ python:
 dist: trusty
 sudo: required
 before_script:
-    - pip install -r reqirements.txt
+    - pip install -r requirements.txt
 script:
     - pytest
