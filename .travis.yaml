@@ -1,0 +1,9 @@
+language: python
+python:
+    - "3.6"
+dist: trusty
+sudo: required
+before_script:
+    - pip install -r reqirements.txt
+script:
+    - pytest
