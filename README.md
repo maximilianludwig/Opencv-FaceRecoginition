@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/maximilianludwig/Opencv-FaceRecoginition.svg?branch=master)](https://travis-ci.com/maximilianludwig/Opencv-FaceRecoginition)
 # Opencv-FaceRecoginition
 This respository is build for our scientific Paper, regarding faceregocgnition, especially recognition of Pokerfaces.
 
