@@ -1,3 +1,4 @@
 import numpy as np
 
-print("Hello World")
+def test() 
+  assert print("Hello World")
