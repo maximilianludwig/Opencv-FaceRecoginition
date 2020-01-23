@@ -1,20 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Praxisarbeit-template.blg'
-[96] biber-MSWIN64:322> INFO - === 
-[127] Biber.pm:415> INFO - Reading 'Praxisarbeit-template.bcf'
-[274] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
-[297] Biber.pm:4256> INFO - Processing section 0
-[297] Utils.pm:75> INFO - Globbing data source 'lit.bib'
-[313] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
-[344] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[350] bibtex.pm:1653> INFO - LaTeX decoding ...
-[362] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
-[415] Utils.pm:304> WARN - ISBN '978-16045646625' in entry 'FaceRec' is invalid - run biber with '--validate_datamodel' for details.
-[422] Utils.pm:304> WARN - I didn't find a database entry for 'Projektmanagement' (section 0)
-[434] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[434] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[434] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[434] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[437] bbl.pm:652> INFO - Writing 'Praxisarbeit-template.bbl' with encoding 'UTF-8'
-[439] bbl.pm:755> INFO - Output to Praxisarbeit-template.bbl
-[440] Biber.pm:128> INFO - WARNINGS: 2
+[91] biber-MSWIN64:322> INFO - === 
+[120] Biber.pm:415> INFO - Reading 'Praxisarbeit-template.bcf'
+[261] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
+[284] Biber.pm:4256> INFO - Processing section 0
+[285] Utils.pm:75> INFO - Globbing data source 'lit.bib'
+[309] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
+[338] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[345] bibtex.pm:1653> INFO - LaTeX decoding ...
+[363] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
+[470] Utils.pm:304> WARN - ISBN '978-16045646625' in entry 'FaceRec' is invalid - run biber with '--validate_datamodel' for details.
+[481] Utils.pm:304> WARN - I didn't find a database entry for 'Projektmanagement' (section 0)
+[499] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[499] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[499] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[500] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[503] bbl.pm:652> INFO - Writing 'Praxisarbeit-template.bbl' with encoding 'UTF-8'
+[505] bbl.pm:755> INFO - Output to Praxisarbeit-template.bbl
+[505] Biber.pm:128> INFO - WARNINGS: 2

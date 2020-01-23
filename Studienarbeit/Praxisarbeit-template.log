@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.21)  23 JAN 2020 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.21)  23 JAN 2020 11:36
 entering extended mode
 **./Praxisarbeit-template.tex
 (Praxisarbeit-template.tex
@@ -958,31 +958,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 \item s
-             tand der technik, gibt es schon öhnliche Projekte, wenn ja, we...
-[2]pdfTeX warning (ext4): destination with the same identifier (name{page.III})
- has been already used, duplicate ignored
+l.110 \item P
+             oker erklären (Wenn wir Poker als testusecase benutzen) [2]pdfTeX
+ warning (ext4): destination with the same identifier (name{page.III}) has been
+ already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 
+l.129 
        [3] [4]
 chapter III.
 chapter IV.
-[5]
 chapter V.
-[6]
+[5] [6]
 
-Package biblatex Warning: Type 'misc' not found on input line 181.
+Package biblatex Warning: Type 'misc' not found on input line 191.
 
 
-LaTeX Warning: Empty bibliography on input line 181.
+LaTeX Warning: Empty bibliography on input line 191.
 
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  (Praxisarbeit-template.aux (Titelseite.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
 Package rerunfilecheck Info: File `Praxisarbeit-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Praxisarbeit-template.run.xml'.
@@ -990,11 +989,11 @@ Package logreq Info: Writing requests to 'Praxisarbeit-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18859 strings out of 492444
- 339593 string characters out of 3118868
- 958784 words of memory out of 3000000
- 22937 multiletter control sequences out of 15000+200000
- 9174 words of font info for 32 fonts, out of 3000000 for 9000
+ 18888 strings out of 492444
+ 340229 string characters out of 3118868
+ 957819 words of memory out of 3000000
+ 22958 multiletter control sequences out of 15000+200000
+ 9767 words of font info for 34 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  45i,8n,72p,10145b,1817s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
@@ -1029,9 +1028,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/A675866/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/A
 675866/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on Praxisarbeit-template.pdf (11 pages, 247397 bytes).
+Output written on Praxisarbeit-template.pdf (11 pages, 254462 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
