@@ -46,8 +46,37 @@
       \field{title}{Face Recongnition: New Research}
       \field{year}{2008}
     \endentry
+    \entry{HandbookFaceRec}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=236e7a17c0679bdf8ebb90e5a4f529cd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Anil\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0,
+           suffix={Stan\bibnamedelimb Z.;\bibnamedelima Jain},
+           suffixi={S\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim J\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media}%
+      }
+      \strng{namehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
+      \strng{fullhash}{236e7a17c0679bdf8ebb90e5a4f529cd}
+      \strng{bibnamehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
+      \strng{authorbibnamehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
+      \strng{authornamehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
+      \strng{authorfullhash}{236e7a17c0679bdf8ebb90e5a4f529cd}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0387405957}
+      \field{title}{Handbook of Face Recognition}
+      \field{year}{2005}
+    \endentry
   \enddatalist
-  \missing{Ansible2}
   \missing{Projektmanagement}
 \endrefsection
 \endinput

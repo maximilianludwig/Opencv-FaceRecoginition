@@ -5,9 +5,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {I.1}Aufgabenstellung}{II}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.2}DevOps}{III}{section.1.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {II}Theorie}{III}{chapter.2}%
+\contentsline {chapter}{\numberline {II}Theorie}{II}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {III}Methode}{IV}{chapter.3}%
 \defcounter {refsection}{0}\relax 
