@@ -1,0 +1,26 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {german}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {I}Einleitung}{I}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.1}Aufgabenstellung}{II}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.2}DevOps}{III}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {II}Theorie}{III}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {III}Methode}{IV}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {III.1}Vorgehen im ersten Teil}{IV}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {III.2}Vorgehen im zweiten Teil}{V}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {IV}Ergebnis}{V}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {IV.1}test1}{V}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {IV.1.1}test2}{V}{subsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {IV.1.1.1}test3}{V}{subsubsection.4.1.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {V}Diskussion}{V}{chapter.5}%

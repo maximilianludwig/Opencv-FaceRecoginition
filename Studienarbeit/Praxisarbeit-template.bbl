@@ -1,0 +1,54 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{FaceRec}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d754d966b6ba6a7f6f6a2a9a2cd9e5e9}{%
+           family={Leeland},
+           familyi={L\bibinitperiod},
+           given={Katherine\bibnamedelima B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nova Science Publishers INC}%
+      }
+      \strng{namehash}{d754d966b6ba6a7f6f6a2a9a2cd9e5e9}
+      \strng{fullhash}{d754d966b6ba6a7f6f6a2a9a2cd9e5e9}
+      \strng{bibnamehash}{d754d966b6ba6a7f6f6a2a9a2cd9e5e9}
+      \strng{authorbibnamehash}{d754d966b6ba6a7f6f6a2a9a2cd9e5e9}
+      \strng{authornamehash}{d754d966b6ba6a7f6f6a2a9a2cd9e5e9}
+      \strng{authorfullhash}{d754d966b6ba6a7f6f6a2a9a2cd9e5e9}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1. Aufl.}
+      \field{isbn}{978-16045646625}
+      \field{title}{Face Recongnition: New Research}
+      \field{year}{2008}
+    \endentry
+  \enddatalist
+  \missing{Ansible2}
+  \missing{Projektmanagement}
+\endrefsection
+\endinput
+
