@@ -117,6 +117,18 @@ In diesem Abschnitt soll der aktuelle Forschnungs und Entwicklungsstand thematis
 usecase für emotion recognition
 
 \subsection{Geischtserkennung}
+Gesichtserkennung ist eine Disziplin der Informatik in der es darum geht Gesichter wieder zu erkennen, und gegebenanfalls verschiedenen Personen zuzuordnen. Dabei lässt sich der Prozess der Gesichtserkennung in vier Phasen einteilen, Face ''detection'', ''alignment'', ''feature extraction'' und ''matching''.
+\footcite[Vgl. ][2]{HandbookFaceRec}
+Die Detection Phase ist dafür verantwortlich um zu erkennen ob Gesichter vorhanden sind in einem Bild, oder aber Video.
+\footcite[Vgl. ][2]{HandbookFaceRec}
+ In der darauffolgenden Alignment Phase hingegen wird die Lokalisierung der Geischter genauer, indem geischtskomponenten wie Augen, Augenbrauen, oder die Nase genauer lokalisiert werden. Dabei wird das Bild oder Video ebenfalls  normalisiert, indem z.B. die Bildbeleuchtung angepasst wird.
+ \footcite[Vgl. ][2]{HandbookFaceRec}
+ In der Feature extraction hingegen werden die verschiedenen Gesichtskomponenten wie Augen, Nase, Mund, dem Bild oder Video entnommen. Dies ist ein enorm wichtiger Schritt für weitere Prozesse wie Eye Tracking oder Face Tracking. Alternativ kann sogar eine bestimmte Person anhand der extraierten Merkmale erkannt werden.
+ https://ieeexplore.ieee.org/document/7887965
+ In der letzten Phase, dem Matching, geht es darum die gewonnen Daten mit den in der Datenbank vorhandenen Gesichtern abzugleichen. Wenn eine genügende Übereinstimmung gefunden wurde, wird ein Match mit einer Person ausgegeben.
+  \footcite[Vgl. ][3]{HandbookFaceRec}
+ 
+ 
 \subsection{Gemeinsamkeiten und Unterschiede}
 \subsection{Weitere Projekte}
 \section{Emotionen}
