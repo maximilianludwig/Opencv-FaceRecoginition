@@ -52,17 +52,7 @@ Ort	\hspace{2cm}		Datum\hspace{3,5 cm}				    Unterschrift
 \listoffigures
 \section*{Abkürzungen}
 \begin{acronym}[Bash]
- \acro{VCS}{Version Control System}
- \acro{CI/CD}{Continuous Integration/Continuous Deployment}
- \acro{API}{Application Programming Interface}
- \acro{DSL}{Domain Specific Language}
- \acro{KPI}{Key Performance Indicator}
- \acro{CRI}{Container Runtime Interface}
- \acro{JCasC}{Jenkins Configuration as Code}
- \acro{PV}{Persistent volume}
- \acro{PVC}{Persistent volume claim}
- \acro{NFS}{Network File System}
- \acro{iSCSI}{internal Small Computer System Interface}
+% \acro{VCS}{Version Control System}
 \end{acronym}
 \endgroup
 \newpage
@@ -74,7 +64,7 @@ Ort	\hspace{2cm}		Datum\hspace{3,5 cm}				    Unterschrift
 \footcite[Vgl.][1]{FaceRec}
 Dieses Zitat von Katherine B. Leeland gibt einen Einblick in die Relevanz der Emotionserkennung für den Menschen. Dabei ist diese Relevanz nicht erst in jüngerer zeit entstanden. Bereits Darwin stellte die Frage, ob von den Gesichtsausdrücken einer Person nicht auch der Emotionale Zustand abgeleitet werden kann.
 \footcite[Vgl.][2]{FaceRec}
-Einen solchen Zustand von einem Mitmenschen abzulesen ist jedoch nicht trivial. Dies leigt auch daran, dass die Übergänge von verschiedenen Emotionen durch leichte Veränderungen der Mimik ausgedrückt werden. Zum Beispiel indem eine Person die Lippen zusammen presst und die Augen zusammen kneift bei Wut, oder die Mundwinkel nach unten gezogen werden bei Trauer. 
+Einen solchen Zustand von einem Mitmenschen abzulesen ist jedoch nicht trivial. Dies liegt auch daran, dass die Übergänge von verschiedenen Emotionen durch leichte Veränderungen der Mimik ausgedrückt werden. Zum Beispiel indem eine Person die Lippen zusammen presst und die Augen zusammen kneift bei Wut, oder die Mundwinkel nach unten gezogen werden bei Trauer. 
 \footcite[Vgl.][249]{HandbookFaceRec}
 Durch solche kleinen Änderungen kann ein sonst neutral wirkendes Gesicht zu einem wütenden oder traurigen werden.
 
@@ -114,19 +104,27 @@ die mit einer Webcam aufgenommen werden nach ihren Emotionen analysieren. Je nac
 
 \let\cleardoublepage\relax
 \chapter{Theorie}
-Gliederung Theorie
+Technologien:
 \begin{itemize}
-\item unterschied es gibt face regocnition emotion regocnition
-\item use cases dafür 
-\item unser use case wie er reinpasst
-\item emotion rec =  abspaltung der face regocnition 
-\item   
+\item stand der technik, gibt es schon öhnliche Projekte, wenn ja, welche ? 
+\item Python (Als ganzes warum Python, Libraries erklären, warum python verwendet wurde und state oif the art ist
+\item Tesnorflow und Kreas wenn wir es verwednern aber auch wenn wir es nicht machen
+\item Emotionen definieren 
+\item emotion recognition !=  face regocnition 
+\item usecase für emotion recognition
+\item Datensatz
+\item CNN --> Wie arbeitet die KI bei Gesichtserkennung ?
+\item Poker erklären (Wenn wir Poker als testusecase benutzen)
 \end{itemize}
+\section{Emotionen}
+In diesem Unterakptiel nun sollen Emotionen an sich thematisiert werden, da diese maßgeblich sind für das zu entwickelnde Tool. Grundsätzlich gibt es viele verschieden Ansätze Emotionen zu definieren, bzw. Emotionen einzuteilen. Eine gängige Einteilung ist dabei die verschiedenen Emotionen in acht Bereiche einzuteilen. Diese Einteilung wurden 1984 von Plutchik postuliert und beinhaltet die Emotionskategorien Angst, Wut, Freude, Trauer, Akzeptanz, Ekel, Erwartung und Überraschung.
+\footcite[Vgl. ][3]{FaceRec}
+Jedoch ist dies bei weitem nicht die einzige mögliche Einteilung. Als weiteres Beispiel teilte MacLean  die Emotionen in lediglich sechs Kategorien ein, Verlangen, Wut, Angst, Niedergeschlagenheit, Freude und Zuneigung.
+\footcite[Vgl. ][3]{FaceRec}
+Wie sich bereits an den beiden Beispielen zeigt, geht die Meinungen der Forscher  dabei sehr stark auseinander, welche und wie viele Emotionen zu den sogenannten ''Basis Emotionen'' gehören. In dieser Arbeit werden die Emotionen in sechs Kategorien eingeteilt, in Wut, Trauer, Freude, Ekel, Überraschung und Neutral. Diese Einteilung entspricht an sich keiner von uns gefundenen gängigen Einteilung, jedoch wurde diese aus den folgenden Gründen gewählt:
+Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da diese zum Teil komplementär und somit eindeutig sind. Beispielsweise ist es einfacher ein freudiges Gesicht zu erkennen, oder ein überraschtes, als ein Gesicht mit dem Emotionalen Ausdruck Akzeptanz. Des Weiteren wurde der Ausdruck ''Neutral'' hinzugefügt. Neutral rerpäsentiert ein emotionsloses Gesicht, bzw. ein Pokerface. Außerdem sind dieses Arten der Gesichtsausdrücke auch nicht selten anzutreffen bei dem Test Usecase dieser Arbeit,
 
-
-%https://books.google.de/books?id=JxSOjPzd5IgC&printsec=frontcover&dq=emotion+recognition&hl=de&sa=X&ved=0ahUKEwj27vTp7pTnAhUjuqQKHeSxDZ4Q6AEIPzAC#v=onepage&q=emotion%20recognition&f=false
-
-%Seite 3 ganz viele Emotionsdefis
+%dem Texas Holdem Poker.
 
 \let\cleardoublepage\relax
 \newpage
@@ -165,10 +163,10 @@ Bezüglich des zweiten Teils der Arbeit, dem automatisierten Deployment der Appl
 
 \let\cleardoublepage\relax
 \chapter{Ergebnis}
-\section{test1}
-\subsection{test2}
-\subsubsection{test3}
-\paragraph*{Gitea Setup}
+%\section{test1}
+%\subsection{test2}
+%\subsubsection{test3}
+%\paragraph*{Gitea Setup}
 
 \let\cleardoublepage\relax
 \chapter{Diskussion}

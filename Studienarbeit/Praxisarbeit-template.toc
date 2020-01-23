@@ -7,18 +7,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {II}Theorie}{II}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {III}Methode}{IV}{chapter.3}%
+\contentsline {section}{\numberline {II.1}Emotionen}{III}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {III.1}Vorgehen im ersten Teil}{IV}{section.3.1}%
+\contentsline {chapter}{\numberline {III}Methode}{V}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {III.2}Vorgehen im zweiten Teil}{V}{section.3.2}%
+\contentsline {section}{\numberline {III.1}Vorgehen im ersten Teil}{V}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {IV}Ergebnis}{V}{chapter.4}%
+\contentsline {section}{\numberline {III.2}Vorgehen im zweiten Teil}{VI}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {IV.1}test1}{V}{section.4.1}%
+\contentsline {chapter}{\numberline {IV}Ergebnis}{VI}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {IV.1.1}test2}{V}{subsection.4.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {IV.1.1.1}test3}{V}{subsubsection.4.1.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {V}Diskussion}{V}{chapter.5}%
+\contentsline {chapter}{\numberline {V}Diskussion}{VI}{chapter.5}%
