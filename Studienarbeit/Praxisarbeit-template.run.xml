@@ -55,7 +55,7 @@
       <file>biblatex.def</file>
       <file>blx-natbib.def</file>
       <file>standard.bbx</file>
-      <file>numeric.bbx</file>
+      <file>alphabetic.bbx</file>
       <file>authortitle.cbx</file>
       <file>biblatex.cfg</file>
       <file>german.lbx</file>
