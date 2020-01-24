@@ -19,6 +19,83 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Frauenhofer}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f34738d13943bab878d07cb33c917adc}{%
+           family={Diederichs},
+           familyi={D\bibinitperiod},
+           given={Dr.\bibnamedelimi Frederik},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f34738d13943bab878d07cb33c917adc}
+      \strng{fullhash}{f34738d13943bab878d07cb33c917adc}
+      \strng{bibnamehash}{f34738d13943bab878d07cb33c917adc}
+      \strng{authorbibnamehash}{f34738d13943bab878d07cb33c917adc}
+      \strng{authornamehash}{f34738d13943bab878d07cb33c917adc}
+      \strng{authorfullhash}{f34738d13943bab878d07cb33c917adc}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.hci.iao.fraunhofer.de/de/Human-Centered-AI/feinfuehlige-technik/KI-gestuetzte-Emotionserkennung.html}
+      \field{note}{Einsichtnahme:24.01.2020}
+      \field{title}{KI-gestützte Emotionserkennung im Fahrzeug aus physiologischen Daten}
+      \field{year}{2020}
+    \endentry
+    \entry{SZ}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72b98cf7654aedf618f2f6576ab34c17}{%
+           family={Johannes},
+           familyi={J\bibinitperiod},
+           given={Kuhn},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{72b98cf7654aedf618f2f6576ab34c17}
+      \strng{fullhash}{72b98cf7654aedf618f2f6576ab34c17}
+      \strng{bibnamehash}{72b98cf7654aedf618f2f6576ab34c17}
+      \strng{authorbibnamehash}{72b98cf7654aedf618f2f6576ab34c17}
+      \strng{authornamehash}{72b98cf7654aedf618f2f6576ab34c17}
+      \strng{authorfullhash}{72b98cf7654aedf618f2f6576ab34c17}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.sueddeutsche.de/digital/smartphone-software-emotionen-simulation-ki-1.4377004-2}
+      \field{note}{Einsichtnahme:24.01.2020}
+      \field{title}{Emotionen sind schwer definierbar}
+      \field{year}{2019}
+    \endentry
+    \entry{IEEE}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=20aee8bf0dfbf63fcc3df22e8e87f0e4}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Saranya\bibnamedelimb R\bibnamedelimb Benedict\bibnamedelimb ;\bibnamedelimb J.\bibnamedelimi Satheesh},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim ;\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Coimbatore - India}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
+      \strng{fullhash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
+      \strng{bibnamehash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
+      \strng{authorbibnamehash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
+      \strng{authornamehash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
+      \strng{authorfullhash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1509037698}
+      \field{title}{Geometric shaped facial feature extraction for face recognition}
+      \field{year}{2017}
+    \endentry
     \entry{FaceRec}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d754d966b6ba6a7f6f6a2a9a2cd9e5e9}{%
@@ -76,8 +153,61 @@
       \field{title}{Handbook of Face Recognition}
       \field{year}{2005}
     \endentry
+    \entry{mixedArticle}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7eabd9cc82c58611fb5550e243ea6739}{%
+           family={Maximilian},
+           familyi={M\bibinitperiod},
+           given={Schreiner},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7eabd9cc82c58611fb5550e243ea6739}
+      \strng{fullhash}{7eabd9cc82c58611fb5550e243ea6739}
+      \strng{bibnamehash}{7eabd9cc82c58611fb5550e243ea6739}
+      \strng{authorbibnamehash}{7eabd9cc82c58611fb5550e243ea6739}
+      \strng{authornamehash}{7eabd9cc82c58611fb5550e243ea6739}
+      \strng{authorfullhash}{7eabd9cc82c58611fb5550e243ea6739}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://mixed.de/kuenstliche-intelligenz-emotionserkennung-will-gelernt-sein/}
+      \field{note}{Einsichtnahme:24.01.2020}
+      \field{title}{Künstliche Intelligenz: Emotionserkennung will gelernt sein}
+      \field{year}{2019}
+    \endentry
+    \entry{Projektmanagement}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=50a6a1aa00f740be3424d7cdb47281c8}{%
+           family={Roger},
+           familyi={R\bibinitperiod},
+           given={Schneider\bibnamedelimb Patrick;\bibnamedelimb Witschi\bibnamedelimb Urs;\bibnamedelima Wüst},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Sebastopol}%
+      }
+      \list{publisher}{1}{%
+        {"Springer Gabler"}%
+      }
+      \strng{namehash}{50a6a1aa00f740be3424d7cdb47281c8}
+      \strng{fullhash}{50a6a1aa00f740be3424d7cdb47281c8}
+      \strng{bibnamehash}{50a6a1aa00f740be3424d7cdb47281c8}
+      \strng{authorbibnamehash}{50a6a1aa00f740be3424d7cdb47281c8}
+      \strng{authornamehash}{50a6a1aa00f740be3424d7cdb47281c8}
+      \strng{authorfullhash}{50a6a1aa00f740be3424d7cdb47281c8}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Auflage 4}
+      \field{isbn}{978-3662578773}
+      \field{title}{Handbuch Projektmanagement: Agil – Klassisch – Hybrid}
+      \field{year}{2018}
+    \endentry
   \enddatalist
-  \missing{Projektmanagement}
 \endrefsection
 \endinput
 

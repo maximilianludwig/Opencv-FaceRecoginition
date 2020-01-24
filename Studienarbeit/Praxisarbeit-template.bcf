@@ -2185,9 +2185,18 @@
     <bcf:citekey order="1">FaceRec</bcf:citekey>
     <bcf:citekey order="2">FaceRec</bcf:citekey>
     <bcf:citekey order="3">HandbookFaceRec</bcf:citekey>
-    <bcf:citekey order="4">FaceRec</bcf:citekey>
-    <bcf:citekey order="5">FaceRec</bcf:citekey>
-    <bcf:citekey order="6">Projektmanagement</bcf:citekey>
+    <bcf:citekey order="4">mixedArticle</bcf:citekey>
+    <bcf:citekey order="5">Frauenhofer</bcf:citekey>
+    <bcf:citekey order="6">SZ</bcf:citekey>
+    <bcf:citekey order="7">Frauenhofer</bcf:citekey>
+    <bcf:citekey order="8">HandbookFaceRec</bcf:citekey>
+    <bcf:citekey order="9">HandbookFaceRec</bcf:citekey>
+    <bcf:citekey order="10">HandbookFaceRec</bcf:citekey>
+    <bcf:citekey order="11">IEEE</bcf:citekey>
+    <bcf:citekey order="12">HandbookFaceRec</bcf:citekey>
+    <bcf:citekey order="13">FaceRec</bcf:citekey>
+    <bcf:citekey order="14">FaceRec</bcf:citekey>
+    <bcf:citekey order="15">Projektmanagement</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
