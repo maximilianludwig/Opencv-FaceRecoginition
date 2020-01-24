@@ -3,32 +3,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {I}Einleitung}{I}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I.1}Aufgabenstellung}{II}{section.1.1}%
+\contentsline {section}{\numberline {I.1}Aufgabenstellung}{III}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {II}Theorie}{II}{chapter.2}%
+\contentsline {chapter}{\numberline {II}Theorie}{III}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {II.1}Stand der Technik}{III}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.1}Emotionserkennung}{III}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {II.1.1}Emotionserkennung}{IV}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.2}Geischtserkennung}{III}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {II.1.2}Geischtserkennung}{IV}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.3}Gemeinsamkeiten und Unterschiede}{III}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {II.1.3}Gemeinsamkeiten und Unterschiede}{IV}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.4}Weitere Projekte}{III}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {II.1.4}Weitere Projekte}{IV}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.2}Emotionen}{III}{section.2.2}%
+\contentsline {section}{\numberline {II.2}Emotionen}{IV}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.3}Python}{IV}{section.2.3}%
+\contentsline {section}{\numberline {II.3}Python}{V}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {III}Methode}{V}{chapter.3}%
+\contentsline {chapter}{\numberline {III}Methode}{VI}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {IV}Ergebnis}{V}{chapter.4}%
+\contentsline {chapter}{\numberline {IV}Ergebnis}{VI}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {V}Diskussion}{VI}{chapter.5}%
+\contentsline {chapter}{\numberline {V}Diskussion}{VII}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V.1}Reflexion der Ergebnisse}{VI}{section.5.1}%
+\contentsline {section}{\numberline {V.1}Reflexion der Ergebnisse}{VII}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V.2}Reflexion Vorgehen}{VI}{section.5.2}%
+\contentsline {section}{\numberline {V.2}Reflexion Vorgehen}{VII}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V.3}Offene Implikationen}{VI}{section.5.3}%
+\contentsline {section}{\numberline {V.3}Reflexion der Literatur}{VII}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {V.4}Offene Implikationen}{VII}{section.5.4}%
