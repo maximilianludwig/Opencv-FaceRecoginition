@@ -10,7 +10,7 @@
 \usepackage{graphicx}
 \usepackage{acronym}
 \usepackage[backend=biber,
-bibstyle=numeric, 
+bibstyle=alphabetic, 
 citestyle=authortitle,
 natbib=true, 
 hyperref=true,
@@ -118,9 +118,20 @@ Technologien todo:
 In diesem Abschnitt soll der aktuelle Forschnungs und Entwicklungsstand thematisiert werden im Bereich Emotionserkennung. Jedoch muss dafür erst einmal eine Unterscheidung der Begrifflichkeiten Emotionserkennung und Geischtskernnung erfolgen, da beide gebiete Überschneidungen haben, jedoch inhaltlich und von ihren Zielen verschieden sind.
 \subsection{Emotionserkennung}
 
-usecase für emotion recognition
+\begin{itemize}
+\item was ist Emotionserkennung
+\item usecase für emotion recognition
+\item Aiusblick und Kontroverse
+\end{itemize}
+
 
 \subsection{Geischtserkennung}
+\begin{itemize}
+\item use cases con Gesichtserkennung
+\item Grenzen der GEsichtserkennung
+\item Ausblick in der Gesichtserkennng
+\end{itemize}
+
 Gesichtserkennung ist eine Disziplin der Informatik in der es darum geht Gesichter wieder zu erkennen, und gegebenanfalls verschiedenen Personen zuzuordnen. Dabei lässt sich der Prozess der Gesichtserkennung in vier Phasen einteilen, Face ''detection'', ''alignment'', ''feature extraction'' und ''matching''.
 \footcite[Vgl. ][2]{HandbookFaceRec}
 Die Detection Phase ist dafür verantwortlich um zu erkennen ob Gesichter vorhanden sind in einem Bild, oder aber Video.
@@ -129,22 +140,29 @@ Die Detection Phase ist dafür verantwortlich um zu erkennen ob Gesichter vorhan
  \footcite[Vgl. ][2]{HandbookFaceRec}
  In der Feature extraction hingegen werden die verschiedenen Gesichtskomponenten wie Augen, Nase, Mund, dem Bild oder Video entnommen. Dies ist ein enorm wichtiger Schritt für weitere Prozesse wie Eye Tracking oder Face Tracking. Alternativ kann sogar eine bestimmte Person anhand der extraierten Merkmale erkannt werden.
 \footcite[Vgl. ][Abstract]{IEEE}
- %https://ieeexplore.ieee.org/document/7887965
  In der letzten Phase, dem Matching, geht es darum die gewonnen Daten mit den in der Datenbank vorhandenen Gesichtern abzugleichen. Wenn eine genügende Übereinstimmung gefunden wurde, wird ein Match mit einer Person ausgegeben.
   \footcite[Vgl. ][3]{HandbookFaceRec}
  
  
 \subsection{Gemeinsamkeiten und Unterschiede}
-\subsection{Weitere Projekte}
+\begin{itemize}
+\item Gemeinsamkeite und unterschiede in Anwednungsgebieten
+\item formalen Aspekten
+\end{itemize}
+
 \section{Emotionen}
-In diesem Unterakptiel nun sollen Emotionen an sich thematisiert werden, da diese maßgeblich sind für das zu entwickelnde Tool. Grundsätzlich gibt es viele verschieden Ansätze Emotionen zu definieren, bzw. Emotionen einzuteilen. Eine gängige Einteilung ist dabei die verschiedenen Emotionen in acht Bereiche einzuteilen. Diese Einteilung wurden 1984 von Plutchik postuliert und beinhaltet die Emotionskategorien Angst, Wut, Freude, Trauer, Akzeptanz, Ekel, Erwartung und Überraschung.
+
+\begin{itemize}
+\item Def. von Emotionen
+\end{itemize}
+
+In diesem Unterakptiel nun sollen Emotionen an sich thematisiert werden, da diese maßgeblich sind für das zu entwickelnde Tool. Grundsätzlich gibt es viele verschieden Ansätze Emotionen zu definieren, bzw. Emotionen einzuteilen. Eine Variante ist dabei die eingangs erwähnte,  nicht ganz unumstrittene Einteilung in Basisemotionen. Eine gängige Einteilung ist dabei die verschiedenen Emotionen in acht Bereiche einzuteilen. Diese Einteilung wurden 1984 von Plutchik postuliert und beinhaltet die Emotionskategorien Angst, Wut, Freude, Trauer, Akzeptanz, Ekel, Erwartung und Überraschung.
 \footcite[Vgl. ][3]{FaceRec}
 Jedoch ist dies bei weitem nicht die einzige mögliche Einteilung. Als weiteres Beispiel teilte MacLean  die Emotionen in lediglich sechs Kategorien ein, Verlangen, Wut, Angst, Niedergeschlagenheit, Freude und Zuneigung.
 \footcite[Vgl. ][3]{FaceRec}
-Wie sich bereits an den beiden Beispielen zeigt, geht die Meinungen der Forscher  dabei sehr stark auseinander, welche und wie viele Emotionen zu den sogenannten ''Basis Emotionen'' gehören. In dieser Arbeit werden die Emotionen in sechs Kategorien eingeteilt, in Wut, Trauer, Freude, Ekel, Überraschung und Neutral. Diese Einteilung entspricht an sich keiner von uns gefundenen gängigen Einteilung, jedoch wurde diese aus den folgenden Gründen gewählt:
-Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da diese zum Teil komplementär und somit eindeutig sind. Beispielsweise ist es einfacher ein freudiges Gesicht zu erkennen, oder ein überraschtes, als ein Gesicht mit dem Emotionalen Ausdruck Akzeptanz. Des Weiteren wurde der Ausdruck ''Neutral'' hinzugefügt. Neutral rerpäsentiert ein emotionsloses Gesicht, bzw. ein Pokerface. Außerdem sind dieses Arten der Gesichtsausdrücke auch nicht selten anzutreffen bei dem Test Usecase dieser Arbeit,
+Wie sich bereits an den beiden Beispielen zeigt, geht die Meinungen der Forscher  dabei sehr stark auseinander, welche und wie viele Emotionen zu den sogenannten ''Basis Emotionen'' gehören. In dieser Arbeit werden die Emotionen in sechs Kategorien eingeteilt, in Wut, Trauer, Freude, Ekel, Überraschung und Neutral. Diese Einteilung entspricht an sich keiner gängigen Einteilung, jedoch wurde diese aus den folgenden Gründen gewählt: \newline
+Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da diese zum Teil komplementär und somit eindeutig sind. Es ist aber auch einfacher Testdatensätze zu bekommen für ein freudiges Gesicht, oder ein überraschtes, als ein Gesicht mit dem Emotionalen Ausdruck Akzeptanz. Des Weiteren wurde der Ausdruck ''Neutral'' hinzugefügt. Neutral rerpäsentiert ein emotionsloses Gesicht, und somit nach Definition ein Pokerface. Außerdem sind dieses Arten der Gesichtsausdrücke auch nicht selten anzutreffen bei dem Test Usecase dieser Arbeit, dem Texas Holdem Poker.
 
-%dem Texas Holdem Poker.
 \section{Python}
 \begin{itemize}
 \item Python (Als ganzes warum Python, Libraries erklären, warum python verwendet wurde und state oif the art ist
@@ -155,6 +173,9 @@ Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da die
 \let\cleardoublepage\relax
 \newpage
 \chapter{Methode}
+
+Als vorgehen könnten wir sagen dass wir die neuen Algorithmen oder Daten beim Poker teste, das wäre Lustig und ein Use case der SInn macht. Mehr als sich stupide vor die Kamera zu setzen.
+
 Diese Arbeit soll methodisch mit der MoSCoW Priorisierung bearbeitet werden. Diese Art der Priorisierung teilt die zu bearbeitenden Anforderungen in vier Kategorien ein:
 \footcite[vgl.][90]{Projektmanagement}
 \begin{itemize}

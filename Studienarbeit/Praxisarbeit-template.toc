@@ -15,9 +15,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {II.1.3}Gemeinsamkeiten und Unterschiede}{IV}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.4}Weitere Projekte}{IV}{subsection.2.1.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.2}Emotionen}{IV}{section.2.2}%
+\contentsline {section}{\numberline {II.2}Emotionen}{V}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {II.3}Python}{V}{section.2.3}%
 \defcounter {refsection}{0}\relax 

@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{anyt/global//global/global}
     \entry{Frauenhofer}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f34738d13943bab878d07cb33c917adc}{%
@@ -34,6 +34,7 @@
       \strng{authorbibnamehash}{f34738d13943bab878d07cb33c917adc}
       \strng{authornamehash}{f34738d13943bab878d07cb33c917adc}
       \strng{authorfullhash}{f34738d13943bab878d07cb33c917adc}
+      \field{labelalpha}{Die20}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{labelnamesource}{author}
@@ -45,56 +46,28 @@
     \endentry
     \entry{SZ}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=72b98cf7654aedf618f2f6576ab34c17}{%
-           family={Johannes},
-           familyi={J\bibinitperiod},
-           given={Kuhn},
-           giveni={K\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a54c35ba9a872fb96e73e4b07b08fa9a}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{72b98cf7654aedf618f2f6576ab34c17}
-      \strng{fullhash}{72b98cf7654aedf618f2f6576ab34c17}
-      \strng{bibnamehash}{72b98cf7654aedf618f2f6576ab34c17}
-      \strng{authorbibnamehash}{72b98cf7654aedf618f2f6576ab34c17}
-      \strng{authornamehash}{72b98cf7654aedf618f2f6576ab34c17}
-      \strng{authorfullhash}{72b98cf7654aedf618f2f6576ab34c17}
-      \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \strng{namehash}{a54c35ba9a872fb96e73e4b07b08fa9a}
+      \strng{fullhash}{a54c35ba9a872fb96e73e4b07b08fa9a}
+      \strng{bibnamehash}{a54c35ba9a872fb96e73e4b07b08fa9a}
+      \strng{authorbibnamehash}{a54c35ba9a872fb96e73e4b07b08fa9a}
+      \strng{authornamehash}{a54c35ba9a872fb96e73e4b07b08fa9a}
+      \strng{authorfullhash}{a54c35ba9a872fb96e73e4b07b08fa9a}
+      \field{labelalpha}{Kuh19}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{https://www.sueddeutsche.de/digital/smartphone-software-emotionen-simulation-ki-1.4377004-2}
       \field{note}{Einsichtnahme:24.01.2020}
       \field{title}{Emotionen sind schwer definierbar}
       \field{year}{2019}
-    \endentry
-    \entry{IEEE}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=20aee8bf0dfbf63fcc3df22e8e87f0e4}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Saranya\bibnamedelimb R\bibnamedelimb Benedict\bibnamedelimb ;\bibnamedelimb J.\bibnamedelimi Satheesh},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim ;\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Coimbatore - India}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
-      \strng{fullhash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
-      \strng{bibnamehash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
-      \strng{authorbibnamehash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
-      \strng{authornamehash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
-      \strng{authorfullhash}{20aee8bf0dfbf63fcc3df22e8e87f0e4}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-1509037698}
-      \field{title}{Geometric shaped facial feature extraction for face recognition}
-      \field{year}{2017}
     \endentry
     \entry{FaceRec}{book}{}
       \name{author}{1}{}{%
@@ -114,6 +87,7 @@
       \strng{authorbibnamehash}{d754d966b6ba6a7f6f6a2a9a2cd9e5e9}
       \strng{authornamehash}{d754d966b6ba6a7f6f6a2a9a2cd9e5e9}
       \strng{authorfullhash}{d754d966b6ba6a7f6f6a2a9a2cd9e5e9}
+      \field{labelalpha}{Lee08}
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
@@ -145,6 +119,7 @@
       \strng{authorbibnamehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
       \strng{authornamehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
       \strng{authorfullhash}{236e7a17c0679bdf8ebb90e5a4f529cd}
+      \field{labelalpha}{Li05}
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
@@ -152,30 +127,6 @@
       \field{isbn}{978-0387405957}
       \field{title}{Handbook of Face Recognition}
       \field{year}{2005}
-    \endentry
-    \entry{mixedArticle}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7eabd9cc82c58611fb5550e243ea6739}{%
-           family={Maximilian},
-           familyi={M\bibinitperiod},
-           given={Schreiner},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7eabd9cc82c58611fb5550e243ea6739}
-      \strng{fullhash}{7eabd9cc82c58611fb5550e243ea6739}
-      \strng{bibnamehash}{7eabd9cc82c58611fb5550e243ea6739}
-      \strng{authorbibnamehash}{7eabd9cc82c58611fb5550e243ea6739}
-      \strng{authornamehash}{7eabd9cc82c58611fb5550e243ea6739}
-      \strng{authorfullhash}{7eabd9cc82c58611fb5550e243ea6739}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://mixed.de/kuenstliche-intelligenz-emotionserkennung-will-gelernt-sein/}
-      \field{note}{Einsichtnahme:24.01.2020}
-      \field{title}{Künstliche Intelligenz: Emotionserkennung will gelernt sein}
-      \field{year}{2019}
     \endentry
     \entry{Projektmanagement}{book}{}
       \name{author}{1}{}{%
@@ -198,6 +149,7 @@
       \strng{authorbibnamehash}{50a6a1aa00f740be3424d7cdb47281c8}
       \strng{authornamehash}{50a6a1aa00f740be3424d7cdb47281c8}
       \strng{authorfullhash}{50a6a1aa00f740be3424d7cdb47281c8}
+      \field{labelalpha}{Rog18}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{labelnamesource}{author}
@@ -206,6 +158,64 @@
       \field{isbn}{978-3662578773}
       \field{title}{Handbuch Projektmanagement: Agil – Klassisch – Hybrid}
       \field{year}{2018}
+    \endentry
+    \entry{IEEE}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=75ad2eee1f8eec237c27e07cd1477b30}{%
+           family={Saranya},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi Satheesh},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0,
+           suffix={R\bibnamedelima Benedict\bibnamedelimb ;\bibnamedelima Kumar},
+           suffixi={R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim ;\bibinitperiod\bibinitdelim K\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{location}{1}{%
+        {Coimbatore - India}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{75ad2eee1f8eec237c27e07cd1477b30}
+      \strng{fullhash}{75ad2eee1f8eec237c27e07cd1477b30}
+      \strng{bibnamehash}{75ad2eee1f8eec237c27e07cd1477b30}
+      \strng{authorbibnamehash}{75ad2eee1f8eec237c27e07cd1477b30}
+      \strng{authornamehash}{75ad2eee1f8eec237c27e07cd1477b30}
+      \strng{authorfullhash}{75ad2eee1f8eec237c27e07cd1477b30}
+      \field{labelalpha}{Sar17}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1509037698}
+      \field{title}{Geometric shaped facial feature extraction for face recognition}
+      \field{year}{2017}
+    \endentry
+    \entry{mixedArticle}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=505f9b87d0d412f0db6cc20b965e42a4}{%
+           family={Schreiner},
+           familyi={S\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{505f9b87d0d412f0db6cc20b965e42a4}
+      \strng{fullhash}{505f9b87d0d412f0db6cc20b965e42a4}
+      \strng{bibnamehash}{505f9b87d0d412f0db6cc20b965e42a4}
+      \strng{authorbibnamehash}{505f9b87d0d412f0db6cc20b965e42a4}
+      \strng{authornamehash}{505f9b87d0d412f0db6cc20b965e42a4}
+      \strng{authorfullhash}{505f9b87d0d412f0db6cc20b965e42a4}
+      \field{labelalpha}{Sch19}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://mixed.de/kuenstliche-intelligenz-emotionserkennung-will-gelernt-sein/}
+      \field{note}{Einsichtnahme:24.01.2020}
+      \field{title}{Künstliche Intelligenz: Emotionserkennung will gelernt sein}
+      \field{year}{2019}
     \endentry
   \enddatalist
 \endrefsection
