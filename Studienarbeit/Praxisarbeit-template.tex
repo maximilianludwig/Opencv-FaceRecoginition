@@ -33,7 +33,8 @@ bindingoffset=5mm,
 \pagenumbering{Roman}
 \let\cleardoublepage\relax
 \section*{Erklärung}
-Ich versichere hiermit, dass ich meine Projektarbeit mit dem Thema: ''Titel der großen Studienarbeit'' selbstständig verfasst und keine anderen als die angegeben Quellen und Hilfsmittel benutzt habe. 
+Ich versichere hiermit, dass ich meine Projektarbeit mit dem Thema: ''Titel der großen Studienarbeit'' selbstständig verfasst und keine anderen als die angegeben Quellen und Hilfsmittel benutzt
+habe.
 \newline
 \newline
 \newline
@@ -61,42 +62,64 @@ Ort	\hspace{2cm}		Datum\hspace{3,5 cm}				    Unterschrift
 \chapter{Einleitung}
 ''Several researchers have stated that facial expression recognition appears to play one of the most important roles in human communication'' 
 \footcite[Vgl.][1]{FaceRec}
-Dieses Zitat von Katherine B. Leeland gibt einen Einblick in die Relevanz der Emotionserkennung für den Menschen. Dabei ist diese Relevanz nicht erst in jüngerer zeit entstanden. Bereits Darwin stellte die Frage, ob von den Gesichtsausdrücken einer Person nicht auch der Emotionale Zustand abgeleitet werden kann.
+Dieses Zitat von Katherine B. Leeland gibt einen Einblick in die Relevanz der Emotionserkennung für den Menschen. Dabei ist diese Relevanz nicht erst in jüngerer zeit entstanden. Bereits Darwin
+stellte die Frage, ob von den Gesichtsausdrücken einer Person nicht auch der Emotionale Zustand abgeleitet werden kann.
 \footcite[Vgl.][2]{FaceRec}
-Einen solchen Zustand von einem Mitmenschen abzulesen ist jedoch nicht trivial. Dies liegt auch daran, dass die Übergänge von verschiedenen Emotionen durch leichte Veränderungen der Mimik ausgedrückt werden. Zum Beispiel indem eine Person die Lippen zusammen presst und die Augen zusammen kneift bei Wut, oder die Mundwinkel nach unten gezogen werden bei Trauer. 
+Einen solchen Zustand von einem Mitmenschen abzulesen ist jedoch nicht trivial. Dies liegt auch daran, dass die Übergänge von verschiedenen Emotionen durch leichte Veränderungen der Mimik
+ausgedrückt werden. Zum Beispiel indem eine Person die Lippen zusammen presst und die Augen zusammen kneift bei Wut, oder die Mundwinkel nach unten gezogen werden bei Trauer.
 \footcite[Vgl.][249]{HandbookFaceRec}
 Durch solche kleinen Änderungen kann ein sonst neutral wirkendes Gesicht zu einem wütenden oder traurigen werden.
-Emotionserkennungssoftware gibt es bereits und wird auch in der Wirtschaft eingesetzt. Die Anwendungsgebiete reichen dabei von Jobinterviews, in denen analysiert wird in wie weit die Bewerber zu dem jeweiligen Job passen 
+Emotionserkennungssoftware gibt es bereits und wird auch in der Wirtschaft eingesetzt. Die Anwendungsgebiete reichen dabei von Jobinterviews, in denen analysiert wird in wie weit die Bewerber zu
+dem jeweiligen Job passen
 \footcite[Vgl.][]{mixedArticle}
 bis hin zur Automobilindustrie. Dort wird mittels geegineter Sensorik versucht die Emotion und somit der physiologische Zustand des Autofahrers zu analysieren.
 \footcite[Vgl.][Herausforderung]{Frauenhofer}
-Mit diesen Daten können dann wiederum Funktionen eingebaut werden wie Warnsysteme, die den Fahrer daraufhinweisen, dass sein Zustand ungeeignet zum Betrieb eines Kraftfahrzeugs ist. Jedoch werden solche Einsatzszenarien auch durchaus kontrovers diskutiert. Auf Kritik stößt unter anderem dass die sogenannten ''Basisemotionen'', die verwendet werden um den KIs Emotionserkennung beizubringen, selber umstritten sind. 
+Mit diesen Daten können dann wiederum Funktionen eingebaut werden wie Warnsysteme, die den Fahrer daraufhinweisen, dass sein Zustand ungeeignet zum Betrieb eines Kraftfahrzeugs ist. Jedoch werden
+solche Einsatzszenarien auch durchaus kontrovers diskutiert. Auf Kritik stößt unter anderem dass die sogenannten ''Basisemotionen'', die verwendet werden um den KIs Emotionserkennung
+beizubringen, selber umstritten sind.
 \footcite[Vgl.][]{SZ}
-Aber auch ethische bedenken werden zunehmend geäußert, vor allem bezüglich der Anwendungsgebiete. Denn je nach Emotion die erkannt werden soll, liegt die Fehlerrate sehr hoch. So hat das Frauenhofer institut, welches an Einsatzgebieten von Emotionserkennung in Fahrezugen arbeitet, festgestellt, dass eine Emotionserkennung je nach Zielemotion eine Vorhersagekraft zwischen 6 und 95\% haben kann.
+Aber auch ethische bedenken werden zunehmend geäußert, vor allem bezüglich der Anwendungsgebiete. Denn je nach Emotion die erkannt werden soll, liegt die Fehlerrate sehr hoch. So hat das
+Frauenhofer institut, welches an Einsatzgebieten von Emotionserkennung in Fahrezugen arbeitet, festgestellt, dass eine Emotionserkennung je nach Zielemotion eine Vorhersagekraft zwischen 6 und
+95\% haben kann.
 \footcite[Vgl.][Ergebnis]{Frauenhofer}
 Diese negativen Aspekte treffen jedoch nur teilweise auf das hier behandelte Forschungsprojekt zu, wie im Folgenden dargelegt werden soll:
-Zwar werden in dieser Arbeit wie im folgenden Kapitel beschrieben werden wird die Basisemotionen als Referenz herangezogen, da es jedoch momentan keine praktikable Möglichkeit gibt mit einem ähnlichen Workload eine solche Lösung zu erstellen, sind diese unumgänglich. Auf der anderen Seite ist diese Studienarbeit kein wissenschaftliches Werk über die psychologischen Emotionen die hinter verschiedenen Gesichtsausdrücken stehen, auch wenn sie dies indirekt thematisiert. Es geht hier darum die These zu verifizieren oder zu widerlegen, ob es möglich ist mit einer künstlichen Intelligenz zu erkennen, in wie weit ein Pokerface einer Person anhand dessen Gesichtsausdruck abgelesen werden kann. Diese Aufgabe hat also nicht den Anspruch eine Emotion korrekt vorherzusagen, sondern vorherzusagen wann keine Emotion vorliegt. Denn Ein Pokerface wird im Allgemeinen als eine emotionsloser Gesichtsausdruck definiert. Dies impliziert, dass eine Person mit Pokerface keine Emotion zu erkennen gibt. Daher könnte bei einer nicht messbaren, oder neutralen Emotion ein Pokerface vorliegen. Dies mittels KI zu testen und einen sogenannten ''Pokerface Detektor'' zu entwicklen ist daher Ziel dieser Arbeit. Mit diesem Pokerface Detektor sind verschiedenste Einsatzmöglichkeiten in der Praxis denkbar. Diese haben eine gewisse Schnittmenge mit denen von ''normaler'' Emotionserkennungs software, jedoch gibt es auch einige weitere. Im Folgenden werden einige mögliche Szenarien expliziert:
-%Beispiele ausführen
+Es werden in dieser Arbeit wie im folgenden Kapitel beschrieben werden wird die Basisemotionen als Referenz herangezogen. Dies ist notwendig, da die Alternativen Verfahrensweisen zur Ermittlung
+der Emotion eines Individuums nicht prakitkabel für den Use Case dieser Arbeit wären. Eine erweiterte Betrachtung der Alternativen findet sich in Kapitel II. Auf der anderen Seite ist diese
+Studienarbeit kein wissenschaftliches Werk über die psychologischen Emotionen die hinter verschiedenen Gesichtsausdrücken stehen, auch wenn sie dies indirekt thematisiert. Es geht hier darum die
+These zu verifizieren oder zu widerlegen, ob es möglich ist mit einer künstlichen Intelligenz zu erkennen, in wie weit ein Pokerface einer Person anhand dessen Gesichtsausdruck abgelesen werden
+kann. Diese Aufgabe hat also nicht den Anspruch eine Emotion korrekt vorherzusagen, sondern vorherzusagen wann keine Emotion vorliegt. Denn Ein Pokerface wird im Allgemeinen als eine
+emotionsloser Gesichtsausdruck definiert. Dies impliziert, dass eine Person mit Pokerface keine Emotion zu erkennen gibt. Daher könnte bei einer nicht messbaren, oder neutralen Emotion ein
+Pokerface vorliegen. Dies mittels KI zu testen und einen sogenannten ''Pokerface Detektor'' zu entwicklen ist daher Ziel dieser Arbeit. Mit diesem Pokerface Detektor sind verschiedenste
+Einsatzmöglichkeiten in der Praxis denkbar. Diese haben eine gewisse Schnittmenge mit denen von ''normaler'' Emotionserkennungs software, jedoch gibt es auch einige weitere. Im Folgenden werden
+einige mögliche Szenarien expliziert:
 \begin{itemize}
 	\item{Polizeiverhöre}
 \end{itemize}
-Es ist denkbar, dass ein Detektor wie der, der in dieser Arbeit entwickelt werden wird bei Polizeiverhören eingesetzt wird. Für die Beamten kann es nicht immer direkt ersichtlich sein, ob der verhörte mit einem Pokerface lügt, oder die Wahrheit sagt. Da die Möglichkeiten dies zu prüfen ebenfalls nicht zahlreich oder einfach verfügbar sind, wäre es eine Vereinfachung für die Beamten wenn eine einfache Webcam zusammen mit einem Computer reichen würde um einen Lügner zu entlarven.
+Es ist denkbar, dass ein Detektor wie der, der in dieser Arbeit entwickelt werden wird bei Polizeiverhören eingesetzt wird. Für die Beamten kann es nicht immer direkt ersichtlich sein, ob der
+verhörte mit einem Pokerface lügt, oder die Wahrheit sagt. Da die Möglichkeiten dies zu prüfen ebenfalls nicht zahlreich oder einfach verfügbar sind, wäre es eine Vereinfachung für die Beamten
+wenn eine einfache Webcam zusammen mit einem Computer reichen würde um einen Lügner zu entlarven.
 \begin{itemize}
 	\item{Gerichtsverhandlungen}
 \end{itemize}
-Das zweite Einsatzgebiet ist ähnlich zu dem ersten. Bei Gerichtsverhandlungen gelten die gleichen Vorraussetzungen wie bei einem Verhöh der Polizei. Zwar müssen die hier vorgeladenen eine eidestattliche Erklärung abgeben nur die Wahrheit zu sagen, jedoch ist zu bezweifeln ob dies auch jeder so handhabt. 
-Nun soll nicht der Eindruck entstehen dass das hier gebaute Werkzeug ein Lügendetektor ist. Es ist ebenfalls nicht möglich, dass von einem Pokerface immer auf eine Lüge geschlossen werden kann. Jedoch ist ein Pokerface ein Zeichen dafür, dass sich diese Person ihren emotionalen Zustand nicht anmerken lassen möchte. Und dies wiederum deutet eher daraufhin dass die Person nicht die Wahrheit sagt oder nur teilweise. 
+Das zweite Einsatzgebiet ist ähnlich zu dem ersten. Bei Gerichtsverhandlungen gelten die gleichen Vorraussetzungen wie bei einem Verhöh der Polizei. Zwar müssen die hier vorgeladenen eine
+eidestattliche Erklärung abgeben nur die Wahrheit zu sagen, jedoch ist zu bezweifeln ob dies auch jeder so handhabt.
+Nun soll nicht der Eindruck entstehen dass das hier gebaute Werkzeug ein Lügendetektor ist. Es ist ebenfalls nicht möglich, dass von einem Pokerface immer auf eine Lüge geschlossen werden kann.
+Jedoch ist ein Pokerface ein Zeichen dafür, dass sich diese Person ihren emotionalen Zustand nicht anmerken lassen möchte. Und dies wiederum deutet eher daraufhin dass die Person nicht die
+Wahrheit sagt oder nur teilweise.
 Abgesehen von Einsatzgebieten die zur Entlarvung von Lügen führen kann auch ein klassicheres Szenario verwendet werden:
 \begin{itemize}
 	\item{Pokerspiel}
 \end{itemize}
-Es ist anzunehmen, dass der erste Begriff der mit dem Wort Pokerface in Verbindung gebracht wird, das Pokerspiel selber ist. Und auch in diesem kann ein Pokerface Detektor nützlich sein. So kann ein Mitspieler zum Beispiel mittels einer Kamera das Gesicht des Gegenübers scannen und analysieren ob ein Pokerface vorliegt oder nicht, und dementsprechend agieren.
+Es ist anzunehmen, dass der erste Begriff der mit dem Wort Pokerface in Verbindung gebracht wird, das Pokerspiel selber ist. Und auch in diesem kann ein Pokerface Detektor nützlich sein. So kann
+ein Mitspieler zum Beispiel mittels einer Kamera das Gesicht des Gegenübers scannen und analysieren ob ein Pokerface vorliegt oder nicht, und dementsprechend agieren.
 Nachdem verschiedene Anwendungsszenarien beleuchtet wurden wird im Folgenden die konkrete Forschungsfrage beleuchtet.
 %Irgendwas vergessen?
 \section{Aufgabenstellung}
  Das Projekt selber wird an der DHBW in Mannheim durchgeführt und betreut von Prof. Dr. Erckhard Kruse.
  Wie eingangs erwähnt soll mittels künstlicher Intelligenz ein Pokerface erkannt werden. 
- Dafür soll wiederum eine Bilderkennungssoftware angefertigt werden, die Bilder oder Videos als Eingae von einer Webcam oder anderen Kamera bekommt, und das Bild analysiert. Je nachdem welche emotionen gezeigt werden wird dann von der Software ein Rückschluss gezogen auf ein eventuell vorhandens Pokerface. Ein konkretes Einsatzgfebiert nach Abschluss der Entwickliung ist nicht vorgesehen, da es sich um ein Forschungsprojekt handelt. jedoch sind wie bereits beschrieben einige verschiedene Einsatzmöglichkeiten denkbar, an die das Werkzeug leicht angepasst werden kann. 
+Dafür soll wiederum eine Bilderkennungssoftware angefertigt werden, die Bilder oder Videos als Eingae von einer Webcam oder anderen Kamera bekommt, und das Bild analysiert. Je nachdem welche
+emotionen gezeigt werden wird dann von der Software ein Rückschluss gezogen auf ein eventuell vorhandens Pokerface. Ein konkretes Einsatzgfebiert nach Abschluss der Entwickliung ist nicht
+vorgesehen, da es sich um ein Forschungsprojekt handelt. jedoch sind wie bereits beschrieben einige verschiedene Einsatzmöglichkeiten denkbar, an die das Werkzeug leicht angepasst werden kann.
 
 %\section{DevOps}
 %\begin{figure}
@@ -115,7 +138,8 @@ Technologien todo:
 \end{itemize}
 
 \section{Stand der Technik}
-In diesem Abschnitt soll der aktuelle Forschnungs und Entwicklungsstand thematisiert werden im Bereich Emotionserkennung. Jedoch muss dafür erst einmal eine Unterscheidung der Begrifflichkeiten Emotionserkennung und Geischtskernnung erfolgen, da beide gebiete Überschneidungen haben, jedoch inhaltlich und von ihren Zielen verschieden sind.
+In diesem Abschnitt soll der aktuelle Forschnungs und Entwicklungsstand thematisiert werden im Bereich Emotionserkennung. Jedoch muss dafür erst einmal eine Unterscheidung der Begrifflichkeiten
+Emotionserkennung und Geischtskernnung erfolgen, da beide gebiete Überschneidungen haben, jedoch inhaltlich und von ihren Zielen verschieden sind.
 \subsection{Emotionserkennung}
 
 \begin{itemize}
@@ -132,16 +156,28 @@ In diesem Abschnitt soll der aktuelle Forschnungs und Entwicklungsstand thematis
 \item Ausblick in der Gesichtserkennng
 \end{itemize}
 
-Gesichtserkennung ist eine Disziplin der Informatik in der es darum geht Gesichter wieder zu erkennen, und gegebenanfalls verschiedenen Personen zuzuordnen. Dabei lässt sich der Prozess der Gesichtserkennung in vier Phasen einteilen, Face ''detection'', ''alignment'', ''feature extraction'' und ''matching''.
+Gesichtserkennung ist eine Disziplin der Informatik in der es darum geht Gesichter wieder zu erkennen, und gegebenanfalls verschiedenen Personen zuzuordnen. Dabei lässt sich der Prozess der
+Gesichtserkennung in vier Phasen einteilen, Face ''detection'', ''alignment'', ''feature extraction'' und ''matching''.
 \footcite[Vgl. ][2]{HandbookFaceRec}
+\begin{figure}
+\includegraphics[width=\linewidth]{Bilder/FaceRecognition.png}
+\caption{ Phasen der Gesichtserkennung \newline Quelle: https://alitarhini.files.wordpress.com/2010/12/untitled1.png }
+\label{fig:Face Recognition}
+\end{figure}
 Die Detection Phase ist dafür verantwortlich um zu erkennen ob Gesichter vorhanden sind in einem Bild, oder aber Video.
 \footcite[Vgl. ][2]{HandbookFaceRec}
- In der darauffolgenden Alignment Phase hingegen wird die Lokalisierung der Geischter genauer, indem geischtskomponenten wie Augen, Augenbrauen, oder die Nase genauer lokalisiert werden. Dabei wird das Bild oder Video ebenfalls  normalisiert, indem z.B. die Bildbeleuchtung angepasst wird.
+In der darauffolgenden Alignment Phase hingegen wird die Lokalisierung der Geischter genauer, indem geischtskomponenten wie Augen, Augenbrauen, oder die Nase genauer lokalisiert werden. Dabei
+wird das Bild oder Video ebenfalls normalisiert, indem z.B. die Bildbeleuchtung angepasst wird.
  \footcite[Vgl. ][2]{HandbookFaceRec}
- In der Feature extraction hingegen werden die verschiedenen Gesichtskomponenten wie Augen, Nase, Mund, dem Bild oder Video entnommen. Dies ist ein enorm wichtiger Schritt für weitere Prozesse wie Eye Tracking oder Face Tracking. Alternativ kann sogar eine bestimmte Person anhand der extraierten Merkmale erkannt werden.
+In der Feature extraction hingegen werden die verschiedenen Gesichtskomponenten wie Augen, Nase, Mund, dem Bild oder Video entnommen. Dies ist ein enorm wichtiger Schritt für weitere Prozesse wie
+Eye Tracking oder Face Tracking. Alternativ kann sogar eine bestimmte Person anhand der extraierten Merkmale erkannt werden.
 \footcite[Vgl. ][Abstract]{IEEE}
- In der letzten Phase, dem Matching, geht es darum die gewonnen Daten mit den in der Datenbank vorhandenen Gesichtern abzugleichen. Wenn eine genügende Übereinstimmung gefunden wurde, wird ein Match mit einer Person ausgegeben.
+In der letzten Phase, dem Matching, geht es darum die gewonnen Daten mit den in der Datenbank vorhandenen Gesichtern abzugleichen. Wenn eine genügende Übereinstimmung gefunden wurde, wird ein
+Match mit einer Person ausgegeben.
   \footcite[Vgl. ][3]{HandbookFaceRec}
+Die Anwendungsgebiete von Software die Gesichtserkennung ermöglicht ist mannigfaltig. Sie reicht von Applikationen die ein Gerät wie ein Smartphone entsperren, wenn das Gesicht des Bsesitzers als
+Match ausgegeben wurde, bis hin zur Anwendung in Verbrechensbekämpfung. In jedem dieser Szenarien wird dabei der oben beschriebene Ablauf durchgegangen, und abhängig vom zu liefernden Ergebnis
+eine Abschlussaktion vorgenommen.
  
  
 \subsection{Gemeinsamkeiten und Unterschiede}
@@ -156,12 +192,20 @@ Die Detection Phase ist dafür verantwortlich um zu erkennen ob Gesichter vorhan
 \item Def. von Emotionen
 \end{itemize}
 
-In diesem Unterakptiel nun sollen Emotionen an sich thematisiert werden, da diese maßgeblich sind für das zu entwickelnde Tool. Grundsätzlich gibt es viele verschieden Ansätze Emotionen zu definieren, bzw. Emotionen einzuteilen. Eine Variante ist dabei die eingangs erwähnte,  nicht ganz unumstrittene Einteilung in Basisemotionen. Eine gängige Einteilung ist dabei die verschiedenen Emotionen in acht Bereiche einzuteilen. Diese Einteilung wurden 1984 von Plutchik postuliert und beinhaltet die Emotionskategorien Angst, Wut, Freude, Trauer, Akzeptanz, Ekel, Erwartung und Überraschung.
+In diesem Unterakptiel nun sollen Emotionen an sich thematisiert werden, da diese maßgeblich sind für das zu entwickelnde Tool. Grundsätzlich gibt es viele verschieden Ansätze Emotionen zu
+definieren, bzw. Emotionen einzuteilen. Eine Variante ist dabei die eingangs erwähnte, nicht ganz unumstrittene Einteilung in Basisemotionen. Eine gängige Einteilung ist dabei die verschiedenen
+Emotionen in acht Bereiche einzuteilen. Diese Einteilung wurden 1984 von Plutchik postuliert und beinhaltet die Emotionskategorien Angst, Wut, Freude, Trauer, Akzeptanz, Ekel, Erwartung und
+Überraschung.
 \footcite[Vgl. ][3]{FaceRec}
-Jedoch ist dies bei weitem nicht die einzige mögliche Einteilung. Als weiteres Beispiel teilte MacLean  die Emotionen in lediglich sechs Kategorien ein, Verlangen, Wut, Angst, Niedergeschlagenheit, Freude und Zuneigung.
+Jedoch ist dies bei weitem nicht die einzige mögliche Einteilung. Als weiteres Beispiel teilte MacLean die Emotionen in lediglich sechs Kategorien ein, Verlangen, Wut, Angst,
+Niedergeschlagenheit, Freude und Zuneigung.
 \footcite[Vgl. ][3]{FaceRec}
-Wie sich bereits an den beiden Beispielen zeigt, geht die Meinungen der Forscher  dabei sehr stark auseinander, welche und wie viele Emotionen zu den sogenannten ''Basis Emotionen'' gehören. In dieser Arbeit werden die Emotionen in sechs Kategorien eingeteilt, in Wut, Trauer, Freude, Ekel, Überraschung und Neutral. Diese Einteilung entspricht an sich keiner gängigen Einteilung, jedoch wurde diese aus den folgenden Gründen gewählt: \newline
-Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da diese zum Teil komplementär und somit eindeutig sind. Es ist aber auch einfacher Testdatensätze zu bekommen für ein freudiges Gesicht, oder ein überraschtes, als ein Gesicht mit dem Emotionalen Ausdruck Akzeptanz. Des Weiteren wurde der Ausdruck ''Neutral'' hinzugefügt. Neutral rerpäsentiert ein emotionsloses Gesicht, und somit nach Definition ein Pokerface. Außerdem sind dieses Arten der Gesichtsausdrücke auch nicht selten anzutreffen bei dem Test Usecase dieser Arbeit, dem Texas Holdem Poker.
+Wie sich bereits an den beiden Beispielen zeigt, geht die Meinungen der Forscher dabei sehr stark auseinander, welche und wie viele Emotionen zu den sogenannten ''Basis Emotionen'' gehören. In
+dieser Arbeit werden die Emotionen in sechs Kategorien eingeteilt, in Wut, Trauer, Freude, Ekel, Überraschung und Neutral. Diese Einteilung entspricht an sich keiner gängigen Einteilung, jedoch
+wurde diese aus den folgenden Gründen gewählt: \newline
+Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da diese zum Teil komplementär und somit eindeutig sind. Es ist aber auch einfacher Testdatensätze zu bekommen für ein
+freudiges Gesicht, oder ein überraschtes, als ein Gesicht mit dem Emotionalen Ausdruck Akzeptanz. Des Weiteren wurde der Ausdruck ''Neutral'' hinzugefügt. Neutral rerpäsentiert ein emotionsloses
+Gesicht, und somit nach Definition ein Pokerface. Außerdem sind dieses Arten der Gesichtsausdrücke auch nicht selten anzutreffen bei dem Test Usecase dieser Arbeit, dem Texas Holdem Poker.
 
 \section{Python}
 \begin{itemize}
@@ -170,6 +214,26 @@ Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da die
 \item verwendeter Datensatz
 \item CNN --> Wie arbeitet die KI bei Gesichtserkennung ?
 \end{itemize}
+
+\section{ALternative Ansätze}
+In diesem Abschnitt nun werden noch verschiedene alternative Ansätze dargestellt und expliziert warum sich gegen diese, und für die bereits genannten Verfahrensweisen entschieden wurde.
+\subsection{Emotionserkennung}
+Dieses Unterkapitel beschäftigt sich mit alterantiven Ansätzen zu den bereits explizierten Basisemotionen. Diese sind wie bereits erwähnt umstritten, was die Frage zulässt warum diese überhaupt
+verwendet werden sollten. Kreative alternative Ansätze gibt es zur Emotionserkennung. So gibt es z.B. Ansätze Emotionen anhand der Sprache eines Menschen zu ermitteln.
+Dieser Ansatz beruft sich darauf, dass das Sprachzentrum eines Menschen einer der wichtigsten Aspekte der Kommunikation und somit auch der Preisgabe von Informationen über den emotionalen Zusatnd eines Individuums ist.
+\footcite[Vgl. ][Abstract]{EmotionInSpeech}
+Dieser Ansatz ist jedoch nicht zielführend, da hier hauptsächlich die Stimme analysiert wird. Von einer Stimme kann nun auf eine Emotion geschlossen werden. Für den use case ist dieser Ansatz allerfings ungeeignet, aus folgenden Gründen:
+\newline
+Es kann möglich sein eine Emotion anhand der Sprache zu erkennen. Das Äquivalent eines Pokerfaces wäre wiederum eine neutrale Stimmhaltung, da es Ziel ist möglichst emotionslos zu wirken bei einem Pokerface. Nun kann aber keine Aussage getroffen werden warum eine Person neutral spricht. Es könnte von einem Pokerface stammen, oder einer montonen Sprechweise, oder einen gelangweilten Gemütszustand. Dies ist nicht eindeutig identifizierbar. Gleiches könnte nicht über ein neutrales Gesicht gesagt werden, da dies gemeinhin als Pokerface bezeichnet wird. 
+Ein weitere Ansatz ist, dass Musik eine gewisse Emotion zugeschrieben wird. hierbei geht es darum, dass dem Hörer bei gewissen Liedern eine gewisse Emotion zu teil wird.
+\footcite[Vgl.][1]{MusicEmotion}
+ Ziel dieses Forschungszweiges ist es daher die hinter Liedern oder Klängen stehenden Emotionen zu ermitteln, um sie z.B. zu kategorisieren.
+Dieser Ansatz erscheint zunächst durchaus interessant, hat jedoch genauso Nachteile wie die Analyse von Emotionen anhand von Bildern die Basisemotionen zeigen. Dieser liegt hier unter anderem in
+der genuaigkeit der Analysen. So z.B. lieferte ein Testprojekt an der Russichen HSE (Higher School of Economics) das Ergebnis von einer maximalen Genauigkeoit von 71\%.
+\footcite[Vgl. ][Abstract]{EmotionInSound}
+In dem versuchsaufbau wurden Spektogramme von Klangfragmenten ausgewertet und versucht mittels Neuronalen Netzen eine Klssifikation der hinter dem Klang liegenden Emotion zu erreichen.
+\footcite[Vgl. ][Abstract]{EmotionInSound}
+Der generelle Ansatz anhand von Musik die Emotion eines Individuums abzulesen ist zwar praktikabel und vom versuchsaufbau auch relativ ähnlich zu dem Ansatz bereits gelabelte Bilder zu verwenden. Jedoch lässt sich auf diese Weise nicht die eigentliche Zielaufgabenstellung ableiten, das Erkennen eines Pokerfaces, da dies eine rein visuelle Problemstellung ist.
 \let\cleardoublepage\relax
 \newpage
 \chapter{Methode}
@@ -215,12 +279,15 @@ Dabei sollen die einzelnen Anforderungen entsprechend ihrer Priorität abgearbei
 
 \let\cleardoublepage\relax
 \chapter{Diskussion}
-Das nunmehr letzte Kapitel soll sich mit der kurzen Zusammenfassung der Ergebnisse des letztens Teils und deren Bewertung widmen. Des Weiteren sollen die angewandten Methoden reflektiert werden, offene Fragen beantwortet und auch weitere Punkte aufgezeigt werden die verbessert oder noch implementiert werden können. Dazu soll zunächst die Ergebnisse kurz zusammengefasst werden.
+Das nunmehr letzte Kapitel soll sich mit der kurzen Zusammenfassung der Ergebnisse des letztens Teils und deren Bewertung widmen. Des Weiteren sollen die angewandten Methoden reflektiert werden,
+offene Fragen beantwortet und auch weitere Punkte aufgezeigt werden die verbessert oder noch implementiert werden können. Dazu soll zunächst die Ergebnisse kurz zusammengefasst werden.
 \section{Reflexion der Ergebnisse}
+\subsection{Alternaitven}
 \section{Reflexion Vorgehen}
 Mehr darauf eingehen dass das Kontrovers ist und auch die basisemotionen kopntrovers sind --  aber keine andere Möglichkeit vorhanden 
 \section{Reflexion der Literatur}
-Bezüglich der Literatur ergeben sich nun einige Schwierigkeiten. Dies liegt unter anderem daran, dass das generelle Thema der Gesichts und Emotionserkennung immer noch vor allem aus psychologischer Sicht in der Literatur behandelt wurde. Zwar gibt es Fachbücher auch aus informationstechnischer Sicht, welceh ebenfalls in dieser Arbeit verwedet wurden. 
+Bezüglich der Literatur ergeben sich nun einige Schwierigkeiten. Dies liegt unter anderem daran, dass das generelle Thema der Gesichts und Emotionserkennung immer noch vor allem aus
+psychologischer Sicht in der Literatur behandelt wurde. Zwar gibt es Fachbücher auch aus informationstechnischer Sicht, welceh ebenfalls in dieser Arbeit verwedet wurden.
 \section{Offene Implikationen}
 
 
@@ -230,7 +297,7 @@ Bezüglich der Literatur ergeben sich nun einige Schwierigkeiten. Dies liegt unt
 \pagestyle{empty}
 \printbibheading
 \printbibliography[type=book,heading=subbibliography,title={Literaturquellen}]
-\printbibliography[type=misc,heading=subbibliography,title={Online Quellen}]
+\printbibliography[type=misc,heading=subbibliography,title={Sonstige Quellen}]
 \pagestyle{empty}
 \newpage
 \pagestyle{empty}

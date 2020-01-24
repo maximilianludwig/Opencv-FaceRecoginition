@@ -99,13 +99,13 @@
     \endentry
     \entry{HandbookFaceRec}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=236e7a17c0679bdf8ebb90e5a4f529cd}{%
+        {{un=0,uniquepart=base,hash=408352791a18146bf59fcc7568333f34}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={Anil\bibnamedelima K.},
            giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0,
-           suffix={Stan\bibnamedelimb Z.;\bibnamedelima Jain},
+           suffix={Stan\bibnamedelimb Z.and\bibnamedelima Jain},
            suffixi={S\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim J\bibinitperiod},
            suffixun=0}}%
       }
@@ -113,12 +113,12 @@
         {Springer Science}%
         {Business Media}%
       }
-      \strng{namehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
-      \strng{fullhash}{236e7a17c0679bdf8ebb90e5a4f529cd}
-      \strng{bibnamehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
-      \strng{authorbibnamehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
-      \strng{authornamehash}{236e7a17c0679bdf8ebb90e5a4f529cd}
-      \strng{authorfullhash}{236e7a17c0679bdf8ebb90e5a4f529cd}
+      \strng{namehash}{408352791a18146bf59fcc7568333f34}
+      \strng{fullhash}{408352791a18146bf59fcc7568333f34}
+      \strng{bibnamehash}{408352791a18146bf59fcc7568333f34}
+      \strng{authorbibnamehash}{408352791a18146bf59fcc7568333f34}
+      \strng{authornamehash}{408352791a18146bf59fcc7568333f34}
+      \strng{authorfullhash}{408352791a18146bf59fcc7568333f34}
       \field{labelalpha}{Li05}
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
@@ -128,12 +128,92 @@
       \field{title}{Handbook of Face Recognition}
       \field{year}{2005}
     \endentry
+    \entry{EmotionInSound}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=56675287f8c6d638df3f5b98e67c8b9c}{%
+           family={Popova},
+           familyi={P\bibinitperiod},
+           given={Anastasiya\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b168791eabf5d4c34763e1a2331aed7}{%
+           family={Rassadin},
+           familyi={R\bibinitperiod},
+           given={Alexandr\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64ed321012569a695c768db74b7b91ab}{%
+           family={Ponomarenko},
+           familyi={P\bibinitperiod},
+           given={Alexander\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham, Deutschland}%
+      }
+      \list{publisher}{1}{%
+        {Springer Verlag}%
+      }
+      \strng{namehash}{5ff67f8e6e5b8b84366f4d63c18cdc38}
+      \strng{fullhash}{5ff67f8e6e5b8b84366f4d63c18cdc38}
+      \strng{bibnamehash}{5ff67f8e6e5b8b84366f4d63c18cdc38}
+      \strng{authorbibnamehash}{5ff67f8e6e5b8b84366f4d63c18cdc38}
+      \strng{authornamehash}{5ff67f8e6e5b8b84366f4d63c18cdc38}
+      \strng{authorfullhash}{5ff67f8e6e5b8b84366f4d63c18cdc38}
+      \field{labelalpha}{PRP17}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3319666037}
+      \field{title}{Emotion Recognition in Sound}
+      \field{year}{2017}
+    \endentry
+    \entry{EmotionInSpeech}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c669222ea48a7f3b7922d17e4c551ec2}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi Sreenivasa},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9101825d4c88dc6a9fc79876bf78b8c7}{%
+           family={Koolagudi},
+           familyi={K\bibinitperiod},
+           given={Shashidhar\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Deutschland}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media}%
+      }
+      \strng{namehash}{3781c2ce758f9168c8ff6035ab98e477}
+      \strng{fullhash}{3781c2ce758f9168c8ff6035ab98e477}
+      \strng{bibnamehash}{3781c2ce758f9168c8ff6035ab98e477}
+      \strng{authorbibnamehash}{3781c2ce758f9168c8ff6035ab98e477}
+      \strng{authornamehash}{3781c2ce758f9168c8ff6035ab98e477}
+      \strng{authorfullhash}{3781c2ce758f9168c8ff6035ab98e477}
+      \field{labelalpha}{RK12}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1. Auflage}
+      \field{isbn}{978-1461451433}
+      \field{title}{Emotion Recognition using Speech Features}
+      \field{year}{2012}
+    \endentry
     \entry{Projektmanagement}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=50a6a1aa00f740be3424d7cdb47281c8}{%
+        {{un=0,uniquepart=base,hash=c6320fcae8a39b633770eb11640f19a9}{%
            family={Roger},
            familyi={R\bibinitperiod},
-           given={Schneider\bibnamedelimb Patrick;\bibnamedelimb Witschi\bibnamedelimb Urs;\bibnamedelima Wüst},
+           given={Schneider\bibnamedelimb Patrickand\bibnamedelimb Witschi\bibnamedelimb Ursand\bibnamedelima Wüst},
            giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
       }
@@ -143,12 +223,12 @@
       \list{publisher}{1}{%
         {"Springer Gabler"}%
       }
-      \strng{namehash}{50a6a1aa00f740be3424d7cdb47281c8}
-      \strng{fullhash}{50a6a1aa00f740be3424d7cdb47281c8}
-      \strng{bibnamehash}{50a6a1aa00f740be3424d7cdb47281c8}
-      \strng{authorbibnamehash}{50a6a1aa00f740be3424d7cdb47281c8}
-      \strng{authornamehash}{50a6a1aa00f740be3424d7cdb47281c8}
-      \strng{authorfullhash}{50a6a1aa00f740be3424d7cdb47281c8}
+      \strng{namehash}{c6320fcae8a39b633770eb11640f19a9}
+      \strng{fullhash}{c6320fcae8a39b633770eb11640f19a9}
+      \strng{bibnamehash}{c6320fcae8a39b633770eb11640f19a9}
+      \strng{authorbibnamehash}{c6320fcae8a39b633770eb11640f19a9}
+      \strng{authornamehash}{c6320fcae8a39b633770eb11640f19a9}
+      \strng{authorfullhash}{c6320fcae8a39b633770eb11640f19a9}
       \field{labelalpha}{Rog18}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
@@ -158,39 +238,6 @@
       \field{isbn}{978-3662578773}
       \field{title}{Handbuch Projektmanagement: Agil – Klassisch – Hybrid}
       \field{year}{2018}
-    \endentry
-    \entry{IEEE}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=75ad2eee1f8eec237c27e07cd1477b30}{%
-           family={Saranya},
-           familyi={S\bibinitperiod},
-           given={J.\bibnamedelimi Satheesh},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0,
-           suffix={R\bibnamedelima Benedict\bibnamedelimb ;\bibnamedelima Kumar},
-           suffixi={R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim ;\bibinitperiod\bibinitdelim K\bibinitperiod},
-           suffixun=0}}%
-      }
-      \list{location}{1}{%
-        {Coimbatore - India}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{75ad2eee1f8eec237c27e07cd1477b30}
-      \strng{fullhash}{75ad2eee1f8eec237c27e07cd1477b30}
-      \strng{bibnamehash}{75ad2eee1f8eec237c27e07cd1477b30}
-      \strng{authorbibnamehash}{75ad2eee1f8eec237c27e07cd1477b30}
-      \strng{authornamehash}{75ad2eee1f8eec237c27e07cd1477b30}
-      \strng{authorfullhash}{75ad2eee1f8eec237c27e07cd1477b30}
-      \field{labelalpha}{Sar17}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-1509037698}
-      \field{title}{Geometric shaped facial feature extraction for face recognition}
-      \field{year}{2017}
     \endentry
     \entry{mixedArticle}{misc}{}
       \name{author}{1}{}{%
@@ -216,6 +263,78 @@
       \field{note}{Einsichtnahme:24.01.2020}
       \field{title}{Künstliche Intelligenz: Emotionserkennung will gelernt sein}
       \field{year}{2019}
+    \endentry
+    \entry{IEEE}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5e47c686b076742c7dda88d3d8c0058a}{%
+           family={Saranya},
+           familyi={S\bibinitperiod},
+           given={R\bibnamedelima Benedict},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ceaa7278cfcfa4d37f377e09bba6e30}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi Satheesh},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Coimbatore - India}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{83f22f3e2f412238f3563bb7c5d0f978}
+      \strng{fullhash}{83f22f3e2f412238f3563bb7c5d0f978}
+      \strng{bibnamehash}{83f22f3e2f412238f3563bb7c5d0f978}
+      \strng{authorbibnamehash}{83f22f3e2f412238f3563bb7c5d0f978}
+      \strng{authornamehash}{83f22f3e2f412238f3563bb7c5d0f978}
+      \strng{authorfullhash}{83f22f3e2f412238f3563bb7c5d0f978}
+      \field{labelalpha}{SK17}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1509037698}
+      \field{title}{Geometric shaped facial feature extraction for face recognition}
+      \field{year}{2017}
+    \endentry
+    \entry{MusicEmotion}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dc4d44f6814797864181d8ee2756517f}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yi-Hsuan},
+           giveni={Y\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59f3bb5f830ffcbabc22d9835cbc1ccd}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Homer\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton Florida}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press,}%
+      }
+      \strng{namehash}{7156e8ac653202d5144cdffdfa9ba3f8}
+      \strng{fullhash}{7156e8ac653202d5144cdffdfa9ba3f8}
+      \strng{bibnamehash}{7156e8ac653202d5144cdffdfa9ba3f8}
+      \strng{authorbibnamehash}{7156e8ac653202d5144cdffdfa9ba3f8}
+      \strng{authornamehash}{7156e8ac653202d5144cdffdfa9ba3f8}
+      \strng{authorfullhash}{7156e8ac653202d5144cdffdfa9ba3f8}
+      \field{labelalpha}{YC11}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1466508927}
+      \field{title}{Music Emotion Recognition}
+      \field{year}{2011}
     \endentry
   \enddatalist
 \endrefsection

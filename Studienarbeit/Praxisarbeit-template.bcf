@@ -2196,7 +2196,11 @@
     <bcf:citekey order="12">HandbookFaceRec</bcf:citekey>
     <bcf:citekey order="13">FaceRec</bcf:citekey>
     <bcf:citekey order="14">FaceRec</bcf:citekey>
-    <bcf:citekey order="15">Projektmanagement</bcf:citekey>
+    <bcf:citekey order="15">EmotionInSpeech</bcf:citekey>
+    <bcf:citekey order="16">MusicEmotion</bcf:citekey>
+    <bcf:citekey order="17">EmotionInSound</bcf:citekey>
+    <bcf:citekey order="18">EmotionInSound</bcf:citekey>
+    <bcf:citekey order="19">Projektmanagement</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

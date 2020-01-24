@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Praxisarbeit-template.blg'
-[92] biber-MSWIN64:322> INFO - === 
-[121] Biber.pm:415> INFO - Reading 'Praxisarbeit-template.bcf'
-[250] Biber.pm:943> INFO - Found 7 citekeys in bib section 0
-[272] Biber.pm:4256> INFO - Processing section 0
-[273] Utils.pm:75> INFO - Globbing data source 'lit.bib'
-[288] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
-[316] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[324] bibtex.pm:1653> INFO - LaTeX decoding ...
-[342] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
-[395] Utils.pm:304> WARN - ISBN '978-16045646625' in entry 'FaceRec' is invalid - run biber with '--validate_datamodel' for details.
-[441] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[442] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[442] Biber.pm:4084> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
-[442] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[451] bbl.pm:652> INFO - Writing 'Praxisarbeit-template.bbl' with encoding 'UTF-8'
-[456] bbl.pm:755> INFO - Output to Praxisarbeit-template.bbl
-[458] Biber.pm:128> INFO - WARNINGS: 1
+[103] biber-MSWIN64:322> INFO - === 
+[138] Biber.pm:415> INFO - Reading 'Praxisarbeit-template.bcf'
+[265] Biber.pm:943> INFO - Found 10 citekeys in bib section 0
+[290] Biber.pm:4256> INFO - Processing section 0
+[291] Utils.pm:75> INFO - Globbing data source 'lit.bib'
+[309] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
+[336] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[343] bibtex.pm:1653> INFO - LaTeX decoding ...
+[366] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
+[432] Utils.pm:304> WARN - ISBN '978-16045646625' in entry 'FaceRec' is invalid - run biber with '--validate_datamodel' for details.
+[530] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[530] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[530] Biber.pm:4084> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[531] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[547] bbl.pm:652> INFO - Writing 'Praxisarbeit-template.bbl' with encoding 'UTF-8'
+[555] bbl.pm:755> INFO - Output to Praxisarbeit-template.bbl
+[555] Biber.pm:128> INFO - WARNINGS: 1
