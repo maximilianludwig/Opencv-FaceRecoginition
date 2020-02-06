@@ -5,23 +5,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {I.1}Aufgabenstellung}{III}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {II}Theorie}{III}{chapter.2}%
+\contentsline {chapter}{\numberline {II}Stand der Technik}{III}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.1}Stand der Technik}{III}{section.2.1}%
+\contentsline {section}{\numberline {II.1}Geischtserkennung}{III}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.1}Emotionserkennung}{IV}{subsection.2.1.1}%
+\contentsline {section}{\numberline {II.2}Emotionserkennung}{V}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.2}Geischtserkennung}{IV}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {II.2.1}Emotionen}{V}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.3}Gemeinsamkeiten und Unterschiede}{V}{subsection.2.1.3}%
+\contentsline {section}{\numberline {II.3}Emotionserkennung mittels Deep Learning}{VI}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.2}Emotionen}{V}{section.2.2}%
+\contentsline {subsection}{\numberline {II.3.1}OpenCV vs Tensorflow}{VI}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.3}Python}{VI}{section.2.3}%
+\contentsline {subsection}{\numberline {II.3.2}Aufbau des neuronalen Netzes}{VI}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.4}ALternative Ansätze}{VI}{section.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.4.1}Emotionserkennung}{VI}{subsection.2.4.1}%
+\contentsline {section}{\numberline {II.4}Alerantive Ansätze zur Umsetzung von Emotionserkennung}{VI}{section.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {III}Methode}{VIII}{chapter.3}%
 \defcounter {refsection}{0}\relax 
