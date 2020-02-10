@@ -16,8 +16,8 @@ natbib=true,
 hyperref=true,
 ]{biblatex}
 \addbibresource{lit.bib} 
-\setcounter{secnumdepth}{4}
-\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
 \geometry{
 left=2.5cm,
 right=2.5cm,
@@ -126,25 +126,25 @@ vorgesehen, da es sich um ein Forschungsprojekt handelt. Jedoch sind wie bereits
 
 
 \let\cleardoublepage\relax
-\chapter{Theorie}
+\chapter{Stand der Technik}
 Technologien todo:
 \begin{itemize}
 
 \item Poker erklären (Wenn wir Poker als testusecase benutzen)
 \end{itemize}
 
-\section{Stand der Technik}
 In diesem Abschnitt soll der aktuelle Forschungs- und Entwicklungsstand im Bereich Emotionserkennung thematisiert werden. Jedoch muss dafür erst einmal eine Unterscheidung der Begrifflichkeiten
 Emotionserkennung und Gesichtserkennung erfolgen, da beide gebiete Überschneidungen haben, jedoch inhaltlich und von ihren Zielen verschieden sind.
 
-\subsection{Geischtserkennung}
+\section{Gesichtserkennung vs. Emotionserkennung}
+\subsection{Gesichtserkennung}
 \begin{itemize}
 \item use cases von Gesichtserkennung
 \item Grenzen der Gesichtserkennung
 \item Ausblick in der Gesichtserkennung
 \end{itemize}
 
-Gesichtserkennung ist eine Disziplin der Informatik in der es darum geht Gesichter wieder zu erkennen, und gegebenanfalls verschiedenen Personen zuzuordnen. Dabei lässt sich der Prozess der
+Gesichtserkennung ist eine Disziplin der Informatik in der es darum geht Gesichter wieder zu erkennen, und gegebenenfalls verschiedenen Personen zuzuordnen. Dabei lässt sich der Prozess der
 Gesichtserkennung in vier Phasen einteilen, Face ''detection'', ''alignment'', ''feature extraction'' und ''matching''.
 \footcite[Vgl. ][2]{HandbookFaceRec}
 \begin{figure}
@@ -166,29 +166,21 @@ Match mit einer Person ausgegeben.
 Die Anwendungsgebiete von Software die Gesichtserkennung ermöglicht ist mannigfaltig. Sie reicht von Applikationen die ein Gerät wie ein Smartphone entsperren, wenn das Gesicht des Besitzers als
 Match ausgegeben wurde, bis hin zur Anwendung in Verbrechensbekämpfung. In jedem dieser Szenarien wird dabei der oben beschriebene Ablauf durchgegangen, und abhängig vom zu liefernden Ergebnis
 eine Abschlussaktion vorgenommen.
- 
 \subsection{Emotionserkennung}
+In diesem Unterkapitel nun sollen Emotionen an sich thematisiert werden, da diese maßgeblich sind für das zu entwickelnde Tool. Eine Definition von Emotionserkennung ist per se nicht schwer zu geben. Prinzipiell beschäftigt sich Emotionserkennung mit der Analyse von Gesichtern und den Emotionen die diese Gesichter darstellen. Jedoch ist der Begriff der Emotionen nicht ganz so einfach zu definieren, wie im folgenden erläutert wird: 
 
-\begin{itemize}
-\item was ist Emotionserkennung
-\item usecase für emotion recognition
-\item Ausblick und Kontroverse
-\end{itemize}
+%\begin{itemize}
+%\item was ist Emotionserkennu
+%\item usecase für emotion recognition
+%\item Aiusblick und Kontroverse
+%\end{itemize}
 
- 
-\subsection{Gemeinsamkeiten und Unterschiede}
-\begin{itemize}
-\item Gemeinsamkeiten und Unterschiede in Anwendungsgebieten
-\item formalen Aspekten
-\end{itemize}
-
-\section{Emotionen}
+\subsubsection{Emotionen}
 
 \begin{itemize}
 \item Def. von Emotionen
 \end{itemize}
-
-In diesem Unterkapitel nun sollen Emotionen an sich thematisiert werden, da diese maßgeblich sind für das zu entwickelnde Tool. Grundsätzlich gibt es  verschieden Ansätze Emotionen zu
+ Grundsätzlich gibt es  verschieden Ansätze Emotionen zu
 definieren und einzuteilen. Eine Variante ist dabei die eingangs erwähnte, nicht ganz unumstrittene Einteilung in Basisemotionen. Eine gängige Einteilung ist dabei die verschiedenen
 Emotionen in acht Bereiche einzuteilen. Diese Einteilung wurden 1984 von Plutchik postuliert und beinhaltet die Emotionskategorien Angst, Wut, Freude, Trauer, Akzeptanz, Ekel, Erwartung und
 Überraschung.
@@ -202,18 +194,15 @@ wurde diese aus den folgenden Gründen gewählt: \newline
 Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da diese zum Teil komplementär und somit eindeutig sind. Es ist aber auch einfacher Testdatensätze zu bekommen für ein
 freudiges Gesicht, oder ein überraschtes, als ein Gesicht mit dem emotionalen Ausdruck Akzeptanz. Des Weiteren wurde der Ausdruck ''Neutral'' hinzugefügt. Neutral repräsentiert ein emotionsloses
 Gesicht, und somit nach Definition einem Pokerface. Zudem sind die gewählten Emotionen häufig bei dem Test Usecase dieser Arbeit anzutreffen, dem Texas Holdem Poker.
-
-\section{Python}
-\begin{itemize}
-\item Python (Als ganzes warum Python, Libraries erklären, warum python verwendet wurde und state of the art ist
-\item Tensorflow und Kreas wenn wir es verwenden aber auch wenn wir es nicht machen
-\item verwendeter Datensatz
-\item CNN --> Wie arbeitet die KI bei Gesichtserkennung ?
-\end{itemize}
-
-\section{Alternative Ansätze}
-In diesem Abschnitt nun werden noch verschiedene alternative Ansätze dargestellt und expliziert warum sich gegen diese, und für die bereits genannten Verfahrensweisen entschieden wurde.
-\subsection{Emotionserkennung}
+\subsubsection{Abgrenzung zur Gesichtserkennung}
+\section{Emotionserkennung mithilfe von Deep Learning}
+In dem nun folgenden Kapitel wird erörtert wie das Ziel der Arbeit, das Erkennen eines Pokerfaces, mittels eines neuronalen Netzes umgesetzte werden kann. Dabei wird weniger auf die generellen Eigenschaften von Neuronalen Netzen Bezug genommen, als auf die in dieser Arbeit spezifischen Aspekte. Diese sind unter anderem die verwendeten Komponenten, Applikationen und die Architektur im allgemeinen, sowie der Aufbau der Netzes selbst.
+\subsection{OpenCV vs. Tensorflow}
+Libraries werden hier expliziert
+\subsection{Supervised vs. Unsupervised Learning}
+Layer, Neuronen und Algorithmen explizieren 
+\section{Alternative Ansätze zur Umsetzung von Emotionserkennung}
+In diesem Abschnitt nun werden verschiedene alternative Ansätze dargestellt und expliziert, die dazu verwendet werden können um Emotionen zu erkennen.
 Dieses Unterkapitel beschäftigt sich mit alternativen Ansätzen zu den bereits explizierten Basisemotionen. Diese sind wie bereits erwähnt umstritten, was die Frage zulässt warum diese überhaupt
 verwendet werden sollten. Ein weiterer kreativer Ansatz zur Erkennung von Emotionen wäre die Analyse der Stimmlage.
 Dieser Ansatz beruft sich darauf, dass das Sprachzentrum eines Menschen einer der wichtigsten Aspekte der Kommunikation und somit auch der Preisgabe von Informationen über den emotionalen Zustand eines Individuums ist.
@@ -223,52 +212,21 @@ Dieser Ansatz ist jedoch nicht zielführend, da hier hauptsächlich die Stimme a
 Es kann möglich sein eine Emotion anhand der Sprache zu erkennen. Das Äquivalent eines Pokerfaces wäre dementsprechend eine neutrale Stimmlage, welche keine Emotionen suggeriert. Nun kann aber keine Aussage getroffen werden aus welchen Gründen eine Person neutral spricht. Es könnte von einem Pokerface stammen, oder einer monotonen Sprechweise, oder einen gelangweilten Gemütszustand. Dies ist nicht eindeutig identifizierbar. Gleiches könnte nicht über ein neutrales Gesicht gesagt werden, da dies gemeinhin als Pokerface bezeichnet wird. %Spricht das nicht auch gegen unser Vorgehen?
 Ein weitere Ansatz wäre die Analyse der derzeit vernommenen Musik. Diese kann einem bestimmten Gemütszustand zugesprochen werden, welches auf eine aktuelle Emotion übertragbar ist.
 \footcite[Vgl.][1]{MusicEmotion}
- Ziel dieses Forschungszweiges ist es daher die hinter Liedern oder Klängen stehenden Emotionen zu ermitteln und diese entsprechend zu kategorisieren.
+Ziel dieses Forschungszweiges ist es daher die hinter Liedern oder Klängen stehenden Emotionen zu ermitteln und diese entsprechend zu kategorisieren.
 Dieser Ansatz erscheint zunächst durchaus interessant, hat jedoch genauso Nachteile wie die Analyse von Emotionen anhand von Bildern die Basisemotionen zeigen. %Spricht wieder gegen unser Vorgehen
-Dieser liegt hier unter anderem in der Genauigkeit der Analysen. So z.B. lieferte ein Testprojekt an der Russichen HSE (Higher School of Economics) das Ergebnis von einer maximalen Genauigkeit von 71\%.
+Dieser liegt hier unter anderem in der Genauigkeit der Analysen. So z.B. lieferte ein Testprojekt an der Russischen HSE (Higher School of Economics) das Ergebnis von einer maximalen Genauigkeit von 71\%.
 \footcite[Vgl. ][Abstract]{EmotionInSound}
 In dem Versuchsaufbau wurden Spektrogramme von Klangfragmenten ausgewertet und versucht mittels Neuronalen Netzen eine Klassifikation der hinter dem Klang liegenden Emotion zu erreichen.
 \footcite[Vgl. ][Abstract]{EmotionInSound}
 Der generelle Ansatz anhand von Musik die Emotion eines Individuums abzulesen ist zwar praktikabel und von dem Versuchsaufbau auch vergleichbar zu dem Ansatz bereits gelabelte Bilder zu verwenden. Jedoch lässt sich auf diese Weise aus zwei Gründen nicht die eigentliche Zielaufgabenstellung ableiten, das Erkennen eines Pokerfaces. Zum einen handelt es sich in dieser Arbeit um eine visuelle Problemstellung, in welcher das Erkennen des Gemütszustandes anhand des Gesichtsausdruckes erkannt werden soll, also einem vorhandenen bzw. nicht vorhandenen Pokerface. Zum anderen würde die Analyse von Musik einen Rückschluss auf den allgemeinen Gemütszustand des Betroffenen folgern und nicht eine kurzzeitige Stimmungsschwankung aufgrund beispielsweise eines schlechten Blattes, wie in diesem Usecase.
+
+
 \let\cleardoublepage\relax
 \newpage
-\chapter{Methode}
 
-Als vorgehen könnten wir sagen dass wir die neuen Algorithmen oder Daten beim Poker teste, das wäre Lustig und ein Use case der Sinn macht. Mehr als sich stupide vor die Kamera zu setzen.
-
-Diese Arbeit soll methodisch mit der MoSCoW Priorisierung bearbeitet werden. Diese Art der Priorisierung teilt die zu bearbeitenden Anforderungen in vier Kategorien ein:
-\footcite[vgl.][90]{Projektmanagement}
-\begin{itemize}
-\item Must - Core Anforderungen die unbedingt umgesetzt werden müssen
-\item Should - Anforderungen die ebenfalls umgesetzt werden müssen, jedoch um Nachhinein noch durch Change Request verändert werden können.
-\item Could - Anforderungen die Nach den Must und Should Anforderungen umgesetzt werden sollen, sofern noch Ressourcen und Zeit vorhanden sind um diese zu bearbeiten
-\item Won't - Anforderungen die nicht in diesem Projekt bzw. Release erfolgen, jedoch in einer zukünftigen Version bearbeitet werden sollen. 
-\end{itemize}
-
-
-\begin{itemize}
-\item Must
-\begin{itemize}
-\item placeholder
-\end{itemize}
-\item Should
-\begin{itemize}
-\item placeholder
-\end{itemize}
-\item Could
-\begin{itemize}
-\item placeholder
-\end{itemize}
-\item Won't
-\begin{itemize}
-\item placeholder
-\end{itemize}
-\end{itemize}
-Dabei sollen die einzelnen Anforderungen entsprechend ihrer Priorität abgearbeitet werden. So kann am Ende der Erfolg der Arbeit deutlich besser eingeordnet werden
-
-\let\cleardoublepage\relax
 \chapter{Ergebnis}
-%\section{test1}
+\section{Erstellung eines Modells}
+\section{Testen des Modells}
 %\subsection{test2}
 %\subsubsection{test3}
 %\paragraph*{Gitea Setup}

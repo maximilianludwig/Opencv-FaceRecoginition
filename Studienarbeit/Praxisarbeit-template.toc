@@ -5,36 +5,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {I.1}Aufgabenstellung}{III}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {II}Theorie}{III}{chapter.2}%
+\contentsline {chapter}{\numberline {II}Stand der Technik}{III}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.1}Stand der Technik}{III}{section.2.1}%
+\contentsline {section}{\numberline {II.1}Gesichtserkennung vs. Emotionserkennung}{III}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.1}Geischtserkennung}{III}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {II.1.1}Gesichtserkennung}{III}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {II.1.2}Emotionserkennung}{V}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.1.3}Gemeinsamkeiten und Unterschiede}{V}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {II.1.2.1}Emotionen}{V}{subsubsection.2.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.2}Emotionen}{V}{section.2.2}%
+\contentsline {subsubsection}{\numberline {II.1.2.2}Abgrenzung zur Gesichtserkennung}{VI}{subsubsection.2.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.3}Python}{VI}{section.2.3}%
+\contentsline {section}{\numberline {II.2}Emotionserkennung mithilfe von Deep Learning}{VI}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.4}Alternative Ansätze}{VI}{section.2.4}%
+\contentsline {subsection}{\numberline {II.2.1}OpenCV vs. Tensorflow}{VI}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.4.1}Emotionserkennung}{VI}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {II.2.2}Supervised vs. Unsupervised Learning}{VI}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {III}Methode}{VIII}{chapter.3}%
+\contentsline {section}{\numberline {II.3}Alternative Ansätze zur Umsetzung von Emotionserkennung}{VI}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {IV}Ergebnis}{VIII}{chapter.4}%
+\contentsline {chapter}{\numberline {III}Ergebnis}{VIII}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {V}Diskussion}{IX}{chapter.5}%
+\contentsline {section}{\numberline {III.1}Erstellung eines Modells}{VIII}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V.1}Reflexion der Ergebnisse}{IX}{section.5.1}%
+\contentsline {section}{\numberline {III.2}Testen des Modells}{VIII}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {V.1.1}Alternativen}{IX}{subsection.5.1.1}%
+\contentsline {chapter}{\numberline {IV}Diskussion}{VIII}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V.2}Reflexion Vorgehen}{IX}{section.5.2}%
+\contentsline {section}{\numberline {IV.1}Reflexion der Ergebnisse}{VIII}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V.3}Reflexion der Literatur}{IX}{section.5.3}%
+\contentsline {subsection}{\numberline {IV.1.1}Alternativen}{VIII}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {V.4}Offene Implikationen}{IX}{section.5.4}%
+\contentsline {section}{\numberline {IV.2}Reflexion Vorgehen}{VIII}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {IV.3}Reflexion der Literatur}{VIII}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {IV.4}Offene Implikationen}{IX}{section.4.4}%
