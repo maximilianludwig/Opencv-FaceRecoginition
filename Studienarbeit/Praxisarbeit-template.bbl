@@ -208,37 +208,6 @@
       \field{title}{Emotion Recognition using Speech Features}
       \field{year}{2012}
     \endentry
-    \entry{Projektmanagement}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c6320fcae8a39b633770eb11640f19a9}{%
-           family={Roger},
-           familyi={R\bibinitperiod},
-           given={Schneider\bibnamedelimb Patrickand\bibnamedelimb Witschi\bibnamedelimb Ursand\bibnamedelima Wüst},
-           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Sebastopol}%
-      }
-      \list{publisher}{1}{%
-        {"Springer Gabler"}%
-      }
-      \strng{namehash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{fullhash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{bibnamehash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{authorbibnamehash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{authornamehash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{authorfullhash}{c6320fcae8a39b633770eb11640f19a9}
-      \field{labelalpha}{Rog18}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Auflage 4}
-      \field{isbn}{978-3662578773}
-      \field{title}{Handbuch Projektmanagement: Agil – Klassisch – Hybrid}
-      \field{year}{2018}
-    \endentry
     \entry{mixedArticle}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=505f9b87d0d412f0db6cc20b965e42a4}{%
