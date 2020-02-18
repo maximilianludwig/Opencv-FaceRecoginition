@@ -32,7 +32,13 @@ bindingoffset=5mm,
 \renewcommand\thechapter{\Roman{chapter}}
 \pagenumbering{Roman}
 \let\cleardoublepage\relax
+
+
+
+
+
 \section*{Erklärung}
+
 Ich versichere hiermit, dass ich meine Projektarbeit mit dem Thema: ''Titel der großen Studienarbeit'' selbstständig verfasst und keine anderen als die angegeben Quellen und Hilfsmittel benutzt
 habe.
 \newline
@@ -51,7 +57,13 @@ Ort	\hspace{2cm}		Datum\hspace{3,5 cm}				    Unterschrift
 \pagestyle{empty}
 \tableofcontents
 \listoffigures
+
+
+
+
+
 \section*{Abkürzungen}
+
 \begin{acronym}[Bash]
 % \acro{VCS}{Version Control System}
 \end{acronym}
@@ -59,7 +71,14 @@ Ort	\hspace{2cm}		Datum\hspace{3,5 cm}				    Unterschrift
 \newpage
 \pagestyle{plain}
 \setcounter{page}{1}
+
+
+
+
+
 \chapter{Einleitung}
+
+
 ''Several researchers have stated that facial expression recognition appears to play one of the most important roles in human communication'' 
 \footcite[Vgl.][1]{FaceRec}
 Dieses Zitat von Katherine B. Leeland gibt einen Einblick in die Relevanz der Emotionserkennung für den Menschen. Fragen zu dieser Thematik stellen sich allerdings nicht erst seit Beginn der Digitalisierung. Bereits Darwin
@@ -104,14 +123,17 @@ Nun soll nicht der Eindruck entstehen dass das hier gebaute Werkzeug ein Lügend
 Jedoch ist ein Pokerface ein Zeichen dafür, dass sich diese Person ihren emotionalen Zustand nicht anmerken lassen möchte. Und dies wiederum deutet eher daraufhin dass die Person nicht die
 Wahrheit sagt oder nur teilweise.
 Abgesehen von Einsatzgebieten die zur Entlarvung von Lügen führen, kann auch ein klassisches Szenario verwendet werden:
-\begin{itemize}
-	\item{Pokerspiel}
-\end{itemize}
-Es ist anzunehmen, dass der erste Begriff der mit dem Wort Pokerface in Verbindung gebracht wird, das Pokerspiel selber ist. Und auch in diesem kann ein Pokerface Detektor nützlich sein. So kann
-ein Mitspieler zum Beispiel mittels einer Kamera das Gesicht des Gegenübers scannen und analysieren ob ein Pokerface vorliegt oder nicht, und dementsprechend agieren.
-Nachdem verschiedene Anwendungsszenarien beleuchtet wurden wird im Folgenden die konkrete Forschungsfrage beleuchtet.
 %Irgendwas vergessen?
+
+
+
+
+
+\chapter{Anforderungen}
+
+
 \section{Aufgabenstellung}
+
  Das Projekt selber wird an der DHBW in Mannheim durchgeführt und von Prof. Dr. Erckhard Kruse betreut.
  Wie eingangs erwähnt soll mittels künstlicher Intelligenz ein Pokerface erkannt werden. 
 Zur Umsetzung dieser Aufgabe wird eine Bilderkennungssoftware angefertigt, welches ein übermitteltes Bild nach vorhandenen Emotionen analysiert. Sollte keine Emotion durch die Software erkannt werden, wird dem Anwender das Vorhandensein eines Pokerfaces zurück gegeben. Ein konkretes Einsatzgebiet nach Abschluss der Entwicklung ist nicht
@@ -125,19 +147,70 @@ vorgesehen, da es sich um ein Forschungsprojekt handelt. Jedoch sind wie bereits
 %\end{figure}
 
 
-\let\cleardoublepage\relax
-\chapter{Stand der Technik}
-Technologien todo:
-\begin{itemize}
+\section{Usecase}
 
-\item Poker erklären (Wenn wir Poker als testusecase benutzen)
+Es ist anzunehmen, dass der erste Begriff der mit dem Wort Pokerface in Verbindung gebracht wird, das Pokerspiel selber ist. Und auch in diesem kann ein Pokerface Detektor nützlich sein. So kann
+ein Mitspieler zum Beispiel mittels einer Kamera das Gesicht des Gegenübers scannen und analysieren ob ein Pokerface vorliegt oder nicht, und dementsprechend agieren.
+Nachdem verschiedene Anwendungsszenarien beleuchtet wurden wird im Folgenden die konkrete Forschungsfrage beleuchtet.
+
+
+\section{MoSCoW Priorisierung}
+
+%Als vorgehen könnten wir sagen dass wir die neuen Algorithmen oder Daten beim Poker teste, das wäre Lustig und ein Use case der Sinn macht. Mehr als sich stupide vor die Kamera zu setzen.
+Diese Arbeit soll methodisch mit der MoSCoW Priorisierung bearbeitet werden. Diese Art der Priorisierung teilt die zu bearbeitenden Anforderungen in vier Kategorien ein:
+\footcite[vgl.][90]{Projektmanagement}
+\begin{itemize}
+\item Must - Core Anforderungen die unbedingt umgesetzt werden müssen
+\item Should - Anforderungen die ebenfalls umgesetzt werden müssen, jedoch um Nachhinein noch durch Change Request verändert werden können.
+\item Could - Anforderungen die Nach den Must und Should Anforderungen umgesetzt werden sollen, sofern noch Ressourcen und Zeit vorhanden sind um diese zu bearbeiten
+\item Won't - Anforderungen die nicht in diesem Projekt bzw. Release erfolgen, jedoch in einer zukünftigen Version bearbeitet werden sollen. 
 \end{itemize}
+Im Zuge des Projektes wurden die vorhandenen Anforderungen wie folgt anhand der MoSCoW Priorisierung eingeordnet:
+\begin{itemize}
+\item Must
+\begin{itemize}
+\item Emotionen werden nicht zufällig erkannt
+\item Es wird zwischen keine Emotion (Pokerface) und Emotion vorhanden unterschieden
+\end{itemize}
+\item Should
+\begin{itemize}
+\item Die Wahrscheinlichkeit zur Erkennung der richtigen Emotion muss über 50\% liegen
+\item Es können mindestens fünf verschiedene Emotionen erkannt werden
+\item Die Erkennung der Emotion darf nicht länger als 30 Sekunden dauern
+\item Die Kosten zur Umsetzung der Lösung müssen dem Nutzen gerecht werden?
+\end{itemize}
+\item Could
+\begin{itemize}
+\item Bilder können zu Echtzeit analysiert werden
+\item Das Trainieren des Modells darf nicht länger als 72 Stunden dauern
+\item Eine Oberfläche zur intuitiven Bedienung der Lösung ohne technisches Verständnis muss vorhanden sein
+\end{itemize}
+\item Won't
+\begin{itemize}
+\item Neben dem Analysieren von Bildern ist auch die Analyse von Videos möglich
+\end{itemize}
+\end{itemize}
+Dabei sollen die einzelnen Anforderungen entsprechend ihrer Priorität abgearbeitet werden. So kann am Ende der Erfolg der Arbeit deutlich besser eingeordnet werden
+
+
+
+\let\cleardoublepage\relax
+
+
+
+
+
+\chapter{Stand der Technik}
+
 
 In diesem Abschnitt soll der aktuelle Forschungs- und Entwicklungsstand im Bereich Emotionserkennung thematisiert werden. Jedoch muss dafür erst einmal eine Unterscheidung der Begrifflichkeiten
 Emotionserkennung und Gesichtserkennung erfolgen, da beide gebiete Überschneidungen haben, jedoch inhaltlich und von ihren Zielen verschieden sind.
 
+
+
 \section{Gesichtserkennung vs. Emotionserkennung}
 \subsection{Gesichtserkennung}
+
 \begin{itemize}
 \item use cases von Gesichtserkennung
 \item Grenzen der Gesichtserkennung
@@ -166,7 +239,10 @@ Match mit einer Person ausgegeben.
 Die Anwendungsgebiete von Software die Gesichtserkennung ermöglicht ist mannigfaltig. Sie reicht von Applikationen die ein Gerät wie ein Smartphone entsperren, wenn das Gesicht des Besitzers als
 Match ausgegeben wurde, bis hin zur Anwendung in Verbrechensbekämpfung. In jedem dieser Szenarien wird dabei der oben beschriebene Ablauf durchgegangen, und abhängig vom zu liefernden Ergebnis
 eine Abschlussaktion vorgenommen.
+
+
 \subsection{Emotionserkennung}
+
 In diesem Unterkapitel nun sollen Emotionen an sich thematisiert werden, da diese maßgeblich sind für das zu entwickelnde Tool. Eine Definition von Emotionserkennung ist per se nicht schwer zu geben. Prinzipiell beschäftigt sich Emotionserkennung mit der Analyse von Gesichtern und den Emotionen die diese Gesichter darstellen. Jedoch ist der Begriff der Emotionen nicht ganz so einfach zu definieren, wie im folgenden erläutert wird: 
 
 %\begin{itemize}
@@ -174,6 +250,7 @@ In diesem Unterkapitel nun sollen Emotionen an sich thematisiert werden, da dies
 %\item usecase für emotion recognition
 %\item Aiusblick und Kontroverse
 %\end{itemize}
+
 
 \subsubsection{Emotionen}
 
@@ -194,14 +271,119 @@ wurde diese aus den folgenden Gründen gewählt: \newline
 Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da diese zum Teil komplementär und somit eindeutig sind. Es ist aber auch einfacher Testdatensätze zu bekommen für ein
 freudiges Gesicht, oder ein überraschtes, als ein Gesicht mit dem emotionalen Ausdruck Akzeptanz. Des Weiteren wurde der Ausdruck ''Neutral'' hinzugefügt. Neutral repräsentiert ein emotionsloses
 Gesicht, und somit nach Definition einem Pokerface. Zudem sind die gewählten Emotionen häufig bei dem Test Usecase dieser Arbeit anzutreffen, dem Texas Holdem Poker.
+
+
 \subsubsection{Abgrenzung zur Gesichtserkennung}
+
+
 \section{Emotionserkennung mithilfe von Deep Learning}
+
 In dem nun folgenden Kapitel wird erörtert wie das Ziel der Arbeit, das Erkennen eines Pokerfaces, mittels eines neuronalen Netzes umgesetzte werden kann. Dabei wird weniger auf die generellen Eigenschaften von Neuronalen Netzen Bezug genommen, als auf die in dieser Arbeit spezifischen Aspekte. Diese sind unter anderem die verwendeten Komponenten, Applikationen und die Architektur im allgemeinen, sowie der Aufbau der Netzes selbst.
 \subsection{OpenCV vs. Tensorflow}
 Libraries werden hier expliziert
 \subsection{Supervised vs. Unsupervised Learning}
 Layer, Neuronen und Algorithmen explizieren 
+
+
+
+\let\cleardoublepage\relax
+\newpage
+
+
+
+
+
+\chapter{Ergebnis}
+
+
+\section{Konzept}
+
+\subsection{Systemkomponenten}
+
+\subsection{Infrastruktur}
+\begin{itemize}
+\item Hardware
+\item Ressourcen
+\item Wechsel von Local-Hosting zu Cloud-Lösung
+\end{itemize}
+
+\subsection{Interaktionskonzept}
+\begin{itemize}
+\item GUI, UI, ...
+\end{itemize}
+
+\subsection{Verzeichnisstruktur}
+
+
+\section{Umsetzung der Lösung}
+
+\subsection{Stand-Alone Lösung mithilfe von OpenCV}
+\begin{itemize}
+\item Diente der Einarbeitung in die Technologien der Gesichtserkennung
+\item OpenCV für erste Versuche genutzt um Emotionen erkennen zu können
+\item Nicht geeignet für produktive Lösung, da (Ressourcen, etc.)
+\end{itemize}
+
+\subsection{Finale Lösung mithilfe von Tensorflow}
+\begin{itemize}
+\item Tensorflow als Haupt-Tool zur Umsetzung des Modells
+\item OpenCV weiterhin genutzt zur Vorverarbeitung der zu analysierenden Bilder
+\end{itemize}
+
+
+\section{Modellaufbau}
+
+
+\section{Testen des Modells}
+
+%\subsection{test2}
+%\subsubsection{test3}
+%\paragraph*{Gitea Setup}
+
+\let\cleardoublepage\relax
+
+
+
+
+
+\chapter{Diskussion}
+
+
+Das nunmehr letzte Kapitel soll sich mit der kurzen Zusammenfassung der Ergebnisse des letztens Teils und deren Bewertung widmen. 
+%Die Ergebnisse aus dem letzten Kapitel noch einmal zusammenfassen?
+Des Weiteren sollen die angewandten Methoden reflektiert werden,
+offene Fragen beantwortet und auch weitere Punkte aufgezeigt werden die verbessert oder noch implementiert werden können. Dazu soll zunächst die Ergebnisse kurz zusammengefasst werden.
+
+
+\section{Reflexion der Ergebnisse}
+
+\subsection{Alternativen}
+
+
+\section{Reflexion Vorgehen}
+
+Mehr darauf eingehen dass das Kontrovers ist und auch die Basisemotionen kontrovers sind --  aber keine andere Möglichkeit vorhanden 
+
+
+
+\section{Reflexion der Literatur}
+
+Bezüglich der Literatur ergeben sich nun einige Schwierigkeiten. Dies liegt unter anderem daran, dass das generelle Thema der Gesichts und Emotionserkennung immer noch vor allem aus
+psychologischer Sicht in der Literatur behandelt wurde. Zwar gibt es Fachbücher auch aus informationstechnischer Sicht, welche ebenfalls in dieser Arbeit verwendet wurden.
+
+
+
+\section{Offene Implikationen}
+
+
+
+
+
+\chapter{Ausblick}
+
+
 \section{Alternative Ansätze zur Umsetzung von Emotionserkennung}
+
 In diesem Abschnitt nun werden verschiedene alternative Ansätze dargestellt und expliziert, die dazu verwendet werden können um Emotionen zu erkennen.
 Dieses Unterkapitel beschäftigt sich mit alternativen Ansätzen zu den bereits explizierten Basisemotionen. Diese sind wie bereits erwähnt umstritten, was die Frage zulässt warum diese überhaupt
 verwendet werden sollten. Ein weiterer kreativer Ansatz zur Erkennung von Emotionen wäre die Analyse der Stimmlage.
@@ -219,32 +401,6 @@ Dieser liegt hier unter anderem in der Genauigkeit der Analysen. So z.B. liefert
 In dem Versuchsaufbau wurden Spektrogramme von Klangfragmenten ausgewertet und versucht mittels Neuronalen Netzen eine Klassifikation der hinter dem Klang liegenden Emotion zu erreichen.
 \footcite[Vgl. ][Abstract]{EmotionInSound}
 Der generelle Ansatz anhand von Musik die Emotion eines Individuums abzulesen ist zwar praktikabel und von dem Versuchsaufbau auch vergleichbar zu dem Ansatz bereits gelabelte Bilder zu verwenden. Jedoch lässt sich auf diese Weise aus zwei Gründen nicht die eigentliche Zielaufgabenstellung ableiten, das Erkennen eines Pokerfaces. Zum einen handelt es sich in dieser Arbeit um eine visuelle Problemstellung, in welcher das Erkennen des Gemütszustandes anhand des Gesichtsausdruckes erkannt werden soll, also einem vorhandenen bzw. nicht vorhandenen Pokerface. Zum anderen würde die Analyse von Musik einen Rückschluss auf den allgemeinen Gemütszustand des Betroffenen folgern und nicht eine kurzzeitige Stimmungsschwankung aufgrund beispielsweise eines schlechten Blattes, wie in diesem Usecase.
-
-
-\let\cleardoublepage\relax
-\newpage
-
-\chapter{Ergebnis}
-\section{Erstellung eines Modells}
-\section{Testen des Modells}
-%\subsection{test2}
-%\subsubsection{test3}
-%\paragraph*{Gitea Setup}
-
-\let\cleardoublepage\relax
-\chapter{Diskussion}
-Das nunmehr letzte Kapitel soll sich mit der kurzen Zusammenfassung der Ergebnisse des letztens Teils und deren Bewertung widmen. 
-%Die Ergebnisse aus dem letzten Kapitel noch einmal zusammenfassen?
-Des Weiteren sollen die angewandten Methoden reflektiert werden,
-offene Fragen beantwortet und auch weitere Punkte aufgezeigt werden die verbessert oder noch implementiert werden können. Dazu soll zunächst die Ergebnisse kurz zusammengefasst werden.
-\section{Reflexion der Ergebnisse}
-\subsection{Alternativen}
-\section{Reflexion Vorgehen}
-Mehr darauf eingehen dass das Kontrovers ist und auch die Basisemotionen kontrovers sind --  aber keine andere Möglichkeit vorhanden 
-\section{Reflexion der Literatur}
-Bezüglich der Literatur ergeben sich nun einige Schwierigkeiten. Dies liegt unter anderem daran, dass das generelle Thema der Gesichts und Emotionserkennung immer noch vor allem aus
-psychologischer Sicht in der Literatur behandelt wurde. Zwar gibt es Fachbücher auch aus informationstechnischer Sicht, welche ebenfalls in dieser Arbeit verwendet wurden.
-\section{Offene Implikationen}
 
 
 \let\cleardoublepage\relax
