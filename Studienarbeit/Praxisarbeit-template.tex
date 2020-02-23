@@ -29,8 +29,6 @@ bindingoffset=5mm,
 \begin{document}
 \include{Titelseite}
 \setlength{\parindent}{0em} 
-\renewcommand\thechapter{\Roman{chapter}}
-\pagenumbering{Roman}
 \let\cleardoublepage\relax
 
 
@@ -72,19 +70,13 @@ Ort	\hspace{2cm}		Datum\hspace{3,5 cm}				    Unterschrift
 \pagestyle{plain}
 \setcounter{page}{1}
 
-
-
-
-
 \chapter{Einleitung}
-
-
 ''Several researchers have stated that facial expression recognition appears to play one of the most important roles in human communication'' 
 \footcite[Vgl.][1]{FaceRec}
 Dieses Zitat von Katherine B. Leeland gibt einen Einblick in die Relevanz der Emotionserkennung für den Menschen. Fragen zu dieser Thematik stellen sich allerdings nicht erst seit Beginn der Digitalisierung. Bereits Darwin
 fragte sich, ob von den Gesichtsausdrücken einer Person nicht auch der Emotionale Zustand abgeleitet werden kann.
 \footcite[Vgl.][2]{FaceRec}
-Einen solchen Zustand von einem Mitmenschen abzulesen ist jedoch nicht nicht leicht zu realisieren. Bereits durch kleine Änderungen in der Mimik werden verschiedene Emotionen ausgedrückt. Zum Beispiel indem eine Person die Lippen zusammen presst und die Augen zusammen kneift bei Wut, oder die Mundwinkel nach unten gezogen werden bei Trauer.
+Einen solchen Zustand von einem Mitmenschen mittels Software abzulesen ist jedoch nicht nicht leicht zu realisieren. Bereits durch kleine Änderungen in der Mimik werden verschiedene Emotionen ausgedrückt. Zum Beispiel indem eine Person die Lippen zusammen presst und die Augen zusammen kneift bei Wut, oder die Mundwinkel nach unten gezogen werden bei Trauer.
 \footcite[Vgl.][249]{HandbookFaceRec}
 Durch derartige Ausdrücke können Emotionen wie Wut oder Trauer Ausdruck gewinnen.
 Emotionserkennungssoftware gibt es bereits und wird auch in der Wirtschaft eingesetzt. Die Anwendungsgebiete reichen dabei von Jobinterviews, in denen analysiert wird in wie weit die Bewerber für
@@ -93,7 +85,7 @@ den jeweiligen Job geeignet sind,
 bis hin zur Automobilindustrie. Dort wird mittels geeigneter Sensorik versucht die Emotion und somit der physiologische Zustand des Autofahrers zu analysieren.
 \footcite[Vgl.][Herausforderung]{Frauenhofer}
 Diese Daten legen den Grundbaustein für Warnsysteme, welche den Fahrer darauf hinweisen können, dass sein Zustand ungeeignet zum Betrieb eines Kraftfahrzeugs ist. Jedoch werden
-solche Einsatzszenarien auch durchaus kontrovers diskutiert. Auf Kritik stößt unter anderem dass die sogenannten ''Basisemotionen'', die verwendet werden um den KIs Emotionserkennung
+solche Einsatzszenarien auch durchaus kontrovers diskutiert. Auf Kritik stößt unter anderem dass die sogenannten ''Basisemotionen'' - z.B. Wut, Trauer, Ekel, Freude, Furcht - , die verwendet werden um den KIs Emotionserkennung
 beizubringen, selbst umstritten sind.
 \footcite[Vgl.][]{SZ}
 Aber auch ethische bedenken werden zunehmend geäußert, vor allem bezüglich der Anwendungsgebiete. Denn je nach Emotion die erkannt werden soll, liegt die Fehlerrate sehr hoch. So hat das
@@ -101,36 +93,25 @@ Frauenhofer Institut, welches an Einsatzgebieten von Emotionserkennung in Fahrze
 95\% haben kann.
 \footcite[Vgl.][Ergebnis]{Frauenhofer}
 Diese negativen Aspekte treffen jedoch nur teilweise auf das hier behandelte Forschungsprojekt zu, wie im Folgenden dargelegt werden soll:
-Es werden in dieser Arbeit die Basisemotionen als Referenz herangezogen. Dies ist notwendig, da die Alternativen Verfahrensweisen zur Ermittlung
-der Emotion eines Individuums nicht praktikabel für den Use Case dieser Arbeit wären. Eine erweiterte Betrachtung der Alternativen findet sich in Kapitel II. Des weiteren ist diese
-Studienarbeit kein wissenschaftliches Werk über die psychologischen Emotionen die hinter verschiedenen Gesichtsausdrücken stehen, auch wenn sie dies indirekt thematisiert. In dieser Arbeit geht es darum die
-These zu verifizieren oder zu widerlegen, ob es möglich ist mit einer künstlichen Intelligenz zu erkennen, in wie weit ein Pokerface einer Person anhand dessen Gesichtsausdruck abgelesen werden
-kann. Diese Aufgabe hat also nicht den Anspruch eine Emotion korrekt vorherzusagen, sondern vorherzusagen wann keine Emotion vorliegt. Denn Ein Pokerface wird im Allgemeinen als ein
-emotionsloser Gesichtsausdruck definiert. Dies impliziert, dass eine Person mit Pokerface keine Emotion zu erkennen gibt. Daher könnte bei einer nicht messbaren, oder neutralen Emotion ein
-Pokerface vorliegen. Dies mittels KI zu testen und einen sogenannten ''Pokerface Detektor'' zu entwickeln ist folglich Ziel dieser Arbeit. Mit diesem Pokerface Detektor sind verschiedenste
-Einsatzmöglichkeiten in der Praxis denkbar. Diese haben eine gewisse Schnittmenge mit denen von ''normaler'' Emotionserkennungssoftware, jedoch gibt es auch einige weitere. Im Folgenden werden
-einige mögliche Szenarien expliziert:
+Basierend auf den zuvor genannten Basisemotionen Wut, Frucht, Trauer, Freude, und Ekel soll in dieser Arbeit getestet werden, in wie weit eine technische Vorhersage der Emotionen mittels küünstlicher Intelligenz möglich ist. Dies erfolgt am Anwendungsbeispiel der Pokerface Erkennung. Mittels der hier entworfenen technischen Lösung soll daher getestet werden in wie fern ein Pokerface, das auch als ein emotional neutraler Zustand definiert werden kann, erkannt werden kann.
+Diese Forschungsarbeit hat also nicht den Anspruch alle oder eine Emotion korrekt vorherzusagen, sondern vorherzusagen wann keine Emotion vorliegt.
+Das aus dieser Arbeit hervorgehende Prototyp  ist dabei jedoch theoretisch gesehen nicht an das hier verwendete Fallbeispiel des Pokerspielens gebunden. Die Grundidee dieses Prototypen lässt einige hypothetische Einsatzszenarien in der Praxis zu.
+ Diese haben eine gewisse Schnittmenge mit denen von ''normaler'' Emotionserkennungssoftware, jedoch gibt es auch einige weitere. Im Folgenden werden
+einige denkbare Szenarien expliziert:
 \begin{itemize}
 	\item{Polizeiverhöre}
 \end{itemize}
-Es ist denkbar, dass der zu entwickelnde Detektor bei Polizeiverhören eingesetzt werden könnte. Hierdurch könnten Beamte die Verwendung eines Pokerfaces durch den Beschuldigten erkennen, welches auf eine Lüge hinweisen könnte. Neben der gebräuchlichen Verwendung eines Lügendetektors wäre der Einsatz der in dieser Arbeit erstellten Lösung eine kostengünstige Variante.
+Es ist denkbar, dass eine erweiterte Form des entwickelten Prototypen bei Polizeiverhören eingesetzt werden könnte. Hierdurch könnten Beamte die Anwendung eines Pokerfaces durch den Beschuldigten erkennen, welches auf eine Lüge hinweisen könnte. Neben der gebräuchlichen Verwendung eines Lügendetektors wäre der Einsatz der in dieser Arbeit erstellten Lösung eine kostengünstige Variante.
 \begin{itemize}
 	\item{Gerichtsverhandlungen}
 \end{itemize}
 Das zweite Einsatzgebiet ist ähnlich zu dem ersten. Bei Gerichtsverhandlungen gelten die gleichen Voraussetzungen wie bei einem Verhör der Polizei. Zwar müssen die Vorgeladenen eine
-eidesstattliche Erklärung abgeben nur die Wahrheit zu sagen, jedoch ist zu bezweifeln ob dies auch der Fall ist.
+eidesstattliche Erklärung abgeben nur die Wahrheit zu sagen, jedoch ist zu bezweifeln ob dies auch immer der Fall ist.
 Nun soll nicht der Eindruck entstehen dass das hier gebaute Werkzeug ein Lügendetektor ist. Es ist ebenfalls nicht möglich, dass von einem Pokerface immer auf eine Lüge geschlossen werden kann.
 Jedoch ist ein Pokerface ein Zeichen dafür, dass sich diese Person ihren emotionalen Zustand nicht anmerken lassen möchte. Und dies wiederum deutet eher daraufhin dass die Person nicht die
 Wahrheit sagt oder nur teilweise.
-Abgesehen von Einsatzgebieten die zur Entlarvung von Lügen führen, kann auch ein klassisches Szenario verwendet werden:
-%Irgendwas vergessen?
-
-
-
-
 
 \chapter{Anforderungen}
-
 
 \section{Aufgabenstellung}
 
