@@ -96,7 +96,7 @@ Diese negativen Aspekte treffen jedoch nur teilweise auf das hier behandelte For
 Basierend auf den zuvor genannten Basisemotionen Wut, Frucht, Trauer, Freude, und Ekel soll in dieser Arbeit getestet werden, in wie weit eine technische Vorhersage der Emotionen mittels küünstlicher Intelligenz möglich ist. Dies erfolgt am Anwendungsbeispiel der Pokerface Erkennung. Mittels der hier entworfenen technischen Lösung soll daher getestet werden in wie fern ein Pokerface, das auch als ein emotional neutraler Zustand definiert werden kann, erkannt werden kann.
 Diese Forschungsarbeit hat also nicht das Ziel, dass alle oder eine Emotion korrekt vorhergesagt wird, sondern zu ermitteln wann keine Emotion vorliegt.
 Das aus dieser Arbeit hervorgehende Prototyp  ist dabei jedoch theoretisch gesehen nicht an das hier verwendete Fallbeispiel des Pokerspielens gebunden. Die Grundidee dieses Prototypen lässt einige hypothetische Einsatzszenarien in der Praxis zu.
- Diese haben eine gewisse Schnittmenge mit denen von ''normaler'' Emotionserkennungssoftware, jedoch gibt es auch einige weitere. Im Folgenden werden
+ Diese haben eine gewisse Schnittmenge mit denen von ''normaler'' Emotionserkennungssoftware, jedoch gibt es auch einige weitere. Diese  Im Folgenden werden
 einige denkbare Szenarien expliziert:
 \begin{itemize}
 	\item{Polizeiverhöre}
@@ -175,16 +175,10 @@ Emotionserkennung und Gesichtserkennung erfolgen, da beide gebiete Überschneidu
 \section{Gesichtserkennung vs. Emotionserkennung}
 \subsection{Gesichtserkennung}
 
-\begin{itemize}
-\item use cases von Gesichtserkennung
-\item Grenzen der Gesichtserkennung
-\item Ausblick in der Gesichtserkennung
-\end{itemize}
-
 Gesichtserkennung ist eine Disziplin der Informatik in der es darum geht Gesichter wieder zu erkennen, und gegebenenfalls verschiedenen Personen zuzuordnen. Dabei lässt sich der Prozess der
-Gesichtserkennung in vier Phasen einteilen, Face ''detection'', ''alignment'', ''feature extraction'' und ''matching''.
+Gesichtserkennung in vier Phasen einteilen, Face ''detection'', ''alignment'', ''feature extraction'' und ''matching'', wie anhand von Grafik \ref{fig:Face Recognition} sichtbar ist.
 \footcite[Vgl. ][2]{HandbookFaceRec}
-\begin{figure}
+\begin{figure}[h]
 \includegraphics[width=\linewidth]{Bilder/FaceRecognition.png}
 \caption{ Phasen der Gesichtserkennung \newline Quelle: https://alitarhini.files.wordpress.com/2010/12/untitled1.png }
 \label{fig:Face Recognition}
@@ -238,12 +232,16 @@ Gesicht, und somit nach Definition einem Pokerface. Zudem sind die gewählten Em
 
 
 \subsubsection{Abgrenzung zur Gesichtserkennung}
-
+Der grundlegende Unterschied zwischen Emotions- und Gesichtsereknnung liegt nun darin, dass bei der Emotionserkennung selber nicht die agierende Person im Vordergrund steht, sondern die Aktion die sie ausführt.
+Bei der Gesichtserkennung hingegen spielt lediglich die Rolle wer eine Aktion ausführt, und ob es einen Treffer in der Datenbank gibt, oder nicht. Wegen dieser Unterschiede ist auch die technische Realisierung eines Prototypen, vor allem im Bezug auf die Architektur,  durchaus unterschiedlich. Dies ist jedoch ebenso von den unterschiedlichen Anwendungszenarien der beiden Verfahren bedingt.
+ Denn diese sind ebenso verschieden. Während Gesichtserkennung eher in den Bereich IT-Security oder aber Social Media (Snapchat Filter) eingesetzt wird, ist Emotionserkennung eher Informationsgenerierend.
+Zum Beispiel kann durch Emotionserkennung Informationen zugänglich werden wie das Befinden eines Individuums ist, ob emotional betroffen ist, oder aber nicht emotional betroffen wirken möchte und ein Pokerface aufsetzt.
+Wegen dieser signifikanten Unterschiede kann daher trotz der Gemeinsamkeiten nicht gesagt werden, dass Emotionserkennung eine Unterkategorie von Gesichtserkennung ist.
 
 \section{Emotionserkennung mithilfe von Deep Learning}
 
-In dem nun folgenden Kapitel wird erörtert wie das Ziel der Arbeit, das Erkennen eines Pokerfaces, mittels eines neuronalen Netzes umgesetzte werden kann. Dabei wird weniger auf die generellen Eigenschaften von Neuronalen Netzen Bezug genommen, als auf die in dieser Arbeit spezifischen Aspekte. Diese sind unter anderem die verwendeten Komponenten, Applikationen und die Architektur im allgemeinen, sowie der Aufbau der Netzes selbst.
-\subsection{OpenCV vs. Tensorflow}
+In dem nun folgenden Kapitel wird erörtert wie das Ziel des Prototypen dieser Arbeit - das Erkennen eines Pokerfaces - mittels eines neuronalen Netzes umgesetzte werden kann. Dabei wird weniger auf die generellen Eigenschaften von Neuronalen Netzen Bezug genommen, als auf die in dieser Arbeit spezifischen Aspekte. Diese sind vor allem verschieden Ansätze und Möglichkeiten mittels Machine Learning eine Emotionserkennungssoftware zu erstellen.
+\subsection{Dlib vs. Keras}
 Libraries werden hier expliziert
 \subsection{Supervised vs. Unsupervised Learning}
 Layer, Neuronen und Algorithmen explizieren 
@@ -251,7 +249,7 @@ Layer, Neuronen und Algorithmen explizieren
 
 
 \let\cleardoublepage\relax
-\newpage
+
 
 
 
@@ -299,10 +297,6 @@ Layer, Neuronen und Algorithmen explizieren
 
 
 \section{Testen des Modells}
-
-%\subsection{test2}
-%\subsubsection{test3}
-%\paragraph*{Gitea Setup}
 
 \let\cleardoublepage\relax
 
@@ -368,11 +362,11 @@ Der generelle Ansatz anhand von Musik die Emotion eines Individuums abzulesen is
 
 
 \let\cleardoublepage\relax
-\pagestyle{empty}
 \newpage
-\pagestyle{empty}
+
 \printbibheading
 \printbibliography[type=book,heading=subbibliography,title={Literaturquellen}]
+\pagestyle{empty}
 \printbibliography[type=misc,heading=subbibliography,title={Sonstige Quellen}]
 \pagestyle{empty}
 \newpage

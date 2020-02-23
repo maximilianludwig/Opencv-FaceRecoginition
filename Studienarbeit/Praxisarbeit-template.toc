@@ -3,15 +3,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Anforderungen}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Anforderungen}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Aufgabenstellung}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Usecase}{3}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}MoSCoW Priorisierung}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.3}MoSCoW Priorisierung}{4}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Stand der Technik}{4}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Stand der Technik}{5}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Gesichtserkennung vs. Emotionserkennung}{5}{section.3.1}%
 \defcounter {refsection}{0}\relax 
@@ -25,9 +25,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Emotionserkennung mithilfe von Deep Learning}{7}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}OpenCV vs. Tensorflow}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Dlib vs. Keras}{8}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Supervised vs. Unsupervised Learning}{7}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Supervised vs. Unsupervised Learning}{8}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Ergebnis}{8}{chapter.4}%
 \defcounter {refsection}{0}\relax 
@@ -45,7 +45,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}Stand-Alone Lösung mithilfe von OpenCV}{8}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Finale Lösung mithilfe von Tensorflow}{8}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Finale Lösung mithilfe von Tensorflow}{9}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Modellaufbau}{9}{section.4.3}%
 \defcounter {refsection}{0}\relax 
@@ -61,8 +61,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Reflexion der Literatur}{9}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Offene Implikationen}{9}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Offene Implikationen}{10}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Ausblick}{9}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Ausblick}{10}{chapter.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Alternative Ansätze zur Umsetzung von Emotionserkennung}{10}{section.6.1}%
