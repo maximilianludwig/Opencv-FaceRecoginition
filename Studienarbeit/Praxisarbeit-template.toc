@@ -59,7 +59,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Reflexion Vorgehen}{9}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Reflexion der Literatur}{9}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Reflexion der Literatur}{10}{section.5.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}Offene Implikationen}{10}{section.5.4}%
 \defcounter {refsection}{0}\relax 
