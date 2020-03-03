@@ -244,8 +244,12 @@ In dem nun folgenden Kapitel wird erörtert wie das Ziel des Prototypen dieser A
 \subsection{Dlib vs. Keras}
 Libraries werden hier expliziert
 \subsection{Supervised vs. Unsupervised Learning}
-Layer, Neuronen und Algorithmen explizieren 
-
+In diesem Abschnitt werden die beiden Ansätze des Supervised bzw. des Unsupervised Learnings evaluiert. Dabei sollen jedoch beide Begriffe nicht noch ausführich beleuchtet werden. Es ist lediglich zu erwähnen, dass Supervised Learning Algorithmen im Gegensatz zu Unsupervised mit Datensätzen arbeiten, die Labels beinhalten, und so einen Datensatz kategorisieren.  Grundlegende Informationen zu den einzelnen Vorgehensweisen  können aus den Büchern "Hands-On Unsupervised Learning with Python" von Giuseppe Bonaccorso und "Applied Supervised Learning with Python" von Benjamin Johnston und Ishita Mathur entnommen werden.
+Nun gilt es zu klären, ob sich für die zu Grunde liegende Aufgabe ein Supervised oder UNsupervised Ansatz eher anbietet. Ein Unsupervised Learning Algorithmus würde sich vor allem anbieten, wenn Zusammenhänge zwischen einzelnen Datensätzen gefunden werden sollen, die vielleicht nicht von Anfang an bekannt oder bewusst sind.
+\footcite[Vgl. ][21]{Unsupervised}
+ Supervised Learning Algoriuthmen hingegen bieten sich vor allem an, wenn es darum geht einen Prozess zu automatisieren oder aus der Wirklichkeit zu replizieren.
+\footcite[Vgl. ][4]{Supervised}
+Das in dieser Arbeit zu Grunde liegende Problem ist demnach vor allem für Supervised Learning Algorithmen geeignet. Dies liegt zum einem daran, dass jedem Bild eines Menschen eine Basisemotion zugeordnet werden kann. Zum anderem ist auch der verwendete Datensatz mit dem das Modell trainiert und getestet werden soll ebenfalls gelabelt. Deshalb bietet sich dieses Verfahren am meisten an. Es wäre auch hypothetisch denkbar einen Unsupervised Learning Algorithmus zu verwenden, aber dieser Ansatz wäre suboptimal, da er nicht dem eigentlichen Use case dieses ANsatzes entspricht.
 
 
 \let\cleardoublepage\relax
