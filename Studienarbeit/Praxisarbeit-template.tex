@@ -263,56 +263,67 @@ In diesem Kapitel wird das Konzept bezüglich der Architektur sowie verwendeter 
 
 Nachfolgend wird das in der Planungsphase entwickelte Konzept zur Emotionserkennung unter verschiedenen Aspekten erläutert.
 
-\subsection{Infrastruktur}
+\subsection{Architektur}
 
-Der Einfachheit halber wird als grundlegende Komponente ein handelsüblicher Laptop zum Entwickeln genutzt.  Außerdem wird dabei auf das OpenSource Betriebssystem Ubuntu 18.04.4 LTS in der 64-bit Variante zurückgegriffen. Als zugrunde liegende Ressourcen stehen ein 8 GigaByte Arbeitsspeicher sowie ein Intel Core i5-4210 Quadcore Prozessor mit einer Taktfrequenz von 4 x 2,60 GHz zur Verfügung. Des Weiteren kann die dedizierte Grafikkarte GeForce 820M mit einem Grafikkartenspeicher von 2046 MB verwendet werden. Der Festplattenspeicher von 500 GB kann im Umfang dieser Arbeit vernachlässigt werden, da es im Zusammenhang mit Gesichts- bzw. Emotionserkennung primär darauf ankommt, wie viel Rechenleistung zur Verfügung steht und nicht wie groß die Speicherkapazität des Laufwerks ist. Um das rechenintensive Trainieren des Modells zur Emotionserkennung in akzeptabler Zeit zu garantieren, soll die Rechenleistung des Prozessors und der Grafikkarte vollständig genutzt werden können. 
-\begin{itemize}
-\item Hardware
-\item Ressourcen
-\item Wechsel von Local-Hosting zu Cloud-Lösung
-\end{itemize}
+\subsubsection{Hardware}
+
+Der Einfachheit halber wird als grundlegende Komponente ein handelsüblicher Laptop zum Entwickeln genutzt.  Außerdem wird dabei auf das OpenSource Betriebssystem Ubuntu 18.04.4 LTS in der 64-bit Variante zurückgegriffen. Als zugrunde liegende Ressourcen stehen ein 8 GigaByte Arbeitsspeicher sowie ein Intel Core i5-4210 Quadcore Prozessor mit einer Taktfrequenz von 4 x 2,60 GHz zur Verfügung. Des Weiteren kann die dedizierte Grafikkarte GeForce 820M mit einem Grafikkartenspeicher von 2046 MB verwendet werden. Der Festplattenspeicher von 500 GB kann im Umfang dieser Arbeit vernachlässigt werden, da es im Zusammenhang mit Gesichts- bzw. Emotionserkennung primär darauf ankommt, wie viel Rechenleistung zur Verfügung steht und nicht wie groß die Speicherkapazität des Laufwerks ist. Um das rechenintensive Trainieren des Modells zur Emotionserkennung in akzeptabler Zeit zu garantieren, soll die Rechenleistung des Prozessors und der Grafikkarte vollständig genutzt werden können.
+
+\subsubsection{Programmierumgebung}
+
+Aufgrund der Vorkenntnisse und Relevanz innerhalb des Studiums soll die Programmiersprache Python in aktuellster Version (3.6.9) vorrangig verwendet werden, jedoch kann unter gegeben Umständen auch die Programmiersprache C++ eingesetzt werden, was noch zu prüfen ist. Auf eine bestimmte IDE wie PyCharm, Emacs oder Visual Studio Code wird sich an dieser Stelle nicht festgelegt, da dies jedem Entwickler selbst zu überlassen ist. Diesbezüglich sind nur Einschränkungen aufgrund der gewählten Rechnerarchitektur und der Programmiersprache zu berücksichtigen. \newline
+Zur Entwicklung einer Emotionserkennung sollen als grundlegende Komponenten die Programmbibliothek für Bildverarbeitung OpenCV und das Framework Tensorflow bzw. die Deep-Learning-Bibliothek Keras verwendet werden. Da das Einsatzgebiet von OpenCV in der Bildverarbeitung liegt, soll die Bibliothek dazu genutzt werden, den Input so zu verändern, dass dieser vom Modell zum trainieren oder vorhersagen einer oder mehrerer Emotionen verwendet werden kann. Für den wesentlichen Teil der Arbeit, das Entwickeln eines Modells, welches menschliche Emotion anhand eines Bildausschnittes von einem Gesichts erkennen kann, ist die Deep-Learning-Bibliothek Keras zu verwenden.
 
 \subsection{Interaktionskonzept}
-\begin{itemize}
-\item GUI, UI, ...
-\end{itemize}
 
+Von der Metaebene aus betrachten, steht noch die Planung eines Interaktionskonzeptes aus, welche nun genauer erläutert wird. Die Bildbverarbeitungsbibliothek OpenCV soll dazu verwendet werden, eine grafische Benutzeroberfläche (GUI) in Form eines Fensters zu entwickeln, mit dessen Hilfe dem Nutzer die Möglichkeit geboten wird, entweder Aufnahmen durch die integrierte Webcam selber als Input zu liefern oder dafür ein von ihm gewähltes schon bestehendes Bild auszuwählen. Das vom Nutzer gelieferte Bild soll entsprechend bearbeitet werden, um anschließend eine Emotion zu erkennen und den entstandenen Output an eine durch OpenCV generierte Oberfläche weiterzugeben. In welcher Form der Output dem Nutzer letztendlich dargestellt wird, als Grafik, einfache Textausgabe oder audiovisuell ist noch zu entscheiden.\newline
+Zusammenfassend kann man also sagen, dass der Nutzer aufgrund der Übersichtlichkeit und der Einfachheit halber lediglich mit den von OpenCV generierten Oberflächen interagiert und sich zu keinem Zeitpunkt mit der dahinterliegenden Komponente Keras befassen muss.\newline
+Es wird sich auch die Option vorbehalten, den Input webbasiert zu liefern und dem Nutzer auch auf gleiche Art und Weise den Output zurückzuliefern. Um die Komplexität des Projektes weiterhin auf die wesentlichen Bestandteile der Emotionserkennung zu beschränken und nicht unnötig zu erhöhen, wird diese Möglichkeit jedoch vorerst nicht weiter berücksichtigt.
 
 \section{Umsetzung der Lösung}
 
-\subsection{Stand-Alone Lösung mithilfe von OpenCV}
-\begin{itemize}
-\item Diente der Einarbeitung in die Technologien der Gesichtserkennung
-\item OpenCV für erste Versuche genutzt um Emotionen erkennen zu können
-\item Nicht geeignet für produktive Lösung, da (Ressourcen, etc.)
-\end{itemize}
+Während der weiteren Ausarbeitung des Konzeptes und der darauf basierenden Umsetzung sind letztendlich zwei verschiedene Lösungen entstanden. Aufgrund von Problemen die innerhalb des Entwicklungsprozesses im Zusammenhang mit dem Hardwarekonzept aufgetreten sind, konnte das Projekt so wie es geplant war nicht zu Ende gebracht werden. Da diese Lösung jedoch als Grundlage für die letztendlich finale Lösung diente, werden nachfolgend beide Umsetzungen genauer erläutert.
+
+\subsection{Stand-Alone Lösung mit Schwerpunkt OpenCV}
+
+In diesem Kapitel wird die Umsetzung der auf dem entwickelten Konzept basierenden Lösung näher erläutert. Es handelt sich dabei um den Stand-Alone Laptop mit installiertem Ubuntu 18.04.4 LTS wobei der Input und Output auf OpenCV GUIs basiert.
+
+\subsubsection{Input GUI}
+
+\subsubsection{Dataset}
+
+\subsubsection{Training}
 
 \subsubsection{Verzeichnisstruktur}
  	
-\subsection{Finale Lösung mithilfe von Tensorflow}
-\begin{itemize}
-\item Tensorflow als Haupt-Tool zur Umsetzung des Modells
-\item OpenCV weiterhin genutzt zur Vorverarbeitung der zu analysierenden Bilder
-\end{itemize}
+\subsection{Webbasierte Lösung}
 
-\subsubsection{Verzeichnisstruktur}
+\subsubsection{Dataset}
 
-\section{Modellaufbau}
+\subsubsection{Modell}
 
 Nachfolgend wird das für die Emotionserkennung erstellte Modell mit den jeweils einzelnen Layern näher erläutert und \ref{fig:Model Summary}
 \begin{figure}[h]
-\includegraphics[viewport=0 1177 456 1844]{Bilder/ModelSummary.png}
+\includegraphics[viewport=0 1177 300 1844]{Bilder/ModelSummary.png}
 \end{figure}
 \begin{figure}[h]
-\includegraphics[viewport=0 511 456 1175]{Bilder/ModelSummary.png}
+\includegraphics[viewport=-14 150 300 1030]{Bilder/ModelSummary.png}
 \end{figure}
 \begin{figure}[h]
-\includegraphics*[viewport=0 0 455 510]{Bilder/ModelSummary.png}
+\includegraphics[viewport=0 0 455 510]{Bilder/ModelSummary.png}
 \caption{ Model Summary with several Layers and I/O Shapes }
 \label{fig:Model Summary}
 \end{figure}
 
-\section{Testen des Modells}
+\subsubsection{Trainieren des Modells}
+
+\subsubsection{Testen des Modells}
+
+\subsubsection{Webserver}
+
+\subsubsection{Jupyter Notebook}
+
+\subsubsection{Verzeichnisstruktur}
 
 \let\cleardoublepage\relax
 
