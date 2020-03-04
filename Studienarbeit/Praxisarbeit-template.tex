@@ -170,9 +170,12 @@ Dabei sollen die einzelnen Anforderungen entsprechend ihrer Priorität abgearbei
 \let\cleardoublepage\relax
 
 \chapter{Stand der Technik}
+
 In diesem Abschnitt soll der aktuelle Forschungs- und Entwicklungsstand im Bereich Emotionserkennung thematisiert werden. Jedoch muss dafür erst einmal eine Unterscheidung der Begrifflichkeiten
 Emotionserkennung und Gesichtserkennung erfolgen, da beide gebiete Überschneidungen haben, jedoch inhaltlich und von ihren Zielen verschieden sind.
+
 \section{Gesichtserkennung vs. Emotionserkennung}
+
 \subsection{Gesichtserkennung}
 
 Gesichtserkennung ist eine Disziplin der Informatik in der es darum geht Gesichter wieder zu erkennen, und gegebenenfalls verschiedenen Personen zuzuordnen. Dabei lässt sich der Prozess der
@@ -286,10 +289,18 @@ Während der weiteren Ausarbeitung des Konzeptes und der darauf basierenden Umse
 
 \subsection{Stand-Alone Lösung mit Schwerpunkt OpenCV}
 
-In diesem Kapitel wird die Umsetzung der auf dem entwickelten Konzept basierenden Lösung näher erläutert. Es handelt sich dabei um den Stand-Alone Laptop mit installiertem Ubuntu 18.04.4 LTS wobei der Input und Output auf OpenCV GUIs basiert.
+In diesem Kapitel wird die Umsetzung der auf dem entwickelten Konzept basierenden Lösung näher erläutert. Es handelt sich dabei um den Stand-Alone Laptop mit installiertem Ubuntu 18.04.4 LTS wobei der Input und der Output auf OpenCV GUIs basiert.
 
 \subsubsection{Input GUI}
 
+Als Einstieg in das Themengebiet Emotionserkennung bzw. Gesichtserkennung bietet sich an, sich zuerst mit den Grundlagen der Bildverarbeitung und den Grundlagen von OpenCV vertraut zu machen. Wie bereits im Konzept beschrieben, soll es dem User möglich sein, mithilfe der Webcam und einer grafischen Oberfläche, welche mit OpenCV programmiert wird, ein Bild als Input zu liefern. Wie man in Abbildung \ref{fig:Input GUI 1} sehen kann, wird im ersten Schritt die grafische Oberfläche erstellt und der Video Stream der Webcam in der Oberfläche angezeigt. 
+\begin{figure}[h]
+\includegraphics[width=\linewidth]{Bilder/InputGUI1.png}
+\caption{ Grafische Oberfläche mit Video Stream der Webcam als Output }
+\label{fig:Input GUI 1}
+\end{figure}
+\newline
+Nachdem man nun auf den Video Stream der Webcam zugreifen und diesen wiedergeben kann, gilt es den relevanten Bildausschnitt, die sogenannte Region Of Interest (ROI), zu identifizieren. Da wir uns im Umfeld der Gesichts- und Emotionserkennung befinden, sind für uns alle Bereiche relevant, die ein menschliches Gesicht enthalten. Für die reine Gesichtserkennung stellt OpenCV bereits mehrere Modelle zur Verfügung. Erweitert man
 \subsubsection{Dataset}
 
 \subsubsection{Training}
