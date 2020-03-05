@@ -294,12 +294,13 @@ In diesem Kapitel wird die Umsetzung der auf dem entwickelten Konzept basierende
 \subsubsection{Input GUI}
 
 Als Einstieg in das Themengebiet Emotionserkennung bzw. Gesichtserkennung bietet sich an, sich zuerst mit den Grundlagen der Bildverarbeitung und den Grundlagen von OpenCV vertraut zu machen. Wie bereits im Konzept beschrieben, soll es dem User möglich sein, mithilfe der Webcam und einer grafischen Oberfläche, welche mit OpenCV programmiert wird, ein Bild als Input zu liefern. Wie man in Abbildung \ref{fig:Input GUI 1} sehen kann, wird im ersten Schritt die grafische Oberfläche erstellt und der Video Stream der Webcam in der Oberfläche angezeigt. 
+\lstinputlisting[language=Python, caption=Code für GUI mit Video Stream der Webcam als Output]{Code/InputGUI1.py}
 \begin{figure}[h]
 \includegraphics[width=\linewidth]{Bilder/InputGUI1.png}
 \caption{ Grafische Oberfläche mit Video Stream der Webcam als Output }
 \label{fig:Input GUI 1}
 \end{figure}
-\newline
+
 Nachdem man nun auf den Video Stream der Webcam zugreifen und diesen wiedergeben kann, gilt es den relevanten Bildausschnitt, die sogenannte Region Of Interest (ROI), zu identifizieren. Da wir uns im Umfeld der Gesichts- und Emotionserkennung befinden, sind für uns alle Bereiche relevant, die ein menschliches Gesicht enthalten. Für die reine Gesichtserkennung stellt OpenCV bereits mehrere Modelle zur Verfügung. Erweitert man
 \subsubsection{Dataset}
 
