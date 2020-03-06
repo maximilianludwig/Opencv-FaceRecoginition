@@ -29,10 +29,14 @@ bindingoffset=5mm,
 \begin{document}
 \include{Titelseite}
 \setlength{\parindent}{0em} 
-\renewcommand\thechapter{\Roman{chapter}}
-\pagenumbering{Roman}
 \let\cleardoublepage\relax
+
+
+
+
+
 \section*{Erklärung}
+
 Ich versichere hiermit, dass ich meine Projektarbeit mit dem Thema: ''Titel der großen Studienarbeit'' selbstständig verfasst und keine anderen als die angegeben Quellen und Hilfsmittel benutzt
 habe.
 \newline
@@ -51,7 +55,13 @@ Ort	\hspace{2cm}		Datum\hspace{3,5 cm}				    Unterschrift
 \pagestyle{empty}
 \tableofcontents
 \listoffigures
+
+
+
+
+
 \section*{Abkürzungen}
+
 \begin{acronym}[Bash]
 % \acro{VCS}{Version Control System}
 \end{acronym}
@@ -59,13 +69,14 @@ Ort	\hspace{2cm}		Datum\hspace{3,5 cm}				    Unterschrift
 \newpage
 \pagestyle{plain}
 \setcounter{page}{1}
+
 \chapter{Einleitung}
 ''Several researchers have stated that facial expression recognition appears to play one of the most important roles in human communication'' 
 \footcite[Vgl.][1]{FaceRec}
 Dieses Zitat von Katherine B. Leeland gibt einen Einblick in die Relevanz der Emotionserkennung für den Menschen. Fragen zu dieser Thematik stellen sich allerdings nicht erst seit Beginn der Digitalisierung. Bereits Darwin
 fragte sich, ob von den Gesichtsausdrücken einer Person nicht auch der Emotionale Zustand abgeleitet werden kann.
 \footcite[Vgl.][2]{FaceRec}
-Einen solchen Zustand von einem Mitmenschen abzulesen ist jedoch nicht nicht leicht zu realisieren. Bereits durch kleine Änderungen in der Mimik werden verschiedene Emotionen ausgedrückt. Zum Beispiel indem eine Person die Lippen zusammen presst und die Augen zusammen kneift bei Wut, oder die Mundwinkel nach unten gezogen werden bei Trauer.
+Einen solchen Zustand von einem Mitmenschen mittels Software abzulesen ist jedoch nicht nicht leicht zu realisieren. Bereits durch kleine Änderungen in der Mimik werden verschiedene Emotionen ausgedrückt. Zum Beispiel indem eine Person die Lippen zusammen presst und die Augen zusammen kneift bei Wut, oder die Mundwinkel nach unten gezogen werden bei Trauer.
 \footcite[Vgl.][249]{HandbookFaceRec}
 Durch derartige Ausdrücke können Emotionen wie Wut oder Trauer Ausdruck gewinnen.
 Emotionserkennungssoftware gibt es bereits und wird auch in der Wirtschaft eingesetzt. Die Anwendungsgebiete reichen dabei von Jobinterviews, in denen analysiert wird in wie weit die Bewerber für
@@ -74,7 +85,7 @@ den jeweiligen Job geeignet sind,
 bis hin zur Automobilindustrie. Dort wird mittels geeigneter Sensorik versucht die Emotion und somit der physiologische Zustand des Autofahrers zu analysieren.
 \footcite[Vgl.][Herausforderung]{Frauenhofer}
 Diese Daten legen den Grundbaustein für Warnsysteme, welche den Fahrer darauf hinweisen können, dass sein Zustand ungeeignet zum Betrieb eines Kraftfahrzeugs ist. Jedoch werden
-solche Einsatzszenarien auch durchaus kontrovers diskutiert. Auf Kritik stößt unter anderem dass die sogenannten ''Basisemotionen'', die verwendet werden um den KIs Emotionserkennung
+solche Einsatzszenarien auch durchaus kontrovers diskutiert. Auf Kritik stößt unter anderem dass die sogenannten ''Basisemotionen'' - z.B. Wut, Trauer, Ekel, Freude, Furcht, Überraschung - , die verwendet werden um den KIs Emotionserkennung
 beizubringen, selbst umstritten sind.
 \footcite[Vgl.][]{SZ}
 Aber auch ethische bedenken werden zunehmend geäußert, vor allem bezüglich der Anwendungsgebiete. Denn je nach Emotion die erkannt werden soll, liegt die Fehlerrate sehr hoch. So hat das
@@ -82,72 +93,92 @@ Frauenhofer Institut, welches an Einsatzgebieten von Emotionserkennung in Fahrze
 95\% haben kann.
 \footcite[Vgl.][Ergebnis]{Frauenhofer}
 Diese negativen Aspekte treffen jedoch nur teilweise auf das hier behandelte Forschungsprojekt zu, wie im Folgenden dargelegt werden soll:
-Es werden in dieser Arbeit die Basisemotionen als Referenz herangezogen. Dies ist notwendig, da die Alternativen Verfahrensweisen zur Ermittlung
-der Emotion eines Individuums nicht praktikabel für den Use Case dieser Arbeit wären. Eine erweiterte Betrachtung der Alternativen findet sich in Kapitel II. Des weiteren ist diese
-Studienarbeit kein wissenschaftliches Werk über die psychologischen Emotionen die hinter verschiedenen Gesichtsausdrücken stehen, auch wenn sie dies indirekt thematisiert. In dieser Arbeit geht es darum die
-These zu verifizieren oder zu widerlegen, ob es möglich ist mit einer künstlichen Intelligenz zu erkennen, in wie weit ein Pokerface einer Person anhand dessen Gesichtsausdruck abgelesen werden
-kann. Diese Aufgabe hat also nicht den Anspruch eine Emotion korrekt vorherzusagen, sondern vorherzusagen wann keine Emotion vorliegt. Denn Ein Pokerface wird im Allgemeinen als ein
-emotionsloser Gesichtsausdruck definiert. Dies impliziert, dass eine Person mit Pokerface keine Emotion zu erkennen gibt. Daher könnte bei einer nicht messbaren, oder neutralen Emotion ein
-Pokerface vorliegen. Dies mittels KI zu testen und einen sogenannten ''Pokerface Detektor'' zu entwickeln ist folglich Ziel dieser Arbeit. Mit diesem Pokerface Detektor sind verschiedenste
-Einsatzmöglichkeiten in der Praxis denkbar. Diese haben eine gewisse Schnittmenge mit denen von ''normaler'' Emotionserkennungssoftware, jedoch gibt es auch einige weitere. Im Folgenden werden
-einige mögliche Szenarien expliziert:
+Basierend auf den zuvor genannten Basisemotionen Wut, Frucht, Trauer, Freude, und Ekel soll in dieser Arbeit getestet werden, in wie weit eine technische Vorhersage der Emotionen mittels küünstlicher Intelligenz möglich ist. Dies erfolgt am Anwendungsbeispiel der Pokerface Erkennung. Mittels der hier entworfenen technischen Lösung soll daher getestet werden in wie fern ein Pokerface, das auch als ein emotional neutraler Zustand definiert werden kann, erkannt werden kann.
+Diese Forschungsarbeit hat also nicht das Ziel, dass alle oder eine Emotion korrekt vorhergesagt wird, sondern zu ermitteln wann keine Emotion vorliegt.
+Das aus dieser Arbeit hervorgehende Prototyp  ist dabei jedoch theoretisch gesehen nicht an das hier verwendete Fallbeispiel des Pokerspielens gebunden. Die Grundidee dieses Prototypen lässt einige hypothetische Einsatzszenarien in der Praxis zu.
+ Diese haben eine gewisse Schnittmenge mit denen von ''normaler'' Emotionserkennungssoftware, jedoch gibt es auch einige weitere. Diese  Im Folgenden werden
+einige denkbare Szenarien expliziert:
 \begin{itemize}
 	\item{Polizeiverhöre}
 \end{itemize}
-Es ist denkbar, dass der zu entwickelnde Detektor bei Polizeiverhören eingesetzt werden könnte. Hierdurch könnten Beamte die Verwendung eines Pokerfaces durch den Beschuldigten erkennen, welches auf eine Lüge hinweisen könnte. Neben der gebräuchlichen Verwendung eines Lügendetektors wäre der Einsatz der in dieser Arbeit erstellten Lösung eine kostengünstige Variante.
+Es ist denkbar, dass eine erweiterte Form des entwickelten Prototypen bei Polizeiverhören eingesetzt werden könnte. Hierdurch könnten Beamte die Anwendung eines Pokerfaces durch den Beschuldigten erkennen, welches auf eine Lüge hinweisen könnte. Neben der gebräuchlichen Verwendung eines Lügendetektors wäre der Einsatz der in dieser Arbeit erstellten Lösung eine kostengünstige Variante.
 \begin{itemize}
 	\item{Gerichtsverhandlungen}
 \end{itemize}
 Das zweite Einsatzgebiet ist ähnlich zu dem ersten. Bei Gerichtsverhandlungen gelten die gleichen Voraussetzungen wie bei einem Verhör der Polizei. Zwar müssen die Vorgeladenen eine
-eidesstattliche Erklärung abgeben nur die Wahrheit zu sagen, jedoch ist zu bezweifeln ob dies auch der Fall ist.
+eidesstattliche Erklärung abgeben nur die Wahrheit zu sagen, jedoch ist zu bezweifeln ob dies auch immer der Fall ist.
 Nun soll nicht der Eindruck entstehen dass das hier gebaute Werkzeug ein Lügendetektor ist. Es ist ebenfalls nicht möglich, dass von einem Pokerface immer auf eine Lüge geschlossen werden kann.
 Jedoch ist ein Pokerface ein Zeichen dafür, dass sich diese Person ihren emotionalen Zustand nicht anmerken lassen möchte. Und dies wiederum deutet eher daraufhin dass die Person nicht die
 Wahrheit sagt oder nur teilweise.
-Abgesehen von Einsatzgebieten die zur Entlarvung von Lügen führen, kann auch ein klassisches Szenario verwendet werden:
 \begin{itemize}
 	\item{Pokerspiel}
 \end{itemize}
-Es ist anzunehmen, dass der erste Begriff der mit dem Wort Pokerface in Verbindung gebracht wird, das Pokerspiel selber ist. Und auch in diesem kann ein Pokerface Detektor nützlich sein. So kann
-ein Mitspieler zum Beispiel mittels einer Kamera das Gesicht des Gegenübers scannen und analysieren ob ein Pokerface vorliegt oder nicht, und dementsprechend agieren.
-Nachdem verschiedene Anwendungsszenarien beleuchtet wurden wird im Folgenden die konkrete Forschungsfrage beleuchtet.
-%Irgendwas vergessen?
+Wie bereits erwähnt ist dieses Einsatzszenario das Fallbeispiel dieser Arbeit. Dies liegt unter anderem daran, dass der erste Begriff der mit dem Wort Pokerface - bzw. einem emotionslosen Gesichtsausdruck -  in Verbindung gebracht wird, das Pokerspiel selber ist. 
+Und auch in diesem kann es nützlich sein zu wissen, ob die Kontrahenten ein Pokerface aufsetzen, oder nicht. 
+Denkbar wäre es, dass ein Mitspieler zum Beispiel mittels einer Kamera das Gesicht des Gegenübers scannt und analysiert ob ein Pokerface vorliegt oder nicht, und dementsprechend agiert.
+
+
+
+\chapter{Anforderungen}
+Das nun folgende Kapitel thematisiert die konkrete Aufgabenstellung der Arbeit, so wie eine Anforderungsanalyse mittels MoSCoW Priorisierung. 
 \section{Aufgabenstellung}
- Das Projekt selber wird an der DHBW in Mannheim durchgeführt und von Prof. Dr. Erckhard Kruse betreut.
- Wie eingangs erwähnt soll mittels künstlicher Intelligenz ein Pokerface erkannt werden. 
+Das Projekt selber wird an der DHBW in Mannheim durchgeführt und von Prof. Dr. Erckhard Kruse betreut.
+Wie eingangs erwähnt soll mittels künstlicher Intelligenz erkannt werden, ob eine Emotion vorliegt oder nicht.
 Zur Umsetzung dieser Aufgabe wird eine Bilderkennungssoftware angefertigt, welches ein übermitteltes Bild nach vorhandenen Emotionen analysiert. Sollte keine Emotion durch die Software erkannt werden, wird dem Anwender das Vorhandensein eines Pokerfaces zurück gegeben. Ein konkretes Einsatzgebiet nach Abschluss der Entwicklung ist nicht
 vorgesehen, da es sich um ein Forschungsprojekt handelt. Jedoch sind wie bereits in der Einleitung beschrieben einige verschiedene Einsatzmöglichkeiten denkbar, an die das Werkzeug leicht angepasst werden kann.
 
-%\section{DevOps}
-%\begin{figure}
-%\includegraphics[width=\linewidth]{Bilder/DevOps-LifeCycle-Features-Naresh-IT.png}
-%\caption{ DevOps Lifecyle \newline Quelle: https://nareshit.com/wp-content/uploads/2018/09/DevOps-LifeCycle-Features-Naresh-IT.png }
-%\label{fig:Devops-Lifecycle}
-%\end{figure}
+\section{Usecase}
+Wie bereits erwähnt ist der hier behandelte Use Case das Pokerspiel selber. An diesem soll ermittelt werden, in wie weit sich Emotionen vorhersagen lassen können, bzw. das Abhandensein von Emotionen. Dieses Fallbeispiel wurde gewählt, da es unter anderem das naheliegendste ist, so wie ein simples und leicht zu konstruierendes Szenario impliziert. Dabei soll mittels einer Kamera ein Bild von einem Pokerspieler aufgenommen werden, und dann mittels dem hier entworfenen Prototypen verarbeitet und anbalysiert werden. Am Ende soll dann eine Vorhersage der Emotionen getätigt werden die dem Photographen zur Verfügung gestellt wird.
 
+
+\section{MoSCoW Priorisierung}
+Diese Arbeit soll methodisch mit der MoSCoW Priorisierung bearbeitet werden. Diese Art der Priorisierung teilt die zu bearbeitenden Anforderungen in vier Kategorien ein:
+\footcite[vgl.][90]{Projektmanagement}
+\begin{itemize}
+\item Must - Core Anforderungen die unbedingt umgesetzt werden müssen
+\item Should - Anforderungen die ebenfalls umgesetzt werden müssen, jedoch um Nachhinein noch durch Change Request verändert werden können.
+\item Could - Anforderungen die Nach den Must und Should Anforderungen umgesetzt werden sollen, sofern noch Ressourcen und Zeit vorhanden sind um diese zu bearbeiten
+\item Won't - Anforderungen die nicht in diesem Projekt bzw. Release erfolgen, jedoch in einer zukünftigen Version bearbeitet werden sollen. 
+\end{itemize}
+Im Zuge des Projektes wurden die vorhandenen Anforderungen wie folgt anhand der MoSCoW Priorisierung eingeordnet:
+\begin{itemize}
+\item Must
+\begin{itemize}
+\item Emotionen werden nicht zufällig erkannt
+\item Es wird zwischen keine Emotion (Pokerface) und Emotion vorhanden unterschieden
+\end{itemize}
+\item Should
+\begin{itemize}
+\item Die Wahrscheinlichkeit zur Erkennung der richtigen Emotion muss über 50\% liegen
+\item Es können mindestens fünf verschiedene Emotionen erkannt werden
+\item Die Erkennung der Emotion darf nicht länger als 30 Sekunden dauern
+\item Die Kosten zur Umsetzung der Lösung müssen dem Nutzen gerecht werden?
+\end{itemize}
+\item Could
+\begin{itemize}
+\item Bilder können zu Echtzeit analysiert werden
+\item Das Trainieren des Modells darf nicht länger als 72 Stunden dauern
+\item Eine Oberfläche zur intuitiven Bedienung der Lösung ohne technisches Verständnis muss vorhanden sein
+\end{itemize}
+\item Won't
+\begin{itemize}
+\item Neben dem Analysieren von Bildern ist auch die Analyse von Videos möglich
+\end{itemize}
+\end{itemize}
+Dabei sollen die einzelnen Anforderungen entsprechend ihrer Priorität abgearbeitet werden. So kann am Ende der Erfolg der Arbeit deutlich besser eingeordnet werden
 
 \let\cleardoublepage\relax
+
 \chapter{Stand der Technik}
-Technologien todo:
-\begin{itemize}
-
-\item Poker erklären (Wenn wir Poker als testusecase benutzen)
-\end{itemize}
-
 In diesem Abschnitt soll der aktuelle Forschungs- und Entwicklungsstand im Bereich Emotionserkennung thematisiert werden. Jedoch muss dafür erst einmal eine Unterscheidung der Begrifflichkeiten
 Emotionserkennung und Gesichtserkennung erfolgen, da beide gebiete Überschneidungen haben, jedoch inhaltlich und von ihren Zielen verschieden sind.
-
 \section{Gesichtserkennung vs. Emotionserkennung}
 \subsection{Gesichtserkennung}
-\begin{itemize}
-\item use cases von Gesichtserkennung
-\item Grenzen der Gesichtserkennung
-\item Ausblick in der Gesichtserkennung
-\end{itemize}
 
 Gesichtserkennung ist eine Disziplin der Informatik in der es darum geht Gesichter wieder zu erkennen, und gegebenenfalls verschiedenen Personen zuzuordnen. Dabei lässt sich der Prozess der
-Gesichtserkennung in vier Phasen einteilen, Face ''detection'', ''alignment'', ''feature extraction'' und ''matching''.
+Gesichtserkennung in vier Phasen einteilen, Face ''detection'', ''alignment'', ''feature extraction'' und ''matching'', wie anhand von Grafik \ref{fig:Face Recognition} sichtbar ist.
 \footcite[Vgl. ][2]{HandbookFaceRec}
-\begin{figure}
+\begin{figure}[h]
 \includegraphics[width=\linewidth]{Bilder/FaceRecognition.png}
 \caption{ Phasen der Gesichtserkennung \newline Quelle: https://alitarhini.files.wordpress.com/2010/12/untitled1.png }
 \label{fig:Face Recognition}
@@ -166,7 +197,10 @@ Match mit einer Person ausgegeben.
 Die Anwendungsgebiete von Software die Gesichtserkennung ermöglicht ist mannigfaltig. Sie reicht von Applikationen die ein Gerät wie ein Smartphone entsperren, wenn das Gesicht des Besitzers als
 Match ausgegeben wurde, bis hin zur Anwendung in Verbrechensbekämpfung. In jedem dieser Szenarien wird dabei der oben beschriebene Ablauf durchgegangen, und abhängig vom zu liefernden Ergebnis
 eine Abschlussaktion vorgenommen.
+
+
 \subsection{Emotionserkennung}
+
 In diesem Unterkapitel nun sollen Emotionen an sich thematisiert werden, da diese maßgeblich sind für das zu entwickelnde Tool. Eine Definition von Emotionserkennung ist per se nicht schwer zu geben. Prinzipiell beschäftigt sich Emotionserkennung mit der Analyse von Gesichtern und den Emotionen die diese Gesichter darstellen. Jedoch ist der Begriff der Emotionen nicht ganz so einfach zu definieren, wie im folgenden erläutert wird: 
 
 %\begin{itemize}
@@ -174,6 +208,7 @@ In diesem Unterkapitel nun sollen Emotionen an sich thematisiert werden, da dies
 %\item usecase für emotion recognition
 %\item Aiusblick und Kontroverse
 %\end{itemize}
+
 
 \subsubsection{Emotionen}
 
@@ -194,14 +229,123 @@ wurde diese aus den folgenden Gründen gewählt: \newline
 Die hier genannten Emotionen lassen sich gut anhand von Bildern erlernen, da diese zum Teil komplementär und somit eindeutig sind. Es ist aber auch einfacher Testdatensätze zu bekommen für ein
 freudiges Gesicht, oder ein überraschtes, als ein Gesicht mit dem emotionalen Ausdruck Akzeptanz. Des Weiteren wurde der Ausdruck ''Neutral'' hinzugefügt. Neutral repräsentiert ein emotionsloses
 Gesicht, und somit nach Definition einem Pokerface. Zudem sind die gewählten Emotionen häufig bei dem Test Usecase dieser Arbeit anzutreffen, dem Texas Holdem Poker.
+
+
 \subsubsection{Abgrenzung zur Gesichtserkennung}
+Der grundlegende Unterschied zwischen Emotions- und Gesichtsereknnung liegt nun darin, dass bei der Emotionserkennung selber nicht die agierende Person im Vordergrund steht, sondern die Aktion die sie ausführt.
+Bei der Gesichtserkennung hingegen spielt lediglich die Rolle wer eine Aktion ausführt, und ob es einen Treffer in der Datenbank gibt, oder nicht. Wegen dieser Unterschiede ist auch die technische Realisierung eines Prototypen, vor allem im Bezug auf die Architektur,  durchaus unterschiedlich. Dies ist jedoch ebenso von den unterschiedlichen Anwendungszenarien der beiden Verfahren bedingt.
+ Denn diese sind ebenso verschieden. Während Gesichtserkennung eher in den Bereich IT-Security oder aber Social Media (Snapchat Filter) eingesetzt wird, ist Emotionserkennung eher Informationsgenerierend.
+Zum Beispiel kann durch Emotionserkennung Informationen zugänglich werden wie das Befinden eines Individuums ist, ob emotional betroffen ist, oder aber nicht emotional betroffen wirken möchte und ein Pokerface aufsetzt.
+Wegen dieser signifikanten Unterschiede kann daher trotz der Gemeinsamkeiten nicht gesagt werden, dass Emotionserkennung eine Unterkategorie von Gesichtserkennung ist.
+
 \section{Emotionserkennung mithilfe von Deep Learning}
-In dem nun folgenden Kapitel wird erörtert wie das Ziel der Arbeit, das Erkennen eines Pokerfaces, mittels eines neuronalen Netzes umgesetzte werden kann. Dabei wird weniger auf die generellen Eigenschaften von Neuronalen Netzen Bezug genommen, als auf die in dieser Arbeit spezifischen Aspekte. Diese sind unter anderem die verwendeten Komponenten, Applikationen und die Architektur im allgemeinen, sowie der Aufbau der Netzes selbst.
-\subsection{OpenCV vs. Tensorflow}
+
+In dem nun folgenden Kapitel wird erörtert wie das Ziel des Prototypen dieser Arbeit - das Erkennen eines Pokerfaces - mittels eines neuronalen Netzes umgesetzte werden kann. Dabei wird weniger auf die generellen Eigenschaften von Neuronalen Netzen Bezug genommen, als auf die in dieser Arbeit spezifischen Aspekte. Diese sind vor allem verschieden Ansätze und Möglichkeiten mittels Machine Learning eine Emotionserkennungssoftware zu erstellen.
+\subsection{Dlib vs. Keras}
 Libraries werden hier expliziert
 \subsection{Supervised vs. Unsupervised Learning}
-Layer, Neuronen und Algorithmen explizieren 
+In diesem Abschnitt werden die beiden Ansätze des Supervised bzw. des Unsupervised Learnings evaluiert. Dabei sollen jedoch beide Begriffe nicht noch ausführich beleuchtet werden. Es ist lediglich zu erwähnen, dass Supervised Learning Algorithmen im Gegensatz zu Unsupervised mit Datensätzen arbeiten, die Labels beinhalten, und so einen Datensatz kategorisieren.  Grundlegende Informationen zu den einzelnen Vorgehensweisen  können aus den Büchern "Hands-On Unsupervised Learning with Python" von Giuseppe Bonaccorso und "Applied Supervised Learning with Python" von Benjamin Johnston und Ishita Mathur entnommen werden.
+Nun gilt es zu klären, ob sich für die zu Grunde liegende Aufgabe ein Supervised oder UNsupervised Ansatz eher anbietet. Ein Unsupervised Learning Algorithmus würde sich vor allem anbieten, wenn Zusammenhänge zwischen einzelnen Datensätzen gefunden werden sollen, die vielleicht nicht von Anfang an bekannt oder bewusst sind.
+\footcite[Vgl. ][21]{Unsupervised}
+ Supervised Learning Algoriuthmen hingegen bieten sich vor allem an, wenn es darum geht einen Prozess zu automatisieren oder aus der Wirklichkeit zu replizieren.
+\footcite[Vgl. ][4]{Supervised}
+Das in dieser Arbeit zu Grunde liegende Problem ist demnach vor allem für Supervised Learning Algorithmen geeignet. Dies liegt zum einem daran, dass jedem Bild eines Menschen eine Basisemotion zugeordnet werden kann. Zum anderem ist auch der verwendete Datensatz mit dem das Modell trainiert und getestet werden soll ebenfalls gelabelt. Deshalb bietet sich dieses Verfahren am meisten an. Es wäre auch hypothetisch denkbar einen Unsupervised Learning Algorithmus zu verwenden, aber dieser Ansatz wäre suboptimal, da er nicht dem eigentlichen Use case dieses ANsatzes entspricht.
+
+
+\let\cleardoublepage\relax
+
+
+
+
+
+
+\chapter{Ergebnis}
+
+
+\section{Konzept}
+
+\subsection{Systemkomponenten}
+
+\subsection{Infrastruktur}
+\begin{itemize}
+\item Hardware
+\item Ressourcen
+\item Wechsel von Local-Hosting zu Cloud-Lösung
+\end{itemize}
+
+\subsection{Interaktionskonzept}
+\begin{itemize}
+\item GUI, UI, ...
+\end{itemize}
+
+\subsection{Verzeichnisstruktur}
+
+
+\section{Umsetzung der Lösung}
+
+\subsection{Stand-Alone Lösung mithilfe von OpenCV}
+\begin{itemize}
+\item Diente der Einarbeitung in die Technologien der Gesichtserkennung
+\item OpenCV für erste Versuche genutzt um Emotionen erkennen zu können
+\item Nicht geeignet für produktive Lösung, da (Ressourcen, etc.)
+\end{itemize}
+
+\subsection{Finale Lösung mithilfe von Tensorflow}
+\begin{itemize}
+\item Tensorflow als Haupt-Tool zur Umsetzung des Modells
+\item OpenCV weiterhin genutzt zur Vorverarbeitung der zu analysierenden Bilder
+\end{itemize}
+
+
+\section{Modellaufbau}
+
+
+\section{Testen des Modells}
+
+\let\cleardoublepage\relax
+
+
+
+
+
+\chapter{Diskussion}
+
+
+Das nunmehr letzte Kapitel soll sich mit der kurzen Zusammenfassung der Ergebnisse des letztens Teils und deren Bewertung widmen. 
+%Die Ergebnisse aus dem letzten Kapitel noch einmal zusammenfassen?
+Des Weiteren sollen die angewandten Methoden reflektiert werden,
+offene Fragen beantwortet und auch weitere Punkte aufgezeigt werden die verbessert oder noch implementiert werden können. Dazu soll zunächst die Ergebnisse kurz zusammengefasst werden.
+
+
+\section{Reflexion der Ergebnisse}
+
+\subsection{Alternativen}
+
+
+\section{Reflexion Vorgehen}
+
+Mehr darauf eingehen dass das Kontrovers ist und auch die Basisemotionen kontrovers sind --  aber keine andere Möglichkeit vorhanden 
+
+
+
+\section{Reflexion der Literatur}
+
+Bezüglich der Literatur ergeben sich nun einige Schwierigkeiten. Dies liegt unter anderem daran, dass das generelle Thema der Gesichts und Emotionserkennung immer noch vor allem aus
+psychologischer Sicht in der Literatur behandelt wurde. Zwar gibt es Fachbücher auch aus informationstechnischer Sicht, welche ebenfalls in dieser Arbeit verwendet wurden.
+
+
+
+\section{Offene Implikationen}
+
+
+
+
+
+\chapter{Ausblick}
+
+
 \section{Alternative Ansätze zur Umsetzung von Emotionserkennung}
+
 In diesem Abschnitt nun werden verschiedene alternative Ansätze dargestellt und expliziert, die dazu verwendet werden können um Emotionen zu erkennen.
 Dieses Unterkapitel beschäftigt sich mit alternativen Ansätzen zu den bereits explizierten Basisemotionen. Diese sind wie bereits erwähnt umstritten, was die Frage zulässt warum diese überhaupt
 verwendet werden sollten. Ein weiterer kreativer Ansatz zur Erkennung von Emotionen wäre die Analyse der Stimmlage.
@@ -224,35 +368,9 @@ Der generelle Ansatz anhand von Musik die Emotion eines Individuums abzulesen is
 \let\cleardoublepage\relax
 \newpage
 
-\chapter{Ergebnis}
-\section{Erstellung eines Modells}
-\section{Testen des Modells}
-%\subsection{test2}
-%\subsubsection{test3}
-%\paragraph*{Gitea Setup}
-
-\let\cleardoublepage\relax
-\chapter{Diskussion}
-Das nunmehr letzte Kapitel soll sich mit der kurzen Zusammenfassung der Ergebnisse des letztens Teils und deren Bewertung widmen. 
-%Die Ergebnisse aus dem letzten Kapitel noch einmal zusammenfassen?
-Des Weiteren sollen die angewandten Methoden reflektiert werden,
-offene Fragen beantwortet und auch weitere Punkte aufgezeigt werden die verbessert oder noch implementiert werden können. Dazu soll zunächst die Ergebnisse kurz zusammengefasst werden.
-\section{Reflexion der Ergebnisse}
-\subsection{Alternativen}
-\section{Reflexion Vorgehen}
-Mehr darauf eingehen dass das Kontrovers ist und auch die Basisemotionen kontrovers sind --  aber keine andere Möglichkeit vorhanden 
-\section{Reflexion der Literatur}
-Bezüglich der Literatur ergeben sich nun einige Schwierigkeiten. Dies liegt unter anderem daran, dass das generelle Thema der Gesichts und Emotionserkennung immer noch vor allem aus
-psychologischer Sicht in der Literatur behandelt wurde. Zwar gibt es Fachbücher auch aus informationstechnischer Sicht, welche ebenfalls in dieser Arbeit verwendet wurden.
-\section{Offene Implikationen}
-
-
-\let\cleardoublepage\relax
-\pagestyle{empty}
-\newpage
-\pagestyle{empty}
 \printbibheading
 \printbibliography[type=book,heading=subbibliography,title={Literaturquellen}]
+\pagestyle{empty}
 \printbibliography[type=misc,heading=subbibliography,title={Sonstige Quellen}]
 \pagestyle{empty}
 \newpage
