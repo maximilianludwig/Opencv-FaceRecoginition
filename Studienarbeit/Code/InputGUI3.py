@@ -1,7 +1,7 @@
 import cv2
 
-face_cascade = cv2.CascadeClassifier('/home/kevin/opencv/data/haarcascades/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('/home/kevin/opencv/data/haarcascades/haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_eye.xml')
 cam = cv2.VideoCapture(0)
 cv2.namedWindow("InputGUI")
 img_counter = 0
