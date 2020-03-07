@@ -19,6 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{CK}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5026993934c9ee18842362cd4d17b55e}{%
+           family={Cohn},
+           familyi={C\bibinitperiod},
+           given={Jeffrey\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45496c6a7530cfbfb4f3218a2602b77e}{%
+           family={Kanade},
+           familyi={K\bibinitperiod},
+           given={Takeo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03f21fd83ed3b25ce1c7ef18a13aba61}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Yingli},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{075b9254cc56ae422df00a04f3a53ba2}
+      \strng{fullhash}{075b9254cc56ae422df00a04f3a53ba2}
+      \strng{bibnamehash}{075b9254cc56ae422df00a04f3a53ba2}
+      \strng{authorbibnamehash}{075b9254cc56ae422df00a04f3a53ba2}
+      \strng{authornamehash}{075b9254cc56ae422df00a04f3a53ba2}
+      \strng{authorfullhash}{075b9254cc56ae422df00a04f3a53ba2}
+      \field{labelalpha}{CKT00}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{http://www.consortium.ri.cmu.edu/ckagree/}
+      \field{note}{Einsichtnahme:07.03.2020}
+      \field{title}{Comprehensive Database for Facial Expression Analysis}
+      \field{year}{2000}
+    \endentry
     \entry{Frauenhofer}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f34738d13943bab878d07cb33c917adc}{%

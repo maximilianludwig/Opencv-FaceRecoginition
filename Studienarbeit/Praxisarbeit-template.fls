@@ -1,0 +1,376 @@
+PWD c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit
+INPUT C:\Users\Kevin\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.tex
+OUTPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.log
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbook.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbook.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\german.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\german.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\germanb.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hopatch.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hopatch.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\acronym\acronym.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\acronym\acronym.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lstautodedent\lstautodedent.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lstautodedent\lstautodedent.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\dirtree\dirtree.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\dirtree\dirtree.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\dirtree\dirtree.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\dirtree\dirtree.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-natbib.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-natbib.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\alphabetic.bbx
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\alphabetic.bbx
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\authortitle.cbx
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\authortitle.cbx
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\german.lbx
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\german.lbx
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.aux
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.aux
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Titelseite.aux
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Titelseite.aux
+OUTPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.aux
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.out
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.out
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.out
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.out
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.out
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.out
+OUTPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.out
+OUTPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.pdf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\iftex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+OUTPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.bcf
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.bbl
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.bbl
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.bbl
+OUTPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Titelseite.aux
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Titelseite.tex
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Titelseite.tex
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\DHBW_logo.jpg
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\DHBW_logo.jpg
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\DHBW_logo.jpg
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\DHBW_logo.jpg
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\DHBW_logo.jpg
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Atos_logo.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Atos_logo.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Atos_logo.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Atos_logo.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Atos_logo.png
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\Kevin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmss12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.toc
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.toc
+OUTPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.toc
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.lof
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.lof
+OUTPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.lof
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\FaceRecognition.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\FaceRecognition.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\FaceRecognition.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\FaceRecognition.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\FaceRecognition.png
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI1.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI1.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI1.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI2.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI2.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI2.py
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmtt12.tfm
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI2.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI2.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI2.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI3.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI3.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI3.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI3.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI3.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI3.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI3.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI3.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\InputGUI3.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\InputGUI3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust1.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust2.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust3.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust4.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust4.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust4.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust4.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust4.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust5.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust5.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust5.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust5.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust5.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust6.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust6.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust6.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust6.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust6.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust7.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust7.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust7.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust7.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust7.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust8.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust8.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust8.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust8.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust8.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust9.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust9.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust9.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust9.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust9.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust10.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust10.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust10.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust10.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust10.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust11.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust11.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust11.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust11.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\Disgust11.png
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\OrganizingTheDataset.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\OrganizingTheDataset.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code\OrganizingTheDataset.py
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\ModelSummary.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\ModelSummary.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\ModelSummary.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\ModelSummary.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\ModelSummary.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\ModelSummary.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\ModelSummary.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\ModelSummary.png
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Bilder\ModelSummary.png
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti12.tfm
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.aux
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Titelseite.aux
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Titelseite.aux
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.out
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.out
+INPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.run.xml
+OUTPUT c:\Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.run.xml
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt12.pfb
