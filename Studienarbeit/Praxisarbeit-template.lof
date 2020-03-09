@@ -19,12 +19,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces t}}{17}{figure.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Struktur Emotionsverlauf}}{18}{figure.4.5}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces fig:Test}}{18}{figure.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Struktur überarbeitetes Dataset}}{21}{figure.4.6}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Struktur Emotionsverlauf}}{18}{figure.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Struktur überarbeitetes Dataset}}{21}{figure.4.7}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Model Summary with several Layers and I/O Shapes }}{29}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Model Summary with several Layers and I/O Shapes }}{29}{figure.4.8}%
