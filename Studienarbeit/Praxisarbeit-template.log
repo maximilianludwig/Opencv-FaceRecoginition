@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.3.7)  10 MAR 2020 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.3.7)  11 MAR 2020 00:01
 entering extended mode
 **c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Praxisarbeit-template.tex
 (c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Praxisarbeit-template.tex
@@ -842,20 +842,20 @@ chapter 4.
 [8] [9] ("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 285.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 282.
  (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/InputGUI1.py [10])
 <Bilder/InputGUI1.png, id=255, 642.4pt x 511.9125pt>
 File: Bilder/InputGUI1.png Graphic file (type png)
 <use Bilder/InputGUI1.png>
-Package pdftex.def Info: Bilder/InputGUI1.png  used on input line 287.
+Package pdftex.def Info: Bilder/InputGUI1.png  used on input line 284.
 (pdftex.def)             Requested size: 441.01775pt x 351.44688pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
 (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/InputGUI2.py) [11 <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/InputGUI1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
@@ -865,20 +865,20 @@ Class scrbook Warning: `\caption' outside float.
 (scrbook)              Maybe you are using a package that uses `\@makecaption'
 (scrbook)              without setting `\@captype' before.
 (scrbook)              Because I cannot detect the caption type, I'm using
-(scrbook)              the empty one. on input line 294.
+(scrbook)              the empty one. on input line 291.
 
 (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/InputGUI2.py)
 <Bilder/InputGUI2.png, id=269, 642.4pt x 511.9125pt>
 File: Bilder/InputGUI2.png Graphic file (type png)
 <use Bilder/InputGUI2.png>
-Package pdftex.def Info: Bilder/InputGUI2.png  used on input line 297.
+Package pdftex.def Info: Bilder/InputGUI2.png  used on input line 294.
 (pdftex.def)             Requested size: 441.01775pt x 351.44688pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12] (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/InputGUI3.py)
-Overfull \hbox (41.76027pt too wide) in paragraph at lines 303--304
+Overfull \hbox (41.76027pt too wide) in paragraph at lines 300--301
 \OT1/cmr/m/n/12 Um nun al-le Au-gen in ei-nem Bild zu er-ken-nen, kann nun wie-der die Me-tho-de \OT1/cmtt/m/n/12 detectMultiScale
  []
 
@@ -889,13 +889,13 @@ Class scrbook Warning: `\caption' outside float.
 (scrbook)              Maybe you are using a package that uses `\@makecaption'
 (scrbook)              without setting `\@captype' before.
 (scrbook)              Because I cannot detect the caption type, I'm using
-(scrbook)              the empty one. on input line 306.
+(scrbook)              the empty one. on input line 303.
 
 (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/InputGUI3.py [14])
 <Bilder/InputGUI3.png, id=343, 642.4pt x 511.9125pt>
 File: Bilder/InputGUI3.png Graphic file (type png)
 <use Bilder/InputGUI3.png>
-Package pdftex.def Info: Bilder/InputGUI3.png  used on input line 309.
+Package pdftex.def Info: Bilder/InputGUI3.png  used on input line 306.
 (pdftex.def)             Requested size: 441.01775pt x 351.44688pt.
 
 
@@ -904,57 +904,57 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Bilder/Disgust1.png, id=348, 642.4pt x 491.8375pt>
 File: Bilder/Disgust1.png Graphic file (type png)
 <use Bilder/Disgust1.png>
-Package pdftex.def Info: Bilder/Disgust1.png  used on input line 337.
+Package pdftex.def Info: Bilder/Disgust1.png  used on input line 334.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust2.png, id=349, 642.4pt x 491.8375pt>
 File: Bilder/Disgust2.png Graphic file (type png)
 <use Bilder/Disgust2.png>
-Package pdftex.def Info: Bilder/Disgust2.png  used on input line 341.
+Package pdftex.def Info: Bilder/Disgust2.png  used on input line 338.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust3.png, id=350, 642.4pt x 491.8375pt>
 File: Bilder/Disgust3.png Graphic file (type png)
 <use Bilder/Disgust3.png>
-Package pdftex.def Info: Bilder/Disgust3.png  used on input line 345.
+Package pdftex.def Info: Bilder/Disgust3.png  used on input line 342.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust4.png, id=351, 642.4pt x 491.8375pt>
 File: Bilder/Disgust4.png Graphic file (type png)
 <use Bilder/Disgust4.png>
-Package pdftex.def Info: Bilder/Disgust4.png  used on input line 349.
+Package pdftex.def Info: Bilder/Disgust4.png  used on input line 346.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust5.png, id=352, 642.4pt x 491.8375pt>
 File: Bilder/Disgust5.png Graphic file (type png)
 <use Bilder/Disgust5.png>
-Package pdftex.def Info: Bilder/Disgust5.png  used on input line 353.
+Package pdftex.def Info: Bilder/Disgust5.png  used on input line 350.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust6.png, id=353, 642.4pt x 491.8375pt>
 File: Bilder/Disgust6.png Graphic file (type png)
 <use Bilder/Disgust6.png>
-Package pdftex.def Info: Bilder/Disgust6.png  used on input line 357.
+Package pdftex.def Info: Bilder/Disgust6.png  used on input line 354.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust7.png, id=354, 642.4pt x 491.8375pt>
 File: Bilder/Disgust7.png Graphic file (type png)
 <use Bilder/Disgust7.png>
-Package pdftex.def Info: Bilder/Disgust7.png  used on input line 361.
+Package pdftex.def Info: Bilder/Disgust7.png  used on input line 358.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust8.png, id=355, 642.4pt x 491.8375pt>
 File: Bilder/Disgust8.png Graphic file (type png)
 <use Bilder/Disgust8.png>
-Package pdftex.def Info: Bilder/Disgust8.png  used on input line 365.
+Package pdftex.def Info: Bilder/Disgust8.png  used on input line 362.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust9.png, id=356, 642.4pt x 491.8375pt>
 File: Bilder/Disgust9.png Graphic file (type png)
 <use Bilder/Disgust9.png>
-Package pdftex.def Info: Bilder/Disgust9.png  used on input line 369.
+Package pdftex.def Info: Bilder/Disgust9.png  used on input line 366.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust10.png, id=357, 642.4pt x 491.8375pt>
 File: Bilder/Disgust10.png Graphic file (type png)
 <use Bilder/Disgust10.png>
-Package pdftex.def Info: Bilder/Disgust10.png  used on input line 373.
+Package pdftex.def Info: Bilder/Disgust10.png  used on input line 370.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 <Bilder/Disgust11.png, id=358, 642.4pt x 491.8375pt>
 File: Bilder/Disgust11.png Graphic file (type png)
 <use Bilder/Disgust11.png>
-Package pdftex.def Info: Bilder/Disgust11.png  used on input line 377.
+Package pdftex.def Info: Bilder/Disgust11.png  used on input line 374.
 (pdftex.def)             Requested size: 88.2022pt x 67.52841pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -963,7 +963,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 390--432
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 387--429
 [][] [] 
  []
 
@@ -976,26 +976,29 @@ Underfull \vbox (badness 3525) has occurred while \output is active []
  [17 <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust1.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust2.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust3.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust4.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust5.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust6.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust7.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust8.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust9.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust10.png (PNG copy)> <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/Disgust11.png (PNG copy)>] [18] (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/OrganizingTheDataset.py
 Underfull \vbox (badness 3417) has occurred while \output is active []
 
- [19])
-<Bilder/ModelSummary.png, id=437, 457.71pt x 1850.915pt>
+ [19]) (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/ClassifierHandler.py) (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/ClassifierHandler.py [20] [21]) (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/ClassifierHandler.py) (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/ClassifierHandler.py) [22] (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Code/ClassifierHandler.py
+Underfull \vbox (badness 3417) has occurred while \output is active []
+
+ [23])
+<Bilder/ModelSummary.png, id=508, 457.71pt x 1850.915pt>
 File: Bilder/ModelSummary.png Graphic file (type png)
 <use Bilder/ModelSummary.png>
-Package pdftex.def Info: Bilder/ModelSummary.png  used on input line 514.
+Package pdftex.def Info: Bilder/ModelSummary.png  used on input line 518.
 (pdftex.def)             Requested size: 301.125pt x 669.50125pt.
 File: Bilder/ModelSummary.png Graphic file (type png)
 <use Bilder/ModelSummary.png>
-Package pdftex.def Info: Bilder/ModelSummary.png  used on input line 517.
+Package pdftex.def Info: Bilder/ModelSummary.png  used on input line 521.
 (pdftex.def)             Requested size: 315.17749pt x 883.29999pt.
 
 
-LaTeX Warning: Float too large for page by 180.5169pt on input line 518.
+LaTeX Warning: Float too large for page by 180.5169pt on input line 522.
 
 File: Bilder/ModelSummary.png Graphic file (type png)
 <use Bilder/ModelSummary.png>
-Package pdftex.def Info: Bilder/ModelSummary.png  used on input line 520.
+Package pdftex.def Info: Bilder/ModelSummary.png  used on input line 524.
 (pdftex.def)             Requested size: 456.70624pt x 511.91249pt.
 
-Overfull \hbox (15.68849pt too wide) in paragraph at lines 520--521
+Overfull \hbox (15.68849pt too wide) in paragraph at lines 524--525
 [][] 
  []
 
@@ -1009,53 +1012,50 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 chapter 5.
-
-Underfull \vbox (badness 1028) has occurred while \output is active []
-
- [20] [21]
+[24]
 chapter 6.
-[22] [23] [24]
-Overfull \hbox (0.17165pt too wide) in paragraph at lines 579--579
+[25] [26]
+Overfull \hbox (0.17165pt too wide) in paragraph at lines 583--583
 \OT1/cmr/m/it/12 ge-ment: Agil { Klas-sisch { Hy-brid\OT1/cmr/m/n/12 . Auf-la-ge 4. Se-ba-sto-pol: SSprin-ger Gabler",
  []
 
 
-Overfull \hbox (4.94403pt too wide) in paragraph at lines 581--581
+Overfull \hbox (4.94403pt too wide) in paragraph at lines 585--585
 \OT1/cmr/m/it/12 for Fa-ci-al Ex-pres-si-on Ana-ly-sis\OT1/cmr/m/n/12 . http://www.consortium.ri.cmu.edu/ckagree/.
  []
 
 
-Overfull \hbox (22.02635pt too wide) in paragraph at lines 581--581
+Overfull \hbox (22.02635pt too wide) in paragraph at lines 585--585
 \OT1/cmr/m/it/12 phy-sio-lo-gi-schen Da-ten\OT1/cmr/m/n/12 . https://www.hci.iao.fraunhofer.de/de/Human-Centered-
  []
 
 
-Overfull \hbox (10.22566pt too wide) in paragraph at lines 581--581
+Overfull \hbox (10.22566pt too wide) in paragraph at lines 585--585
 \OT1/cmr/m/n/12 AI/feinfuehlige-technik/KI-gestuetzte-Emotionserkennung.html. Ein-sicht-nah-
  []
 
 
-Overfull \hbox (140.46614pt too wide) in paragraph at lines 581--581
+Overfull \hbox (140.46614pt too wide) in paragraph at lines 585--585
 []\OT1/cmr/m/n/12 Johannes Kuhn. \OT1/cmr/m/it/12 Emo-tio-nen sind schwer de-fi-nier-bar\OT1/cmr/m/n/12 . https://www.sueddeutsche.de/digital/smartphone-
  []
 
 
-Overfull \hbox (19.2278pt too wide) in paragraph at lines 581--581
+Overfull \hbox (19.2278pt too wide) in paragraph at lines 585--585
 \OT1/cmr/m/n/12 software-emotionen-simulation-ki-1.4377004-2. Ein-sicht-nah-me:24.01.2020. 2019. 
  []
 
-[25]
-Overfull \hbox (2.6642pt too wide) in paragraph at lines 581--581
+[27]
+Overfull \hbox (2.6642pt too wide) in paragraph at lines 585--585
 \OT1/cmr/m/it/12 lernt sein\OT1/cmr/m/n/12 . https://mixed.de/kuenstliche-intelligenz-emotionserkennung-will-
  []
 
-[26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 586.
- [27 <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/ModelSummary.png>] [28] [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 586.
+[28]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
+ [29 <c:/Users/Kevin/Documents/Opencv-FaceRecoginition/Studienarbeit/Bilder/ModelSummary.png>] [30] [31]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
  (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.aux (c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Titelseite.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 586.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 586.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
 Package rerunfilecheck Info: File `Praxisarbeit-template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Praxisarbeit-template.run.xml'.
@@ -1063,11 +1063,11 @@ Package logreq Info: Writing requests to 'Praxisarbeit-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20085 strings out of 492484
- 352284 string characters out of 3131052
+ 20176 strings out of 492484
+ 354457 string characters out of 3131052
  1057368 words of memory out of 3000000
- 23875 multiletter control sequences out of 15000+200000
- 9628 words of font info for 34 fonts, out of 3000000 for 9000
+ 23904 multiletter control sequences out of 15000+200000
+ 9329 words of font info for 33 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  45i,9n,72p,10206b,2246s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exist, replaced by a fixed one
@@ -1111,9 +1111,9 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.pdf (34 pages, 4309338 bytes).
+Output written on c:/Users\Kevin\Documents\Opencv-FaceRecoginition\Studienarbeit\Praxisarbeit-template.pdf (36 pages, 4326085 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 261 named destinations out of 1000 (max. 500000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 313 named destinations out of 1000 (max. 500000)
  435 words of extra memory for PDF output out of 10000 (max. 10000000)
 
