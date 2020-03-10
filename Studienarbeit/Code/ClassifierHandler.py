@@ -11,19 +11,16 @@ def get_training_sets():
     for emotion in emotions:
         emotion_number = emotions.index(emotion)
         training = glob.glob("dataset/%s/*" % emotion)
-        random.shuffle(training)
         for item in training:
-            image = cv.imread(item)
-            training_data.append(cv.cvtColor(image, cv.COLOR_BGR2GRAY))
+            training_data.append(cv.imread(item))
             training_labels.append(emotion_number)
     return training_data, training_labels
 
 def create_fishface():
     return cv.face_FisherFaceRecognizer.create()
 
-def train_classifier(fishface):
-    training_data, training_labels = get_training_sets()
-    fishface.train(training_data, np.asarray(training_labels))
+def train_classifier(fishface, data, labels):
+    fishface.train(data, np.asarray(labels))
     return fishface
 
 def test_classifier(fishface):
@@ -39,7 +36,7 @@ def test_classifier(fishface):
             try:
                 gray = cv.resize(gray, (350, 350))
                 prediction, conf = fishface.predict(gray)
-                cv.putText(img, emotions[prediction], (x, h), cv.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), lineType=cv2.LINE_AA)
+                cv.putText(img, emotions[prediction], (x, h), cv.FONT_HERSHEY_SIMPLEX, 1.0, (255, 0, 0), lineType=cv.LINE_AA)
             except:
                 pass
         cv.imshow("Classifier Test", img)
@@ -55,7 +52,8 @@ def test_classifier(fishface):
 def save_classifier():
     fishface.write("second_fisher_face_classifier.xml")
 
+training_data, training_labels = get_training_sets()
 fishface = create_fishface()
-train_classifier(fishface)
+train_classifier(fishface, training_data, training_labels)
 save_classifier()
 test_classifier(fishface)
