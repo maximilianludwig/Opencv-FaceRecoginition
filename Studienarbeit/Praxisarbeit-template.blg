@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'Praxisarbeit-template.blg'
 [27] biber-MSWIN64:315> INFO - === 
@@ -17,3 +18,11 @@
 [289] bbl.pm:648> INFO - Writing 'Praxisarbeit-template.bbl' with encoding 'UTF-8'
 [295] bbl.pm:751> INFO - Output to Praxisarbeit-template.bbl
 [300] Biber.pm:110> INFO - WARNINGS: 1
+=======
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Praxisarbeit-template.aux
+A level-1 auxiliary file: Titelseite.aux
+I found no \citation commands---while reading file Praxisarbeit-template.aux
+I found no \bibdata command---while reading file Praxisarbeit-template.aux
+I found no \bibstyle command---while reading file Praxisarbeit-template.aux
+(There were 3 error messages)
+>>>>>>> 765fd33b98f21ec8430fbed4d2dc6193b9e1e9e7
