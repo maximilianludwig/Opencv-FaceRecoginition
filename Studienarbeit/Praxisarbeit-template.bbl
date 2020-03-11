@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 % $ biblatex auxiliary file $
 % $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
@@ -20,6 +19,16 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{Dlib}{misc}{}
+      \field{labelalpha}{19}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{http://dlib.net/}
+      \field{note}{Einsichtnahme:07.03.2020}
+      \field{title}{Dlib C++ Library}
+      \field{year}{2019}
+    \endentry
     \entry{CK}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5026993934c9ee18842362cd4d17b55e}{%
@@ -81,6 +90,74 @@
       \field{note}{Einsichtnahme:24.01.2020}
       \field{title}{KI-gestützte Emotionserkennung im Fahrzeug aus physiologischen Daten}
       \field{year}{2020}
+    \endentry
+    \entry{Unsupervised}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5b64b68ffe25db966e757f3d5821c75}{%
+           family={Giuseppe},
+           familyi={G\bibinitperiod},
+           given={Bonaccorsor},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Birmingham}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{b5b64b68ffe25db966e757f3d5821c75}
+      \strng{fullhash}{b5b64b68ffe25db966e757f3d5821c75}
+      \strng{bibnamehash}{b5b64b68ffe25db966e757f3d5821c75}
+      \strng{authorbibnamehash}{b5b64b68ffe25db966e757f3d5821c75}
+      \strng{authornamehash}{b5b64b68ffe25db966e757f3d5821c75}
+      \strng{authorfullhash}{b5b64b68ffe25db966e757f3d5821c75}
+      \field{labelalpha}{Giu19}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Auflage 1}
+      \field{isbn}{978-1789349276}
+      \field{title}{Hands-On Unsupervised Learning with Python}
+      \field{year}{2019}
+    \endentry
+    \entry{Supervised}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=14cf93a9a2ccb8c8e3c56060d302aaa5}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c95cb9d4bd7c0a3d4dca4937c271a07a}{%
+           family={Mathur},
+           familyi={M\bibinitperiod},
+           given={Ishita},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Birmingham}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{95665994a16d5cdfc544aac0f43c380b}
+      \strng{fullhash}{95665994a16d5cdfc544aac0f43c380b}
+      \strng{bibnamehash}{95665994a16d5cdfc544aac0f43c380b}
+      \strng{authorbibnamehash}{95665994a16d5cdfc544aac0f43c380b}
+      \strng{authornamehash}{95665994a16d5cdfc544aac0f43c380b}
+      \strng{authorfullhash}{95665994a16d5cdfc544aac0f43c380b}
+      \field{labelalpha}{JM19}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Auflage 1}
+      \field{isbn}{978-1789955835}
+      \field{title}{Applied Supervised Learning with Python}
+      \field{year}{2019}
     \endentry
     \entry{SZ}{misc}{}
       \name{author}{1}{}{%
@@ -166,6 +243,31 @@
       \field{title}{Handbook of Face Recognition}
       \field{year}{2005}
     \endentry
+    \entry{netguru}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=21efa8e12dc359e7665deefad7b625dc}{%
+           family={Opala},
+           familyi={O\bibinitperiod},
+           given={Mateusz},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21efa8e12dc359e7665deefad7b625dc}
+      \strng{fullhash}{21efa8e12dc359e7665deefad7b625dc}
+      \strng{bibnamehash}{21efa8e12dc359e7665deefad7b625dc}
+      \strng{authorbibnamehash}{21efa8e12dc359e7665deefad7b625dc}
+      \strng{authornamehash}{21efa8e12dc359e7665deefad7b625dc}
+      \strng{authorfullhash}{21efa8e12dc359e7665deefad7b625dc}
+      \field{labelalpha}{Opa18}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.netguru.com/blog/top-machine-learning-frameworks-compared}
+      \field{note}{Einsichtnahme:07.03.2020}
+      \field{title}{Top Machine Learning Frameworks Compared: Scikit-Learn, Dlib, MLib, Tensorflow, and More}
+      \field{year}{2018}
+    \endentry
     \entry{EmotionInSound}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=56675287f8c6d638df3f5b98e67c8b9c}{%
@@ -246,37 +348,6 @@
       \field{title}{Emotion Recognition using Speech Features}
       \field{year}{2012}
     \endentry
-    \entry{Projektmanagement}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c6320fcae8a39b633770eb11640f19a9}{%
-           family={Roger},
-           familyi={R\bibinitperiod},
-           given={Schneider\bibnamedelimb Patrickand\bibnamedelimb Witschi\bibnamedelimb Ursand\bibnamedelima Wüst},
-           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Sebastopol}%
-      }
-      \list{publisher}{1}{%
-        {"Springer Gabler"}%
-      }
-      \strng{namehash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{fullhash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{bibnamehash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{authorbibnamehash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{authornamehash}{c6320fcae8a39b633770eb11640f19a9}
-      \strng{authorfullhash}{c6320fcae8a39b633770eb11640f19a9}
-      \field{labelalpha}{Rog18}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Auflage 4}
-      \field{isbn}{978-3662578773}
-      \field{title}{Handbuch Projektmanagement: Agil – Klassisch – Hybrid}
-      \field{year}{2018}
-    \endentry
     \entry{mixedArticle}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=505f9b87d0d412f0db6cc20b965e42a4}{%
@@ -338,6 +409,68 @@
       \field{title}{Geometric shaped facial feature extraction for face recognition}
       \field{year}{2017}
     \endentry
+    \entry{Keras}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d71cec0e3603cc9bd8336d8152832db}{%
+           family={Stefan\bibnamedelima Luber},
+           familyi={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Nico\bibnamedelima Litzel},
+           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d71cec0e3603cc9bd8336d8152832db}
+      \strng{fullhash}{4d71cec0e3603cc9bd8336d8152832db}
+      \strng{bibnamehash}{4d71cec0e3603cc9bd8336d8152832db}
+      \strng{authorbibnamehash}{4d71cec0e3603cc9bd8336d8152832db}
+      \strng{authornamehash}{4d71cec0e3603cc9bd8336d8152832db}
+      \strng{authorfullhash}{4d71cec0e3603cc9bd8336d8152832db}
+      \field{labelalpha}{Ste18}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.bigdata-insider.de/was-ist-keras-a-726546}
+      \field{note}{Einsichtnahme:24.01.2020}
+      \field{title}{Was ist Keras?}
+      \field{year}{2018}
+    \endentry
+    \entry{Projektmanagement}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=df9022382af5b732a5350477f335c3da}{%
+           family={Urs},
+           familyi={U\bibinitperiod},
+           given={Schneider\bibnamedelimb Patrickand\bibnamedelima Witschi},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a87d19f8ff020aedcd2b169f10bdac1}{%
+           family={Roger},
+           familyi={R\bibinitperiod},
+           given={Wüst},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Sebastopol}%
+      }
+      \list{publisher}{1}{%
+        {"Springer Gabler"}%
+      }
+      \strng{namehash}{928dafa3ebed178f8509fe339b6403de}
+      \strng{fullhash}{928dafa3ebed178f8509fe339b6403de}
+      \strng{bibnamehash}{928dafa3ebed178f8509fe339b6403de}
+      \strng{authorbibnamehash}{928dafa3ebed178f8509fe339b6403de}
+      \strng{authornamehash}{928dafa3ebed178f8509fe339b6403de}
+      \strng{authorfullhash}{928dafa3ebed178f8509fe339b6403de}
+      \field{labelalpha}{UR18}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Auflage 4}
+      \field{isbn}{978-3662578773}
+      \field{title}{Handbuch Projektmanagement: Agil – Klassisch – Hybrid}
+      \field{year}{2018}
+    \endentry
     \entry{MusicEmotion}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=dc4d44f6814797864181d8ee2756517f}{%
@@ -378,5 +511,3 @@
 \endrefsection
 \endinput
 
-=======
->>>>>>> 765fd33b98f21ec8430fbed4d2dc6193b9e1e9e7
