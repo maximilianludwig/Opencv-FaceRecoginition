@@ -2144,12 +2144,15 @@
     <bcf:citekey order="13">HandbookFaceRec</bcf:citekey>
     <bcf:citekey order="14">FaceRec</bcf:citekey>
     <bcf:citekey order="15">FaceRec</bcf:citekey>
-    <bcf:citekey order="16">Unsupervised</bcf:citekey>
-    <bcf:citekey order="17">Supervised</bcf:citekey>
-    <bcf:citekey order="18">EmotionInSpeech</bcf:citekey>
-    <bcf:citekey order="19">MusicEmotion</bcf:citekey>
-    <bcf:citekey order="20">EmotionInSound</bcf:citekey>
-    <bcf:citekey order="21">EmotionInSound</bcf:citekey>
+    <bcf:citekey order="16">netguru</bcf:citekey>
+    <bcf:citekey order="17">netguru</bcf:citekey>
+    <bcf:citekey order="18">Dlib</bcf:citekey>
+    <bcf:citekey order="19">Unsupervised</bcf:citekey>
+    <bcf:citekey order="20">Supervised</bcf:citekey>
+    <bcf:citekey order="21">EmotionInSpeech</bcf:citekey>
+    <bcf:citekey order="22">MusicEmotion</bcf:citekey>
+    <bcf:citekey order="23">EmotionInSound</bcf:citekey>
+    <bcf:citekey order="24">EmotionInSound</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

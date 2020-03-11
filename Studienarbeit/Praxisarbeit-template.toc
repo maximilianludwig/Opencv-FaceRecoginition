@@ -25,44 +25,50 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Emotionserkennung mithilfe von Deep Learning}{7}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Dlib vs. Keras}{8}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Machine Learning - Frameworks}{8}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Supervised vs. Unsupervised Learning}{8}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}Dlib}{8}{subsubsection.3.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Ergebnis}{8}{chapter.4}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}Keras}{9}{subsubsection.3.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Konzept}{9}{section.4.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.3}Unterschiede}{9}{subsubsection.3.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Systemkomponenten}{9}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {3.2.2}Supervised vs. Unsupervised Learning}{9}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Infrastruktur}{9}{subsection.4.1.2}%
+\contentsline {chapter}{\numberline {4}Ergebnis}{9}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Interaktionskonzept}{9}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.1}Konzept}{10}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Verzeichnisstruktur}{9}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.1}Systemkomponenten}{10}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Umsetzung der Lösung}{9}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.2}Infrastruktur}{10}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Stand-Alone Lösung mithilfe von OpenCV}{9}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.1.3}Interaktionskonzept}{10}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Finale Lösung mithilfe von Tensorflow}{9}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.1.4}Verzeichnisstruktur}{10}{subsection.4.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Modellaufbau}{9}{section.4.3}%
+\contentsline {section}{\numberline {4.2}Umsetzung der Lösung}{10}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Testen des Modells}{9}{section.4.4}%
+\contentsline {subsection}{\numberline {4.2.1}Stand-Alone Lösung mithilfe von OpenCV}{10}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Diskussion}{9}{chapter.5}%
+\contentsline {subsection}{\numberline {4.2.2}Finale Lösung mithilfe von Tensorflow}{10}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Reflexion der Ergebnisse}{10}{section.5.1}%
+\contentsline {section}{\numberline {4.3}Modellaufbau}{10}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Alternativen}{10}{subsection.5.1.1}%
+\contentsline {section}{\numberline {4.4}Testen des Modells}{10}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Reflexion Vorgehen}{10}{section.5.2}%
+\contentsline {chapter}{\numberline {5}Diskussion}{10}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Reflexion der Literatur}{10}{section.5.3}%
+\contentsline {section}{\numberline {5.1}Reflexion der Ergebnisse}{11}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Offene Implikationen}{10}{section.5.4}%
+\contentsline {subsection}{\numberline {5.1.1}Alternativen}{11}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Ausblick}{10}{chapter.6}%
+\contentsline {section}{\numberline {5.2}Reflexion Vorgehen}{11}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Alternative Ansätze zur Umsetzung von Emotionserkennung}{11}{section.6.1}%
+\contentsline {section}{\numberline {5.3}Reflexion der Literatur}{11}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Offene Implikationen}{11}{section.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Ausblick}{11}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Alternative Ansätze zur Umsetzung von Emotionserkennung}{12}{section.6.1}%
