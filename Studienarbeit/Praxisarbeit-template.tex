@@ -9,6 +9,10 @@
 \usepackage{listings}
 \usepackage{graphicx}
 \usepackage{acronym}
+
+%\usepackage[normalem]{ulem}
+%\useunder{\uline}{\ul}{}
+
 \usepackage[backend=biber,
 bibstyle=alphabetic, 
 citestyle=authortitle,
@@ -235,8 +239,8 @@ Gesicht, und somit nach Definition einem Pokerface. Zudem sind die gewählten Em
 
 
 \subsubsection{Abgrenzung zur Gesichtserkennung}
-Der grundlegende Unterschied zwischen Emotions- und Gesichtsereknnung liegt nun darin, dass bei der Emotionserkennung selber nicht die agierende Person im Vordergrund steht, sondern die Aktion die sie ausführt.
-Bei der Gesichtserkennung hingegen spielt lediglich die Rolle wer eine Aktion ausführt, und ob es einen Treffer in der Datenbank gibt, oder nicht. Wegen dieser Unterschiede ist auch die technische Realisierung eines Prototypen, vor allem im Bezug auf die Architektur,  durchaus unterschiedlich. Dies ist jedoch ebenso von den unterschiedlichen Anwendungszenarien der beiden Verfahren bedingt.
+Der grundlegende Unterschied zwischen Emotions- und Gesichtserkennung liegt nun darin, dass bei der Emotionserkennung selber nicht die agierende Person im Vordergrund steht, sondern die Aktion die sie ausführt.
+Bei der Gesichtserkennung hingegen spielt lediglich die Rolle wer eine Aktion ausführt, und ob es einen Treffer in der Datenbank gibt, oder nicht. Wegen dieser Unterschiede ist auch die technische Realisierung eines Prototypen, vor allem im Bezug auf die Architektur,  durchaus unterschiedlich. Dies ist jedoch ebenso von den unterschiedlichen Anwendungsszenarien der beiden Verfahren bedingt.
  Denn diese sind ebenso verschieden. Während Gesichtserkennung eher in den Bereich IT-Security oder aber Social Media (Snapchat Filter) eingesetzt wird, ist Emotionserkennung eher Informationsgenerierend.
 Zum Beispiel kann durch Emotionserkennung Informationen zugänglich werden wie das Befinden eines Individuums ist, ob emotional betroffen ist, oder aber nicht emotional betroffen wirken möchte und ein Pokerface aufsetzt.
 Wegen dieser signifikanten Unterschiede kann daher trotz der Gemeinsamkeiten nicht gesagt werden, dass Emotionserkennung eine Unterkategorie von Gesichtserkennung ist.
@@ -244,11 +248,93 @@ Wegen dieser signifikanten Unterschiede kann daher trotz der Gemeinsamkeiten nic
 \section{Emotionserkennung mithilfe von Deep Learning}
 
 In dem nun folgenden Kapitel wird erörtert wie das Ziel des Prototypen dieser Arbeit - das Erkennen eines Pokerfaces - mittels eines neuronalen Netzes umgesetzte werden kann. Dabei wird weniger auf die generellen Eigenschaften von Neuronalen Netzen Bezug genommen, als auf die in dieser Arbeit spezifischen Aspekte. Diese sind vor allem verschieden Ansätze und Möglichkeiten mittels Machine Learning eine Emotionserkennungssoftware zu erstellen.
-\subsection{Dlib vs. Keras}
+
+\subsection{Machine Learning - Frameworks}
+Um die gegebene Aufgabenstellung der Erkennung von Emotionen mittels der Analyse eines Gesichtes umsetzen zu können, musste ein entsprechendes Framework Anwendung finden, welches den Anforderungen gerecht wird. Maschinelles Lernen gehört in der heutigen Softwareentwicklung zu den beliebtesten Themen, wodurch dieses schnelle regelmäßige Änderungen und Weiterentwicklungen erfährt. Dementsprechend werden auf dem Markt auch zahllose kostenlose wie auch kostenpflichtige Frameworks angeboten. Um nur einige bekannte aufzuzählen fallen darunter OpenCV, TensorFlow oder Pandas. Möchte man nun das geeignete Framework für das eigene Projekt ausfindig machen, muss man das gegebene Angebot nach einigen Kriterien filtern. Als erstes stellt sich die Frage, was für eine Art von Applikation man umsetzen möchte. Soll das Projekt Texte analysieren oder wie im Falle dieses Projektes die Emotionen aus einem gegebenen Bild? Welche Programmiersprache wird innerhalb des Projektes eingesetzt? Zudem sind Informationen zur Lizenz und dem Support wichtig, sowie insbesondere die Community. 
+\newline
+Nach entsprechender erster Selektion musste sich schlussendlich zwischen Dlib und Keras entschieden werden, welche für die Umsetzung der Anforderungen dieses Projektes am besten geeignet schienen. Beide Frameworks werden in den folgenden beiden Unterkapitel dem Leser kurz vorgestellt und anschließend wird ein Fazit gezogen, welches der beiden für dieses Projekt am geeignetsten war.
+
+\subsubsection{Dlib}
+Dlib ist nach dessen Entwickler Davis King ein modernes C++ Toolkit, welches Machine-Learning Algorithmen und Tools zur Entwicklung komplexer Software enthält um Probleme aus der echten Welt lösen zu können.\footcite[Vgl.]{netguru}
+\newline
+Dlib selbst wurde in der Programmiersprache C++ entwickelt und kann durch eine Anbindung auch für Python Projekte eingesetzt werden. Die Software-Bibliothek kann unter den Bedingungen der Boost-Lizenz frei genutzt werden und ist durch entsprechende APIs des jeweiligen Betriebssystems Plattformunabhängig. Ein weiterer Vorteil bietet die Unabhängigkeit der Bibliothek von anderen Bibliotheken. %Von Wikipedia (Vlt. andere Quelle suchen)
+Dlib ist seit dem Jahr 2002 in Entwicklung und bietet dementsprechend unzählige Features an, welche für verschiedenste Einsatzgebiete verwendet werden können, wie numerische und graphische Modell-Algorithmen und vor allem Gesichtserkennung.\footcite[Vgl.]{netguru}
+Eines der größten Vorteile dieser Bibliothek besteht in der ausführlichen Dokumentation für sämtliche Klassen und Funktionen, wie es nicht häufig der Fall ist für vergleichbare Open-Source Projekte.\footcite[Vgl.]{Dlib}
+
+\subsubsection{Keras}
+Die Open-Source Bibliothek Keras wurde im Vergleich zu Dlib im Jahre 2015 von dem Google-Programmierer François Chollet in der Programmiersprache Python entwickelt.\footcite[Vgl.]{Keras}
+
+
+\subsubsection{Unterschiede}
+
+
+%\begin{table}[]
+%\begin{tabular}{llllllllllllllllll}
+%\multicolumn{1}{c}{{\ul \textbf{Software}}} &
+%  \multicolumn{1}{c}{{\ul \textbf{Creator}}} &
+%  \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Initial \\ Release\end{tabular}}} &
+%  \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Software \\ Licence\end{tabular}}} &
+%  \multicolumn{1}{c}{{\ul \textbf{Open Source}}} &
+%  \multicolumn{1}{c}{{\ul \textbf{Platform}}} &
+%  \multicolumn{1}{c}{{\ul \textbf{Written in}}} &
+%  \multicolumn{1}{c}{{\ul \textbf{Interface}}} &
+%  \multicolumn{1}{c}{{\ul \textbf{OpenMP support}}} &
+%  \multicolumn{1}{c}{{\ul \textbf{OpenCL support}}} &
+%  \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}CUDA\\ support\end{tabular}}} &
+%  \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Automatic\\ differentiation\end{tabular}}} &
+%  \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Has pretrained\\ models\end{tabular}}} &
+%  \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Recurrent\\ nets\end{tabular}}} &
+%  \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Convolutional \\ nets\end{tabular}}} &
+%  \multicolumn{1}{c}{{\ul \textbf{RBM/DBNs}}} &
+%  \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Parallel execution \\ (multi node)\end{tabular}}} &
+%  \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Actively\\ Developed\end{tabular}}} \\
+%Keras &
+%  Francois Chollet &
+%  2015 &
+%  MIT license &
+%  Yes &
+%  \begin{tabular}[c]{@{}l@{}}Linux, macOS,\\ Windows\end{tabular} &
+%  Python &
+%  Python, R &
+%  \begin{tabular}[c]{@{}l@{}}Only if using \\ Theano as backend\end{tabular} &
+%  \begin{tabular}[c]{@{}l@{}}Can use Theano,\\ Tensorflow or \\ PlaidML as backends\end{tabular} &
+%  Yes &
+%  Yes &
+%  Yes &
+%  Yes &
+%  Yes &
+%  No &
+%  Yes &
+%  Yes \\
+%Dlib &
+%  Davis King &
+%  2002 &
+%  Boost Software License &
+%  Yes &
+%  Cross-Platform &
+%  C++ &
+%  C++ &
+%  Yes &
+%  No &
+%  Yes &
+%  Yes &
+%  Yes &
+%  No &
+%  Yes &
+%  Yes &
+%  Yes &
+%  
+%\end{tabular}
+%\end{table}
+
 Libraries werden hier expliziert
 \subsection{Supervised vs. Unsupervised Learning}
-Layer, Neuronen und Algorithmen explizieren 
-
+In diesem Abschnitt werden die beiden Ansätze des Supervised bzw. des Unsupervised Learnings evaluiert. Dabei sollen jedoch beide Begriffe nicht noch ausführich beleuchtet werden. Es ist lediglich zu erwähnen, dass Supervised Learning Algorithmen im Gegensatz zu Unsupervised mit Datensätzen arbeiten, die Labels beinhalten, und so einen Datensatz kategorisieren.  Grundlegende Informationen zu den einzelnen Vorgehensweisen  können aus den Büchern "Hands-On Unsupervised Learning with Python" von Giuseppe Bonaccorso und "Applied Supervised Learning with Python" von Benjamin Johnston und Ishita Mathur entnommen werden.
+Nun gilt es zu klären, ob sich für die zu Grunde liegende Aufgabe ein Supervised oder UNsupervised Ansatz eher anbietet. Ein Unsupervised Learning Algorithmus würde sich vor allem anbieten, wenn Zusammenhänge zwischen einzelnen Datensätzen gefunden werden sollen, die vielleicht nicht von Anfang an bekannt oder bewusst sind.
+\footcite[Vgl. ][21]{Unsupervised}
+ Supervised Learning Algoriuthmen hingegen bieten sich vor allem an, wenn es darum geht einen Prozess zu automatisieren oder aus der Wirklichkeit zu replizieren.
+\footcite[Vgl. ][4]{Supervised}
+Das in dieser Arbeit zu Grunde liegende Problem ist demnach vor allem für Supervised Learning Algorithmen geeignet. Dies liegt zum einem daran, dass jedem Bild eines Menschen eine Basisemotion zugeordnet werden kann. Zum anderem ist auch der verwendete Datensatz mit dem das Modell trainiert und getestet werden soll ebenfalls gelabelt. Deshalb bietet sich dieses Verfahren am meisten an. Es wäre auch hypothetisch denkbar einen Unsupervised Learning Algorithmus zu verwenden, aber dieser Ansatz wäre suboptimal, da er nicht dem eigentlichen Use case dieses ANsatzes entspricht.
 
 
 \let\cleardoublepage\relax
